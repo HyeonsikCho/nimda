@@ -1,0 +1,25 @@
+<?
+include_once($_SERVER["DOCUMENT_ROOT"] . "/com/nexmotion/common/util/Template.php");
+include_once($_SERVER["DOCUMENT_ROOT"] . "/com/nexmotion/common/util/ConnectionPool.php");
+include_once($_SERVER["DOCUMENT_ROOT"] . "/com/nexmotion/common/entity/FormBean.php");
+include_once($_SERVER["DOCUMENT_ROOT"] . "/com/nexmotion/job/member/member_mng/MemberCommonListDAO.php");
+
+$connectionPool = new ConnectionPool();
+$conn = $connectionPool->getPooledConnection();
+
+$fb = new FormBean();
+$template = new Template();
+$dao = new MemberCommonListDAO();
+
+if (!$fb->form("seqno")) {
+    echo "<script>alert('잘못된 접근입니다.');window.close();</script>";
+    exit;
+}
+
+$seqno = $fb->form("seqno");
+
+$template->reg("seqno" , $seqno); 
+$template->reg("design_dir" , "/design_template"); 
+$template->htmlPrint($_SERVER["PHP_SELF"]); 
+$conn->close();
+?>

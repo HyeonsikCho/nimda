@@ -1,0 +1,19 @@
+<?
+include_once($_SERVER["DOCUMENT_ROOT"] . "/define/common_config.php");
+include_once($_SERVER["DOCUMENT_ROOT"] . "/com/nexmotion/common/util/Template.php");
+include_once($_SERVER["DOCUMENT_ROOT"] . "/com/nexmotion/common/util/ConnectionPool.php");
+include_once($_SERVER["DOCUMENT_ROOT"] . "/com/nexmotion/common/entity/FormBean.php");
+include_once($_SERVER["DOCUMENT_ROOT"] . "/com/nexmotion/job/produce/typset_mng/ProcessMngDAO.php");
+
+$connectionPool = new ConnectionPool();
+$conn = $connectionPool->getPooledConnection();
+
+$fb = new FormBean();
+$template = new Template();
+$dao = new ProcessMngDAO();
+
+
+$template->reg("design_dir" , "/design_template");
+$template->htmlPrint($_SERVER["PHP_SELF"]);
+$conn->close();
+?>

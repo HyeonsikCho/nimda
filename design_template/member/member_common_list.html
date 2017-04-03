@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="ko">
+<head>
+    <title>[TPH_Vmain_title]</title>
+    <meta charset="utf-8">
+    [TPH_I/common/common.html]
+</head>
+<body>
+<div id="container">
+    	
+       <!-- TOP NAVIGATION --> 
+       [TPH_I/common/header.html]
+
+	   <!-- LEFT NAVIGATION --> 
+       [TPH_Vleft]
+
+       <!-- CONTENT --> 
+       <section id="page-content">
+
+            <!-- 히스토리 -->
+            [TPH_I/common/history.html]
+            
+            <!-- 본문 컨텐츠  시작-->
+            
+            <!-- 탭 박스 1 기본검색 -->
+            <div class="tb_group">
+					   <ul class="tab_box mt25">
+					   </ul>
+					   <form>
+					   <div class="tab_box_con">
+								<div class="form-group">
+				                 <label class="control-label fix_width150 tar">판매채널</label><label class="fix_width20 fs14 tac">:</label>
+        			             <select id="sell_site" class="fix_width180" onchange="loadDeparInfo();">
+                                   [TPH_Vsell_site_html]
+				                 </select>
+								</div>               
+								<div class="form-group">
+				                 <label class="control-label fix_width150 tar">팀구분</label><label class="fix_width20 fs14 tac"> : </label>
+				                     <select class="fix_width180" id="depar_code">
+				                     </select>
+								</div>
+								<div class="form-group">
+				                 <label class="control-label fix_width150 tar">회원명</label><label class="fix_width20 fs14 tac"> : </label>
+                                 <input type="text" class="input_co2" style="width:173px;" onkeydown="searchOfficeNick(event, this.value, '');" placeholder="검색창 팝업 사용" id="office_nick">
+                                 <input type="hidden" id="member_seqno">
+								</div>
+
+                                <div class="form-group">
+				                 <label class="control-label fix_width150 tar">등급 / 구분</label><label class="fix_width20 fs14 tac">:</label>
+				                     <select class="fix_width180" id="grade">
+                                       [TPH_Vgrade_html]
+				                     </select>   
+                                  
+				                     <select class="fix_width180" id="member_typ">
+				                         <option value="">구분(전체)</option>
+				                         <option value="예외업체">예외업체</option>
+				                         <option value="일반회원">일반회원</option>
+                                         <!--
+				                         <option value="잠재고객">잠재고객</option>
+                                         -->
+				                     </select>                  
+								</div>
+		   					    <div class="form-group">
+				                 <label class="control-label fix_width150 tar">일자별 검색</label><label class="fix_width20 fs14 tac"> : </label>
+                                [TPH_Vdatepicker_html]
+								</div>
+					   </div>
+					   </form> 
+            </div> 
+         
+            <!-- 검색버튼 -->
+            <div>
+                <p class="btn-lg red_btn">
+					<a style="cursor: pointer;" onclick="searchMember();">선택 조건으로 검색</a>
+                </p>
+            </div>
+            
+            <!-- 검색결과 TABle -->            
+            <div class="tb_group2 mt25">
+                <div class="tabbable">
+                   <div class="tab-content">
+                    	<div class="table-body">
+                            <div class="table_basic">
+				                <table class="fix_width100f" style="table-layout: fixed;">
+                                    <thead>
+				                       	<tr>
+				                       		<th class="bm2px">번호</th>
+				                       		<th class="bm2px">회원명</th>
+				                       		<th class="bm2px" style="width: 100px;">전화번호</th>
+				                       		<th class="bm2px" style="width: 100px;">휴대폰번호</th>
+				                       		<th class="bm2px">예외구분</th>
+				                       		<th class="bm2px">등급</th>
+                                            <!--
+				                       		<th class="bm2px">사내평가</th>						
+                                            -->
+				                       		<th class="bm2px">최초가입일</th>
+				                       		<th class="bm2px">최근주문일</th>
+				                       		<th class="bm2px">최근로그인</th>
+				                       		<th class="bm2px" style="width: 110px;">상세보기</th>
+				                       	</tr>
+				                    </thead>
+				                       	 <tbody id="member_list" style="word-break: break-all;">	
+                                                     <tr><td colspan="9">검색 된 내용이 없습니다.</td></tr>
+				                       			 </tbody>
+				                       		</table>
+                                 
+                                 <p class="p_num_b fs12">
+				                       			  Showing 1 to 5 of 30 entries
+				                                   <select name="list_set" class="fix_width55" onchange="showPageSetting(this.value);">
+				                       	            <option>5</option>
+				                       	            <option>10</option>
+				                       	            <option>20</option>
+				                                     <option selected="selected">30</option>
+				                       	          </select>
+                                 </p>
+                                 <div class="tac clear" id="member_page">
+                                 </div>
+                            </div>
+                    	</div>
+                    </div>
+                </div>  
+            </div>
+<form name="frm" id="frm">
+    <input type="hidden" id="seqno" name="seqno">
+</form>
+       </section>
+</div>
+</body>
+</html>

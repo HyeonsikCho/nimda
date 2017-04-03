@@ -1,0 +1,43 @@
+<?
+include_once($_SERVER["DOCUMENT_ROOT"] . "/define/left_menu.php");
+include_once($_SERVER["DOCUMENT_ROOT"] . "/com/nexmotion/common/util/Template.php");
+include_once($_SERVER["DOCUMENT_ROOT"] . "/com/nexmotion/common/util/ConnectionPool.php");
+include_once($_SERVER["DOCUMENT_ROOT"] . "/com/nexmotion/common/entity/FormBean.php");
+include_once($_SERVER["DOCUMENT_ROOT"] . "/com/nexmotion/common/util/LeftMenuSetting.php");
+include_once($_SERVER["DOCUMENT_ROOT"] . "/com/nexmotion/html/common/MakeCommonHtml.php");
+include_once($_SERVER["DOCUMENT_ROOT"] . "/com/nexmotion/job/calcul_mng/tab/SalesTabListDAO.php");
+
+$connectionPool = new ConnectionPool();
+$conn = $connectionPool->getPooledConnection();
+
+$fb = new FormBean();
+$template = new Template();
+$leftSetting = new LeftMenuSetting();
+$salesDAO = new SalesTabListDAO();
+
+//공통 footer 사용을 위한 변수 선언
+$commonDAO = $salesDAO; 
+
+//메뉴 세팅 변수 선언 - 여기만 세팅하면 됩니다.
+$top = "calcul_mng"; //정산관리
+$left = "tab"; //계산서
+$left_sub = "sales_tab"; //매출계산서
+
+$now_date = date("Y-mm-dd", time());
+$now_year = substr($now_date, 0,4);
+$now_mon = substr($now_date, 5,2);
+
+$year_html = makeOptionTimeHtml($now_year, $now_year);
+$mon_html = makeOptionTimeSelectHtml(1, 12, $now_mon);
+
+//판매채널 검색
+$sell_site_html = $commonDAO->selectSellSite($conn);
+$template->reg("sell_site" , $sell_site_html);
+$template->reg("year" , $year_html);
+$template->reg("mon" , $mon_html);
+
+
+//개발 공통 footer
+include_once($_SERVER["DOCUMENT_ROOT"] . '/common/dev_foot.php');
+$conn->close();
+?>

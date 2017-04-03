@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="ko">
+<head>
+    <title>정산관리</title>
+    <meta charset="utf-8">
+    [TPH_I/common/common.html]
+</head>
+<body>
+
+<div id="container">
+    	
+    	<!-- TOP NAVIGATION --> 
+       [TPH_I/common/header.html]
+		<!-- LEFT NAVIGATION --> 
+       [TPH_Vleft]
+       <!-- CONTENT --> 
+        <section id="page-content">            
+
+            <!-- 히스토리 -->
+            [TPH_I/common/history.html]
+            <!-- 본문 컨텐츠  시작-->
+             
+            <!-- 탭 박스 1 기본검색 -->
+            <div class="tb_group clear">
+    			<ul class="tab_box mt25">
+    			</ul>
+			    <form>
+			        <div class="tab_box_con">
+					    <div class="form-group">
+			                <label class="control-label fix_width79 tar">판매채널</label><label class="fix_width20 fs14 tac">:</label>
+        			        <select id="sell_site" class="fix_width180">
+                                [TPH_Vsell_site]
+        		            </select>
+					    </div>
+					    
+					    <div class="form-group">
+			                <label class="control-label fix_width79 tar">월</label><label class="fix_width20 fs14 tac">:</label>
+        			        <select id="year" class="fix_width85">
+                                [TPH_Vyear]
+        		            </select>
+        		            <select id="mon" class="fix_width85">
+                                [TPH_Vmon]
+        		            </select>
+					    </div>					    
+
+			        </div>
+			    </form>
+            </div> <!-- 탭 박스 1 기본검색 -->           
+            
+             <!-- 상세검색버튼 -->
+            <div>
+                <p class="btn-lg red_btn">
+                    <a href="#" onclick="getTotalDay()">선택한 조건으로 검색</a>					
+                </p>
+            <div>
+
+			<div class="table-body">
+                <div class="table_basic">
+                
+			        <table class="table fix_width100f">
+              		<thead>
+			                <tr>
+			    	              <th class="bm2px">날짜</th>
+			    	              <th class="bm2px">관리</th>
+			                </tr>
+                        </thead>
+                        <tbody id="day_list">
+			                <tr>                  
+			                	<td>20151111</td>
+			                	<td><button type="button" class="btn btn-xs btn-success">일마감하기</button> </td>		                	
+			                </tr>
+			                <tr class="cellbg">                  
+			                	<td>해당월 날짜 다나옴 1 2 3 4 5 6 7 8 ....</td>
+			                	<td><button type="button" class="btn btn-xs btn-danger">일마감풀기</button> </td>		
+			                </tr>			                		                	
+                        </tbody>
+			        </table>		              
+                </div>
+            </div>
+
+
+
+
+
+        </section>
+
+
+</div>
+
+   
+   
+</body>
+</html>

@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="ko">
+<head>
+    <title>전산관리</title>
+    <meta charset="utf-8">
+    [TPH_I/common/common.html]
+</head>
+<body>
+
+<div id="container">
+    	
+    	<!-- TOP NAVIGATION --> 
+       [TPH_I/common/header.html]
+		<!-- LEFT NAVIGATION --> 
+       [TPH_Vleft]
+       <!-- CONTENT --> 
+        <section id="page-content">            
+
+            <!-- 히스토리 -->
+            [TPH_I/common/history.html]
+            <!-- 본문 컨텐츠  시작-->
+            
+            <div class="tb_group mt25">
+                <div class="tabbable">                   	
+                  	<div class="tab-content">                         
+                 	    <!-- 탭 박스 종이 -->
+	                 	<div class="tab-pane active" id="tab_list1">	
+	                 	    <div class="table-body">
+                                <ul class="table_top">	
+                                    <li class="sel">                                            
+                                    </li>						      	                  
+                			        <li class="sel tar">
+                			        </li>
+                                </ul>
+                
+                                <div class="table_basic">                                
+                			        <table class="table fix_width100f">
+                                        <thead>
+                			                <tr>
+                			    	            <th class="bm2px" width="100px;">구분</th>
+                			    	            <th class="bm2px" width="100px;">상태코드</th>
+                			    	            <th class="bm2px" width="150px;">ERP상태명</th>
+                			    	            <th class="bm2px" width="120px;">ERP취소가능여부</th>
+                			    	            <th class="bm2px" width="150px;">FRONT상태명</th>         
+                			    	            <th class="bm2px" width="120px;">FRONT취소가능여부</th>         
+                			    	            <th class="bm2px" width="120px;">수동접수취소가능여부</th>         
+                			    	            <th class="bm2px">설명</th>         
+                			                </tr>
+                                        </thead>
+                                        <tbody>
+                                            [TPH_Vlist]
+                                        </tbody>
+                			        </table>
+                                </div>
+                            </div>
+    					</div>
+    				</div>                 
+                </div>                
+            </div>      
+        </section>
+</div>
+</body>
+</html>

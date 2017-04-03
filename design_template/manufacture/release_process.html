@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="ko">
+<head>
+    <title>[TPH_Vmain_title]</title>
+    <meta charset="utf-8">
+    [TPH_I/common/common.html]
+    <link rel="stylesheet" href="[TPH_Vdesign_dir]/css/alert.css" type="text/css">
+    <script type="text/javascript" src="[TPH_Vdesign_dir]/js/bootstrap-alert.js"></script>
+</head>
+<body>
+
+<div id="container">
+
+    <!-- TOP NAVIGATION -->
+    [TPH_I/common/header.html]
+
+    <!-- LEFT NAVIGATION -->
+    [TPH_Vleft]
+
+    <!-- CONTENT -->
+    <section id="page-content" class="fix_width1200">
+
+        <!-- 히스토리 -->
+        [TPH_I/common/history.html]
+
+        <!-- 본문 컨텐츠  시작-->
+
+        <!-- 기본정보 Tab box -->
+        <div class="tb_group fix_width1200 clear">
+            <ul class="tab_box mt25">
+            </ul>
+            <div class="tab_box_con">
+                <div class="form-group">
+                    <label class="control-label fix_width150 tar">상품코드</label><label class="fix_width20 fs14 tac">:</label>
+                    <input type='text' class="input_co2 fix_width150" id='order_no' name='order_no'>
+                    <input type='hidden' id='recorded_barcode' val="">
+                    <label class="btn btn_md fix_width60" onclick="findButton('Y');"><i class="fa fa-user"></i> 검색</label><div id='bootstrap_alert'></div>
+                    <label class="control-label fix_width150 tar">검색결과</label><label class="fix_width20 fs14 tac">:</label>
+                    <label class="control-label fix_width40 tar">묶음</label><label class="control-label fix_width75 tar"><input type='text' class="input_co2 fix_width60" style="width: 50px;" id='is_bun' name='is_bun' disabled></label>
+                    <label class="control-label fix_width40 tar">건수</label><label class="control-label fix_width55 tar"><input type='text' class="input_co2 fix_width50" style="width: 30px;" id='amt' name='amt' disabled></label>
+                    </label>
+                    <label class="control-label fix_width150 tar"></label>
+                    <button type="button" id="alert_message" class="btn btn-danger fwb" style="display:none;" disabled>필요한 생산공정이 모두 완료되지 않았습니다.</button>
+                </div>
+            </div>
+        </div>
+
+        <section id="section_product">
+            <div id="product_form_1" class="tb_group mt25 product_form fix_width1200">
+                <div class="tabbable">
+                    <div class="table-body">
+                        <div class="table_basic">
+                            <table class="table fix_width1200">
+                                <tbody>
+                                <tr>
+                                    <th style="background: #eee; width:50px;">주문번호</th>
+                                    <td id="order_num_1" align="left" style="width:150px;"></td>
+                                    <th style="background: #eee; width:50px;">배송지</th>
+                                    <td id="dlvr_addr_1" align="left" style="width:150px;"></td>
+                                    <td rowspan="5" class="fix_width100"><button id="stock_force_1" type="button" class="btn_dw_force btn" onclick="" style="width:150px;height:120px;">강제출고</button></td>
+                                    <td rowspan="5" class="fix_width100"><button id="stock_cancel_1" type="button" class="btn_dw_cancel btn" onclick="" style="width:150px;height:120px;">출고취소</button></td>
+                                </tr>
+                                <tr>
+                                    <th style="background: #eee;">인쇄물제목</th>
+                                    <td id="title_1" align="left"></td>
+                                    <th style="background: #eee;">배송유형</th>
+                                    <td id="dlvr_way_1" align="left"></td>
+                                </tr>
+                                <tr>
+                                    <th style="background: #eee;">수량</th>
+                                    <td id="amt_1" align="left"></td>
+                                    <th style="background: #eee;">묶음유무</th>
+                                    <td id="is_bun_1" align="left"></td>
+                                </tr>
+                                <tr>
+                                    <th style="background: #eee;">후공정</th>
+                                    <td id="after_1" align="left"></td>
+                                    <th style="background: #eee;">묶음상품</th>
+                                    <td id="bun_product_1" align="left"></td>
+                                </tr>
+                                <tr>
+                                    <th style="background: #eee;">옵션</th>
+                                    <td id="option_1" align="left"></td>
+                                    <th style="background: #eee;">상태</th>
+                                    <td id="order_state_1" align="left"></td>
+                                </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div> <!-- 탭 박스 3 TAB -->
+        </section>
+    </section>
+</div>
+</body>
+</html>

@@ -1,0 +1,151 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<title>[TPH_Vmain_title]</title>
+<meta charset="utf-8">
+[TPH_I/common/common.html]
+</head>
+<body>
+
+<div id="container">
+
+  <!-- TOP NAVIGATION -->
+  [TPH_I/common/header.html]
+
+  <!-- LEFT NAVIGATION -->
+  [TPH_Vleft]
+
+  <!-- CONTENT -->
+  <section id="page-content">
+
+  <!-- 히스토리 -->
+  [TPH_I/common/history.html]
+
+  <!-- 본문 컨텐츠  시작-->
+
+  <!-- 기본검색 -->
+  <div class="tb_group clear">
+    <ul class="tab_box mt25">
+    </ul>
+    <div class="tab_box_con">
+
+      <div class="form-group">
+        <label class="control-label fix_width150 tar">카테고리</label><label class="fix_width20 fs14 tac">:</label>
+        <select class="fix_width150" id="cate_top" onchange="cateSelect.exec('top', this.value);">
+        [TPH_Vcate_html]
+        </select>
+        <select class="fix_width150" id="cate_mid" onchange="cateSelect.exec('mid', this.value);">
+        <option value="">중분류(전체)</option>
+        </select>
+        <select id="cate_bot" onchange="initPaperInfo(this.value);" class="fix_width180">
+        <option value="">소분류(전체)</option>
+        </select>
+      </div>
+
+      <div class="form-group">
+        <label class="control-label fix_width150 tar">회원명</label><label class="fix_width20 fs14 tac">:</label>
+        <input type="text" id="office_nick" onkeydown="searchOfficeNick(event, this.value, '');" class="input_co2 fix_width173" value="" placeholder="검색창 팝업 사용">
+        <input type="hidden" id="member_seqno">
+      </div>
+
+      <div class="form-group">
+        <label class="control-label fix_width150 tar">특기사항별 구분</label><label class="fix_width20 fs14 tac">:</label>
+        <select class="fix_width150" id="detail_info">
+        <option value="">전체</option>
+        [TPH_Vdetail_info]
+        </select>
+      </div>
+
+      <div class="form-group">
+        <label class="control-label fix_width150 tar">후공정 구분</label><label class="fix_width20 fs14 tac">:</label>
+        <input type='radio'  name='after_yn' value='' checked='checked'>전체&nbsp
+        <input type='radio' name='after_yn' value='Y'>후가공 있음&nbsp
+        <input type='radio' name='after_yn' value='N'>후가공 없음
+      </div>
+
+      <div class="form-group">
+        <label class="control-label fix_width150 tar">마감 구분</label><label class="fix_width20 fs14 tac">:</label>
+        <input type='radio' name='theday_yn' value='' checked='checked'>전체&nbsp
+        <input type='radio' name='theday_yn' value='Y'>당일판&nbsp
+        <input type='radio' name='theday_yn' value='N'>당일판 아님
+      </div>
+
+      <div class="form-group">
+        <label class="control-label fix_width150 tar">배송 구분</label><label class="fix_width20 fs14 tac">:</label>
+        [TPH_Vdelivery_way]
+        <select class="fix_width150" id="dlvr_way_detail">
+        <option value="">-</option>
+        </select>
+      </div>
+
+      <div class="form-group">
+        <label class="control-label fix_width150 tar">날짜</label><label class="fix_width20 fs14 tac">:</label>
+        [TPH_Vdatepicker_html]
+      </div>
+      <form name="frm" id="frm">
+      <input type="hidden" id="seqno" name="seqno">
+      </form>
+    </div>
+  </div>
+  <!-- 기본검색 -->
+
+  <!-- 상세검색버튼 -->
+  <div>
+    <p class="btn-lg red_btn">
+    <a style="cursor: pointer;" onclick="searchProcess();">선택 조건으로 검색</a>
+    </p>
+    <div>
+
+      <!-- 탭 박스 -->
+      <div class="tb_group mt25">
+        <div class="tabbable">
+          <div class="tab-content">
+            <!-- 탭 박스 출력 -->
+            <div class="table-body">
+              <ul class="table_top">
+                <li class="sel">
+                </li>
+                <li class="sel tar">
+                <label class="btn btn_md fix_width180" style="margin-left: 3px;display:none;" onclick="goBarcode('output');">바코드 처리 페이지</label>
+                </li>
+              </ul>
+              <div class="table_basic">
+                <table class="table fix_width100f">
+                <thead>
+                <tr>
+                  <th class="bm2px">No.</th>
+                  <th class="bm2px">주문일</th>
+                  <th class="bm2px">회원명</th>
+                  <th class="bm2px">인쇄물제목</th>
+                  <th class="bm2px">상품정보</th>
+                  <th class="bm2px">배송</th>
+                  <th class="bm2px">상태</th>
+                  <th class="bm2px">관리</th>
+                </tr>
+                </thead>
+                <tbody id="list">
+                <tr><td colspan="10">검색 된 내용이 없습니다.</td></tr>
+                </tbody>
+                </table>
+                <p class="p_num_b fs12">
+                Showing 1 to 5 of 30 entries
+                <select name="list_set" class="fix_width55" onchange="showPageSetting(this.value);">
+                <option>5</option>
+                <option>10</option>
+                <option>20</option>
+                <option selected="selected">30</option>
+                </select>
+                </p>
+                <div class="tac clear" id="page"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- 탭 박스 -->
+  </section>
+</div>
+</body>
+</html>

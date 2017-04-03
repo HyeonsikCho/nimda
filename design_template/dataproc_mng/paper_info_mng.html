@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="ko">
+<head>
+    <title>전산관리</title>
+    <meta charset="utf-8">
+    [TPH_I/common/common.html]
+</head>
+<body>
+
+<div id="container">
+    	
+    	<!-- TOP NAVIGATION --> 
+       [TPH_I/common/header.html]
+		<!-- LEFT NAVIGATION --> 
+       [TPH_Vleft]
+       <!-- CONTENT --> 
+        <section id="page-content">            
+
+            <!-- 히스토리 -->
+            [TPH_I/common/history.html]
+            <!-- 본문 컨텐츠  시작-->
+            
+            <!-- 탭 박스 1 기본검색 -->
+			<form method="post" action="/proc/dataproc_mng/paper_info_mng/insert_paper_preview_info.php" id="form" enctype="multipart/form-data">
+            <div class="tb_group clear">
+    			<ul class="tab_box mt25">
+    			</ul>
+			        <div class="tab_box_con">
+					    <div class="form-group">
+			                <label class="control-label fix_width79 tar">종이</label><label class="fix_width20 fs14 tac">:</label>
+	                        <select id="paper_name" name="paper_name" onchange="loadPaperInfo('dvs');" class="fix_width120">
+                                [TPH_Vpaper_name]
+        		            </select>
+	                        <select id="paper_dvs" name="paper_dvs" onchange="loadPaperInfo('color');" class="fix_width120">
+                                <option value="">구분(선택)</option>
+        		            </select>
+	                        <select id="paper_color" name="paper_color" onchange="loadPreviewInfo();" class="fix_width120">
+                                <option value="">색상(선택)</option>
+        		            </select>
+					    </div>			    
+			        </div>
+            </div> <!-- 탭 박스 1 기본검색 -->
+
+
+            <!-- 탭 박스 3 TAB -->
+            <div class="tb_group mt25">
+                <div class="tab_box_con">
+                    <div class="tabbable">                  	
+				            <div class="pop-base fl fix_width1150">
+				                <div class="pop-content fix_height415">
+                                    <ul class="form-group">
+                                        <li class="fix_width400 fl">
+                                            <div class="process_view_box17" id="preview_photo">
+                                            </div>
+                                        </li>
+                                        
+                                        <li class="fix_width500 fl">
+
+                                            <label class="control-label fix_width85 tar">이미지</label><label class="fix_width20 fs14 tac">:</label>
+                                            <!-- 파일 업로드 / 스크립이 하단에 있어야 작동함 -->                    
+                                            <input id="upload_file1" class="disableInputField" placeholder="" disabled="disabled" />
+                                            
+                                            <label class="fileUpload">
+                                                <input id="upload_btn1" name="preview_file" type="file" class="upload" />
+                                                <span class="btn btn-sm btn-info fa">찾아보기</span>
+                                                <span id="file_btn"></span>
+                                            </label>
+                                            <span class="fs13" style="margin-left: 102px;color:red;">* 사이즈 : 1000 x 783 / 사용가능 확장자 : jpg, gif, png</span>
+                                            <script type="text/javascript">  
+                                                document.getElementById("upload_btn1").onchange = function () {
+                                                document.getElementById("upload_file1").value = this.value;
+                                                     };
+                                            </script>
+                                            <div id="file_area1">
+                                                <label class="fix_width105"> </label>
+                                                <label class="control-label cp blue_text01" id="file_name"></label>
+                                            </div>
+                                            <br /><br />
+                                        </li>
+                                    </ul> 
+                                </div>
+                        </div>                     	 
+                    </div>                    
+            	</div>
+            </div> <!-- 탭 박스 3 TAB -->
+            <input type="hidden" id="preview_seqno" name="preview_seqno" value="" />
+			</form>
+            
+             <!-- 상세검색버튼 --> 
+            <div>
+                <p class="btn-lg red_btn">
+                    <a onclick="savePreviewInfo()" href="#">선택한 설정을 저장합니다.</a>					
+                </p>
+            <div>
+        </section>
+</div>
+</body>
+</html>

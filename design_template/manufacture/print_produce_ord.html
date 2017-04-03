@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<title>[TPH_Vmain_title]</title>
+<meta charset="utf-8">
+[TPH_I/common/common.html]
+</head>
+<body>
+
+<div id="container">
+
+  <!-- TOP NAVIGATION -->
+  [TPH_I/common/header.html]
+
+  <!-- LEFT NAVIGATION -->
+  [TPH_Vleft]
+
+  <!-- CONTENT -->
+  <section id="page-content">
+
+  <!-- 히스토리 -->
+  [TPH_I/common/history.html]
+
+  <!-- 본문 컨텐츠  시작-->
+
+  <!-- 기본검색 -->
+  <div class="tb_group clear">
+    <ul class="tab_box mt25">
+    </ul>
+    <div class="tab_box_con">
+      <div class="form-group">
+		 <label class="control-label fix_width150 tar">인쇄업체 구분</label><label class="fix_width20 fs14 tac">:</label>
+		  <select class="fix_width150" id="extnl_etprs_seqno">
+            [TPH_Vmanu_html]
+		  </select>
+	  </div>
+      <div class="form-group">
+        <label class="control-label fix_width150 tar">날짜</label><label class="fix_width20 fs14 tac">:</label>
+        <input type="text" id="date" class="input_co2 fix_width143 date" placeholder="yyyy-MM-dd">
+      </div>
+    </div>
+  </div>
+  <!-- 기본검색 -->
+
+  <!-- 상세검색버튼 -->
+  <div>
+    <p class="btn-lg red_btn">
+    <a style="cursor: pointer;" onclick="printOrdSearch();">선택 조건으로 검색</a>
+    </p>
+  <div>
+
+  <!-- 탭 TAB -->
+  <div class="tb_group mt25">
+    <div class="tabbable">
+      <div class="tab-content">
+        <div class="table-body">
+          <ul class="table_top">
+            <li class="sel">
+            </li>
+            <li class="sel tar">
+            <label class="btn btn_md fix_width180" id="modi_button" style="margin-left: 3px; background: #f0ad4e;" onclick="PrintOrdModiMode(); return false;">지시 수정</label>
+            <label class="btn btn_md fix_width180" id="comp_button" style="margin-left: 3px; display:none;" onclick="PrintOrdCompMode(); return false;">지시 완료</label>
+            <label class="btn btn_md fix_width180" id="canc_button" style="margin-left: 3px; background: #d43f3a; display:none;" onclick="PrintOrdCancel(); return false;">지시 취소</label>
+            </li>
+          </ul>
+          <div class="table_basic">
+            <form id="frm">
+            <div id="print_page"> 
+            <table class="table fix_width100f">
+            <thead>
+            <tr>
+              <th>인쇄업체</th>
+              <!--th>당일판</th-->
+              <th>서울판</th>
+              <th>지방판</th>
+              <th id="col">합계</th>
+            </tr>
+            </thead>
+            <tbody id="list">
+            </tbody>
+            </table>
+            </div>
+            <p class="p_num_b fs12" id="btn">
+            <label class="btn btn_md" onclick="pagePrint(document.getElementById('print_page')); return false;"><i class="fa fa-print"></i> 인쇄 생산지시 인쇄</label>
+            </p>
+            <input type="hidden" name="date" id="date_data">
+            </form>
+          </div>
+          <br />
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- 탭 박스 3 TAB -->
+  </section>
+</div>
+</body>
+</html>

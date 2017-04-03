@@ -1,0 +1,3763 @@
+-----<hr>
+(mysqli): 
+ SELECT  A.order_common_seqno
+        ,A.member_seqno
+        ,A.cate_sortcode
+        ,A.order_num
+        ,A.sell_price
+        ,A.pay_price
+        ,A.grade_sale_price
+        ,A.use_point_price
+        ,A.cp_price
+        ,A.order_lack_price
+   FROM  order_common AS A
+  WHERE  A.order_lack_price != 0 
+   
+-----<hr>
+-----<hr>
+(mysqli): 
+ SELECT flattyp_yn FROM cate
+ WHERE sortcode='003003001' 
+   
+-----<hr>
+-----<hr>
+(mysqli): 
+ SELECT  A.prepay_price
+        ,A.order_lack_price
+        ,A.cumul_sales_price
+   FROM  member AS A
+  WHERE  A.member_seqno = '5' 
+   
+-----<hr>
+-----<hr>
+(mysqli): BEGIN 
+   
+-----<hr>
+!!!!!!!!!!!!!!!!!!!!!!!! IF
+1 : 5796967 / 0
+2 : 5796967 / 0
+-----<hr>
+(mysqli): 
+ UPDATE  member
+    SET  prepay_price = '0'
+        ,order_lack_price = '5796967'
+        ,cumul_sales_price = '6069270'
+  WHERE  member_seqno = '5' 
+   
+-----<hr>
+3 : 6233400 / 0
+4 : 6233400 / 0
+-----<hr>
+(mysqli): 
+ UPDATE  order_common
+    SET  order_lack_price = '6233400'
+  WHERE  order_common_seqno = '32' 
+   
+-----<hr>
+-----<hr>
+(mysqli): 
+ INSERT INTO member_pay_history (
+      member_seqno
+     ,deal_date
+     ,order_num
+     ,dvs
+     ,sell_price
+     ,sale_price
+     ,pay_price
+     ,depo_price
+     ,depo_way
+     ,exist_prepay
+     ,prepay_bal
+     ,state
+     ,deal_num
+     ,public_dvs
+     ,prepay_use_yn
+ ) VALUES (
+      '5'
+     ,now()
+     ,'14713090258217'
+     ,'사용'
+     ,'-'
+     ,'0'
+     ,'0'
+     ,'0'
+     ,'0'
+     ,'-'
+     ,'0'
+     ,'0'
+     ,'-'
+     ,'-'
+     ,'Y'
+ ) 
+   
+-----<hr>
+-----<hr>
+(mysqli): COMMIT 
+   
+-----<hr>
+Smart Commit occurred
+LOOP OUT
+-----<hr>
+(mysqli): 
+ SELECT  A.order_common_seqno
+        ,A.member_seqno
+        ,A.cate_sortcode
+        ,A.order_num
+        ,A.sell_price
+        ,A.pay_price
+        ,A.grade_sale_price
+        ,A.use_point_price
+        ,A.cp_price
+        ,A.order_lack_price
+   FROM  order_common AS A
+  WHERE  A.order_lack_price != 0 
+   
+-----<hr>
+-----<hr>
+(mysqli): 
+ SELECT flattyp_yn FROM cate
+ WHERE sortcode='003003001' 
+   
+-----<hr>
+-----<hr>
+(mysqli): 
+ SELECT  A.prepay_price
+        ,A.order_lack_price
+        ,A.cumul_sales_price
+   FROM  member AS A
+  WHERE  A.member_seqno = '5' 
+   
+-----<hr>
+-----<hr>
+(mysqli): BEGIN 
+   
+-----<hr>
+!!!!!!!!!!!!!!!!!!!!!!!! IF
+1 : 5796967 / 0
+2 : 5796967 / 0
+-----<hr>
+(mysqli): 
+ UPDATE  member
+    SET  prepay_price = '0'
+        ,order_lack_price = '5796967'
+        ,cumul_sales_price = '6069270'
+  WHERE  member_seqno = '5' 
+   
+-----<hr>
+3 : 6233400 / 0
+4 : 6233400 / 0
+-----<hr>
+(mysqli): 
+ UPDATE  order_common
+    SET  order_lack_price = '6233400'
+  WHERE  order_common_seqno = '32' 
+   
+-----<hr>
+-----<hr>
+(mysqli): 
+ INSERT INTO member_pay_history (
+      member_seqno
+     ,deal_date
+     ,order_num
+     ,dvs
+     ,sell_price
+     ,sale_price
+     ,pay_price
+     ,depo_price
+     ,depo_way
+     ,exist_prepay
+     ,prepay_bal
+     ,state
+     ,deal_num
+     ,public_dvs
+     ,prepay_use_yn
+ ) VALUES (
+      '5'
+     ,now()
+     ,'14713090258217'
+     ,'사용'
+     ,'-'
+     ,'0'
+     ,'0'
+     ,'0'
+     ,'0'
+     ,'-'
+     ,'0'
+     ,'0'
+     ,'-'
+     ,'-'
+     ,'Y'
+ ) 
+   
+-----<hr>
+-----<hr>
+(mysqli): COMMIT 
+   
+-----<hr>
+Smart Commit occurred
+LOOP OUT
+-----<hr>
+(mysqli): 
+ SELECT  A.order_common_seqno
+        ,A.member_seqno
+        ,A.cate_sortcode
+        ,A.order_num
+        ,A.sell_price
+        ,A.pay_price
+        ,A.grade_sale_price
+        ,A.use_point_price
+        ,A.cp_price
+        ,A.order_lack_price
+   FROM  order_common AS A
+  WHERE  A.order_lack_price != 0 
+   
+-----<hr>
+-----<hr>
+(mysqli): 
+ SELECT flattyp_yn FROM cate
+ WHERE sortcode='003003001' 
+   
+-----<hr>
+-----<hr>
+(mysqli): 
+ SELECT  A.prepay_price
+        ,A.order_lack_price
+        ,A.cumul_sales_price
+   FROM  member AS A
+  WHERE  A.member_seqno = '5' 
+   
+-----<hr>
+-----<hr>
+(mysqli): BEGIN 
+   
+-----<hr>
+!!!!!!!!!!!!!!!!!!!!!!!! IF
+1 : 5796967 / 0
+2 : 5796967 / 0
+-----<hr>
+(mysqli): 
+ UPDATE  member
+    SET  prepay_price = '0'
+        ,order_lack_price = '5796967'
+        ,cumul_sales_price = '6069270'
+  WHERE  member_seqno = '5' 
+   
+-----<hr>
+3 : 6233400 / 0
+4 : 6233400 / 0
+-----<hr>
+(mysqli): 
+ UPDATE  order_common
+    SET  order_lack_price = '6233400'
+  WHERE  order_common_seqno = '32' 
+   
+-----<hr>
+-----<hr>
+(mysqli): 
+ INSERT INTO member_pay_history (
+      member_seqno
+     ,deal_date
+     ,order_num
+     ,dvs
+     ,sell_price
+     ,sale_price
+     ,pay_price
+     ,depo_price
+     ,depo_way
+     ,exist_prepay
+     ,prepay_bal
+     ,state
+     ,deal_num
+     ,public_dvs
+     ,prepay_use_yn
+ ) VALUES (
+      '5'
+     ,now()
+     ,'14713090258217'
+     ,'사용'
+     ,'-'
+     ,'0'
+     ,'0'
+     ,'0'
+     ,'0'
+     ,'-'
+     ,'0'
+     ,'0'
+     ,'-'
+     ,'-'
+     ,'Y'
+ ) 
+   
+-----<hr>
+-----<hr>
+(mysqli): COMMIT 
+   
+-----<hr>
+Smart Commit occurred
+LOOP OUT
+-----<hr>
+(mysqli): 
+ SELECT  A.order_common_seqno
+        ,A.member_seqno
+        ,A.cate_sortcode
+        ,A.order_num
+        ,A.sell_price
+        ,A.pay_price
+        ,A.grade_sale_price
+        ,A.use_point_price
+        ,A.cp_price
+        ,A.order_lack_price
+   FROM  order_common AS A
+  WHERE  A.order_lack_price != 0 
+   
+-----<hr>
+-----<hr>
+(mysqli): 
+ SELECT flattyp_yn FROM cate
+ WHERE sortcode='003003001' 
+   
+-----<hr>
+-----<hr>
+(mysqli): 
+ SELECT  A.prepay_price
+        ,A.order_lack_price
+        ,A.cumul_sales_price
+   FROM  member AS A
+  WHERE  A.member_seqno = '5' 
+   
+-----<hr>
+-----<hr>
+(mysqli): BEGIN 
+   
+-----<hr>
+!!!!!!!!!!!!!!!!!!!!!!!! IF
+1 : 5796967 / 0
+2 : 5796967 / 0
+-----<hr>
+(mysqli): 
+ UPDATE  member
+    SET  prepay_price = '0'
+        ,order_lack_price = '5796967'
+        ,cumul_sales_price = '6069270'
+  WHERE  member_seqno = '5' 
+   
+-----<hr>
+3 : 6233400 / 0
+4 : 6233400 / 0
+-----<hr>
+(mysqli): 
+ UPDATE  order_common
+    SET  order_lack_price = '6233400'
+  WHERE  order_common_seqno = '32' 
+   
+-----<hr>
+-----<hr>
+(mysqli): 
+ INSERT INTO member_pay_history (
+      member_seqno
+     ,deal_date
+     ,order_num
+     ,dvs
+     ,sell_price
+     ,sale_price
+     ,pay_price
+     ,depo_price
+     ,depo_way
+     ,exist_prepay
+     ,prepay_bal
+     ,state
+     ,deal_num
+     ,public_dvs
+     ,prepay_use_yn
+ ) VALUES (
+      '5'
+     ,now()
+     ,'14713090258217'
+     ,'사용'
+     ,'-'
+     ,'0'
+     ,'0'
+     ,'0'
+     ,'0'
+     ,'-'
+     ,'0'
+     ,'0'
+     ,'-'
+     ,'-'
+     ,'Y'
+ ) 
+   
+-----<hr>
+-----<hr>
+(mysqli): COMMIT 
+   
+-----<hr>
+Smart Commit occurred
+LOOP OUT
+-----<hr>
+(mysqli): 
+ SELECT  A.order_common_seqno
+        ,A.member_seqno
+        ,A.cate_sortcode
+        ,A.order_num
+        ,A.sell_price
+        ,A.pay_price
+        ,A.grade_sale_price
+        ,A.use_point_price
+        ,A.cp_price
+        ,A.order_lack_price
+   FROM  order_common AS A
+  WHERE  A.order_lack_price != 0 
+   
+-----<hr>
+-----<hr>
+(mysqli): 
+ SELECT flattyp_yn FROM cate
+ WHERE sortcode='003003001' 
+   
+-----<hr>
+-----<hr>
+(mysqli): 
+ SELECT  A.prepay_price
+        ,A.order_lack_price
+        ,A.cumul_sales_price
+   FROM  member AS A
+  WHERE  A.member_seqno = '5' 
+   
+-----<hr>
+-----<hr>
+(mysqli): BEGIN 
+   
+-----<hr>
+!!!!!!!!!!!!!!!!!!!!!!!! IF
+1 : 5796967 / 0
+2 : 5796967 / 0
+-----<hr>
+(mysqli): 
+ UPDATE  member
+    SET  prepay_price = '0'
+        ,order_lack_price = '5796967'
+        ,cumul_sales_price = '6069270'
+  WHERE  member_seqno = '5' 
+   
+-----<hr>
+3 : 6233400 / 0
+4 : 6233400 / 0
+-----<hr>
+(mysqli): 
+ UPDATE  order_common
+    SET  order_lack_price = '6233400'
+  WHERE  order_common_seqno = '32' 
+   
+-----<hr>
+-----<hr>
+(mysqli): 
+ INSERT INTO member_pay_history (
+      member_seqno
+     ,deal_date
+     ,order_num
+     ,dvs
+     ,sell_price
+     ,sale_price
+     ,pay_price
+     ,depo_price
+     ,depo_way
+     ,exist_prepay
+     ,prepay_bal
+     ,state
+     ,deal_num
+     ,public_dvs
+     ,prepay_use_yn
+ ) VALUES (
+      '5'
+     ,now()
+     ,'14713090258217'
+     ,'사용'
+     ,'-'
+     ,'0'
+     ,'0'
+     ,'0'
+     ,'0'
+     ,'-'
+     ,'0'
+     ,'0'
+     ,'-'
+     ,'-'
+     ,'Y'
+ ) 
+   
+-----<hr>
+-----<hr>
+(mysqli): COMMIT 
+   
+-----<hr>
+Smart Commit occurred
+LOOP OUT
+-----<hr>
+(mysqli): 
+ SELECT  A.order_common_seqno
+        ,A.member_seqno
+        ,A.cate_sortcode
+        ,A.order_num
+        ,A.sell_price
+        ,A.pay_price
+        ,A.grade_sale_price
+        ,A.use_point_price
+        ,A.cp_price
+        ,A.order_lack_price
+   FROM  order_common AS A
+  WHERE  A.order_lack_price != 0 
+   
+-----<hr>
+-----<hr>
+(mysqli): 
+ SELECT flattyp_yn FROM cate
+ WHERE sortcode='003003001' 
+   
+-----<hr>
+-----<hr>
+(mysqli): 
+ SELECT  A.prepay_price
+        ,A.order_lack_price
+        ,A.cumul_sales_price
+   FROM  member AS A
+  WHERE  A.member_seqno = '5' 
+   
+-----<hr>
+-----<hr>
+(mysqli): BEGIN 
+   
+-----<hr>
+!!!!!!!!!!!!!!!!!!!!!!!! IF
+1 : 5796967 / 0
+2 : 5796967 / 0
+-----<hr>
+(mysqli): 
+ UPDATE  member
+    SET  prepay_price = '0'
+        ,order_lack_price = '5796967'
+        ,cumul_sales_price = '6069270'
+  WHERE  member_seqno = '5' 
+   
+-----<hr>
+3 : 6233400 / 0
+4 : 6233400 / 0
+-----<hr>
+(mysqli): 
+ UPDATE  order_common
+    SET  order_lack_price = '6233400'
+  WHERE  order_common_seqno = '32' 
+   
+-----<hr>
+-----<hr>
+(mysqli): 
+ INSERT INTO member_pay_history (
+      member_seqno
+     ,deal_date
+     ,order_num
+     ,dvs
+     ,sell_price
+     ,sale_price
+     ,pay_price
+     ,depo_price
+     ,depo_way
+     ,exist_prepay
+     ,prepay_bal
+     ,state
+     ,deal_num
+     ,public_dvs
+     ,prepay_use_yn
+ ) VALUES (
+      '5'
+     ,now()
+     ,'14713090258217'
+     ,'사용'
+     ,'-'
+     ,'0'
+     ,'0'
+     ,'0'
+     ,'0'
+     ,'-'
+     ,'0'
+     ,'0'
+     ,'-'
+     ,'-'
+     ,'Y'
+ ) 
+   
+-----<hr>
+-----<hr>
+(mysqli): COMMIT 
+   
+-----<hr>
+Smart Commit occurred
+LOOP OUT
+-----<hr>
+(mysqli): 
+ SELECT  A.order_common_seqno
+        ,A.member_seqno
+        ,A.cate_sortcode
+        ,A.order_num
+        ,A.sell_price
+        ,A.pay_price
+        ,A.grade_sale_price
+        ,A.use_point_price
+        ,A.cp_price
+        ,A.order_lack_price
+   FROM  order_common AS A
+  WHERE  A.order_lack_price != 0 
+   
+-----<hr>
+-----<hr>
+(mysqli): 
+ SELECT flattyp_yn FROM cate
+ WHERE sortcode='003003001' 
+   
+-----<hr>
+-----<hr>
+(mysqli): 
+ SELECT  A.prepay_price
+        ,A.order_lack_price
+        ,A.cumul_sales_price
+   FROM  member AS A
+  WHERE  A.member_seqno = '5' 
+   
+-----<hr>
+-----<hr>
+(mysqli): BEGIN 
+   
+-----<hr>
+!!!!!!!!!!!!!!!!!!!!!!!! IF
+1 : 5796967 / 0
+2 : 5796967 / 0
+-----<hr>
+(mysqli): 
+ UPDATE  member
+    SET  prepay_price = '0'
+        ,order_lack_price = '5796967'
+        ,cumul_sales_price = '6069270'
+  WHERE  member_seqno = '5' 
+   
+-----<hr>
+3 : 6233400 / 0
+4 : 6233400 / 0
+-----<hr>
+(mysqli): 
+ UPDATE  order_common
+    SET  order_lack_price = '6233400'
+  WHERE  order_common_seqno = '32' 
+   
+-----<hr>
+-----<hr>
+(mysqli): 
+ INSERT INTO member_pay_history (
+      member_seqno
+     ,deal_date
+     ,order_num
+     ,dvs
+     ,sell_price
+     ,sale_price
+     ,pay_price
+     ,depo_price
+     ,depo_way
+     ,exist_prepay
+     ,prepay_bal
+     ,state
+     ,deal_num
+     ,public_dvs
+     ,prepay_use_yn
+ ) VALUES (
+      '5'
+     ,now()
+     ,'14713090258217'
+     ,'사용'
+     ,'-'
+     ,'0'
+     ,'0'
+     ,'0'
+     ,'0'
+     ,'-'
+     ,'0'
+     ,'0'
+     ,'-'
+     ,'-'
+     ,'Y'
+ ) 
+   
+-----<hr>
+-----<hr>
+(mysqli): COMMIT 
+   
+-----<hr>
+Smart Commit occurred
+LOOP OUT
+-----<hr>
+(mysqli): 
+ SELECT  A.order_common_seqno
+        ,A.member_seqno
+        ,A.cate_sortcode
+        ,A.order_num
+        ,A.sell_price
+        ,A.pay_price
+        ,A.grade_sale_price
+        ,A.use_point_price
+        ,A.cp_price
+        ,A.order_lack_price
+   FROM  order_common AS A
+  WHERE  A.order_lack_price != 0 
+   
+-----<hr>
+-----<hr>
+(mysqli): 
+ SELECT flattyp_yn FROM cate
+ WHERE sortcode='003003001' 
+   
+-----<hr>
+-----<hr>
+(mysqli): 
+ SELECT  A.prepay_price
+        ,A.order_lack_price
+        ,A.cumul_sales_price
+   FROM  member AS A
+  WHERE  A.member_seqno = '5' 
+   
+-----<hr>
+-----<hr>
+(mysqli): BEGIN 
+   
+-----<hr>
+!!!!!!!!!!!!!!!!!!!!!!!! IF
+1 : 5796967 / 0
+2 : 5796967 / 0
+-----<hr>
+(mysqli): 
+ UPDATE  member
+    SET  prepay_price = '0'
+        ,order_lack_price = '5796967'
+        ,cumul_sales_price = '6069270'
+  WHERE  member_seqno = '5' 
+   
+-----<hr>
+3 : 6233400 / 0
+4 : 6233400 / 0
+-----<hr>
+(mysqli): 
+ UPDATE  order_common
+    SET  order_lack_price = '6233400'
+  WHERE  order_common_seqno = '32' 
+   
+-----<hr>
+-----<hr>
+(mysqli): 
+ INSERT INTO member_pay_history (
+      member_seqno
+     ,deal_date
+     ,order_num
+     ,dvs
+     ,sell_price
+     ,sale_price
+     ,pay_price
+     ,depo_price
+     ,depo_way
+     ,exist_prepay
+     ,prepay_bal
+     ,state
+     ,deal_num
+     ,public_dvs
+     ,prepay_use_yn
+ ) VALUES (
+      '5'
+     ,now()
+     ,'14713090258217'
+     ,'사용'
+     ,'-'
+     ,'0'
+     ,'0'
+     ,'0'
+     ,'0'
+     ,'-'
+     ,'0'
+     ,'0'
+     ,'-'
+     ,'-'
+     ,'Y'
+ ) 
+   
+-----<hr>
+-----<hr>
+(mysqli): COMMIT 
+   
+-----<hr>
+Smart Commit occurred
+LOOP OUT
+-----<hr>
+(mysqli): 
+ SELECT  A.order_common_seqno
+        ,A.member_seqno
+        ,A.cate_sortcode
+        ,A.order_num
+        ,A.sell_price
+        ,A.pay_price
+        ,A.grade_sale_price
+        ,A.use_point_price
+        ,A.cp_price
+        ,A.order_lack_price
+   FROM  order_common AS A
+  WHERE  A.order_lack_price != 0 
+   
+-----<hr>
+-----<hr>
+(mysqli): 
+ SELECT flattyp_yn FROM cate
+ WHERE sortcode='003003001' 
+   
+-----<hr>
+-----<hr>
+(mysqli): 
+ SELECT  A.prepay_price
+        ,A.order_lack_price
+        ,A.cumul_sales_price
+   FROM  member AS A
+  WHERE  A.member_seqno = '5' 
+   
+-----<hr>
+-----<hr>
+(mysqli): BEGIN 
+   
+-----<hr>
+!!!!!!!!!!!!!!!!!!!!!!!! IF
+1 : 5796967 / 0
+2 : 5796967 / 0
+-----<hr>
+(mysqli): 
+ UPDATE  member
+    SET  prepay_price = '0'
+        ,order_lack_price = '5796967'
+        ,cumul_sales_price = '6069270'
+  WHERE  member_seqno = '5' 
+   
+-----<hr>
+3 : 6233400 / 0
+4 : 6233400 / 0
+-----<hr>
+(mysqli): 
+ UPDATE  order_common
+    SET  order_lack_price = '6233400'
+  WHERE  order_common_seqno = '32' 
+   
+-----<hr>
+-----<hr>
+(mysqli): 
+ INSERT INTO member_pay_history (
+      member_seqno
+     ,deal_date
+     ,order_num
+     ,dvs
+     ,sell_price
+     ,sale_price
+     ,pay_price
+     ,depo_price
+     ,depo_way
+     ,exist_prepay
+     ,prepay_bal
+     ,state
+     ,deal_num
+     ,public_dvs
+     ,prepay_use_yn
+ ) VALUES (
+      '5'
+     ,now()
+     ,'14713090258217'
+     ,'사용'
+     ,'-'
+     ,'0'
+     ,'0'
+     ,'0'
+     ,'0'
+     ,'-'
+     ,'0'
+     ,'0'
+     ,'-'
+     ,'-'
+     ,'Y'
+ ) 
+   
+-----<hr>
+-----<hr>
+(mysqli): COMMIT 
+   
+-----<hr>
+Smart Commit occurred
+LOOP OUT
+-----<hr>
+(mysqli): 
+ SELECT  A.order_common_seqno
+        ,A.member_seqno
+        ,A.cate_sortcode
+        ,A.order_num
+        ,A.sell_price
+        ,A.pay_price
+        ,A.grade_sale_price
+        ,A.use_point_price
+        ,A.cp_price
+        ,A.order_lack_price
+   FROM  order_common AS A
+  WHERE  A.order_lack_price != 0 
+   
+-----<hr>
+-----<hr>
+(mysqli): 
+ SELECT flattyp_yn FROM cate
+ WHERE sortcode='003003001' 
+   
+-----<hr>
+-----<hr>
+(mysqli): 
+ SELECT  A.prepay_price
+        ,A.order_lack_price
+        ,A.cumul_sales_price
+   FROM  member AS A
+  WHERE  A.member_seqno = '5' 
+   
+-----<hr>
+-----<hr>
+(mysqli): BEGIN 
+   
+-----<hr>
+!!!!!!!!!!!!!!!!!!!!!!!! IF
+1 : 5796967 / 0
+2 : 5796967 / 0
+-----<hr>
+(mysqli): 
+ UPDATE  member
+    SET  prepay_price = '0'
+        ,order_lack_price = '5796967'
+        ,cumul_sales_price = '6069270'
+  WHERE  member_seqno = '5' 
+   
+-----<hr>
+3 : 6233400 / 0
+4 : 6233400 / 0
+-----<hr>
+(mysqli): 
+ UPDATE  order_common
+    SET  order_lack_price = '6233400'
+  WHERE  order_common_seqno = '32' 
+   
+-----<hr>
+-----<hr>
+(mysqli): 
+ INSERT INTO member_pay_history (
+      member_seqno
+     ,deal_date
+     ,order_num
+     ,dvs
+     ,sell_price
+     ,sale_price
+     ,pay_price
+     ,depo_price
+     ,depo_way
+     ,exist_prepay
+     ,prepay_bal
+     ,state
+     ,deal_num
+     ,public_dvs
+     ,prepay_use_yn
+ ) VALUES (
+      '5'
+     ,now()
+     ,'14713090258217'
+     ,'사용'
+     ,'-'
+     ,'0'
+     ,'0'
+     ,'0'
+     ,'0'
+     ,'-'
+     ,'0'
+     ,'0'
+     ,'-'
+     ,'-'
+     ,'Y'
+ ) 
+   
+-----<hr>
+-----<hr>
+(mysqli): COMMIT 
+   
+-----<hr>
+Smart Commit occurred
+LOOP OUT
+-----<hr>
+(mysqli): 
+ SELECT  A.order_common_seqno
+        ,A.member_seqno
+        ,A.cate_sortcode
+        ,A.order_num
+        ,A.sell_price
+        ,A.pay_price
+        ,A.grade_sale_price
+        ,A.use_point_price
+        ,A.cp_price
+        ,A.order_lack_price
+   FROM  order_common AS A
+  WHERE  A.order_lack_price != 0 
+   
+-----<hr>
+-----<hr>
+(mysqli): 
+ SELECT flattyp_yn FROM cate
+ WHERE sortcode='003003001' 
+   
+-----<hr>
+-----<hr>
+(mysqli): 
+ SELECT  A.prepay_price
+        ,A.order_lack_price
+        ,A.cumul_sales_price
+   FROM  member AS A
+  WHERE  A.member_seqno = '5' 
+   
+-----<hr>
+-----<hr>
+(mysqli): BEGIN 
+   
+-----<hr>
+!!!!!!!!!!!!!!!!!!!!!!!! IF
+1 : 5796967 / 0
+2 : 5796967 / 0
+-----<hr>
+(mysqli): 
+ UPDATE  member
+    SET  prepay_price = '0'
+        ,order_lack_price = '5796967'
+        ,cumul_sales_price = '6069270'
+  WHERE  member_seqno = '5' 
+   
+-----<hr>
+3 : 6233400 / 0
+4 : 6233400 / 0
+-----<hr>
+(mysqli): 
+ UPDATE  order_common
+    SET  order_lack_price = '6233400'
+  WHERE  order_common_seqno = '32' 
+   
+-----<hr>
+-----<hr>
+(mysqli): 
+ INSERT INTO member_pay_history (
+      member_seqno
+     ,deal_date
+     ,order_num
+     ,dvs
+     ,sell_price
+     ,sale_price
+     ,pay_price
+     ,depo_price
+     ,depo_way
+     ,exist_prepay
+     ,prepay_bal
+     ,state
+     ,deal_num
+     ,public_dvs
+     ,prepay_use_yn
+ ) VALUES (
+      '5'
+     ,now()
+     ,'14713090258217'
+     ,'사용'
+     ,'-'
+     ,'0'
+     ,'0'
+     ,'0'
+     ,'0'
+     ,'-'
+     ,'0'
+     ,'0'
+     ,'-'
+     ,'-'
+     ,'Y'
+ ) 
+   
+-----<hr>
+-----<hr>
+(mysqli): COMMIT 
+   
+-----<hr>
+Smart Commit occurred
+LOOP OUT
+-----<hr>
+(mysqli): 
+ SELECT  A.order_common_seqno
+        ,A.member_seqno
+        ,A.cate_sortcode
+        ,A.order_num
+        ,A.sell_price
+        ,A.pay_price
+        ,A.grade_sale_price
+        ,A.use_point_price
+        ,A.cp_price
+        ,A.order_lack_price
+   FROM  order_common AS A
+  WHERE  A.order_lack_price != 0 
+   
+-----<hr>
+-----<hr>
+(mysqli): 
+ SELECT flattyp_yn FROM cate
+ WHERE sortcode='003003001' 
+   
+-----<hr>
+-----<hr>
+(mysqli): 
+ SELECT  A.prepay_price
+        ,A.order_lack_price
+        ,A.cumul_sales_price
+   FROM  member AS A
+  WHERE  A.member_seqno = '5' 
+   
+-----<hr>
+-----<hr>
+(mysqli): BEGIN 
+   
+-----<hr>
+!!!!!!!!!!!!!!!!!!!!!!!! IF
+1 : 5796967 / 0
+2 : 5796967 / 0
+-----<hr>
+(mysqli): 
+ UPDATE  member
+    SET  prepay_price = '0'
+        ,order_lack_price = '5796967'
+        ,cumul_sales_price = '6069270'
+  WHERE  member_seqno = '5' 
+   
+-----<hr>
+3 : 6233400 / 0
+4 : 6233400 / 0
+-----<hr>
+(mysqli): 
+ UPDATE  order_common
+    SET  order_lack_price = '6233400'
+  WHERE  order_common_seqno = '32' 
+   
+-----<hr>
+-----<hr>
+(mysqli): 
+ INSERT INTO member_pay_history (
+      member_seqno
+     ,deal_date
+     ,order_num
+     ,dvs
+     ,sell_price
+     ,sale_price
+     ,pay_price
+     ,depo_price
+     ,depo_way
+     ,exist_prepay
+     ,prepay_bal
+     ,state
+     ,deal_num
+     ,public_dvs
+     ,prepay_use_yn
+ ) VALUES (
+      '5'
+     ,now()
+     ,'14713090258217'
+     ,'사용'
+     ,'-'
+     ,'0'
+     ,'0'
+     ,'0'
+     ,'0'
+     ,'-'
+     ,'0'
+     ,'0'
+     ,'-'
+     ,'-'
+     ,'Y'
+ ) 
+   
+-----<hr>
+-----<hr>
+(mysqli): COMMIT 
+   
+-----<hr>
+Smart Commit occurred
+LOOP OUT
+-----<hr>
+(mysqli): 
+ SELECT  A.order_common_seqno
+        ,A.member_seqno
+        ,A.cate_sortcode
+        ,A.order_num
+        ,A.sell_price
+        ,A.pay_price
+        ,A.grade_sale_price
+        ,A.use_point_price
+        ,A.cp_price
+        ,A.order_lack_price
+   FROM  order_common AS A
+  WHERE  A.order_lack_price != 0 
+   
+-----<hr>
+-----<hr>
+(mysqli): 
+ SELECT flattyp_yn FROM cate
+ WHERE sortcode='003003001' 
+   
+-----<hr>
+-----<hr>
+(mysqli): 
+ SELECT  A.prepay_price
+        ,A.order_lack_price
+        ,A.cumul_sales_price
+   FROM  member AS A
+  WHERE  A.member_seqno = '5' 
+   
+-----<hr>
+-----<hr>
+(mysqli): BEGIN 
+   
+-----<hr>
+!!!!!!!!!!!!!!!!!!!!!!!! IF
+1 : 5796967 / 0
+2 : 5796967 / 0
+-----<hr>
+(mysqli): 
+ UPDATE  member
+    SET  prepay_price = '0'
+        ,order_lack_price = '5796967'
+        ,cumul_sales_price = '6069270'
+  WHERE  member_seqno = '5' 
+   
+-----<hr>
+3 : 6233400 / 0
+4 : 6233400 / 0
+-----<hr>
+(mysqli): 
+ UPDATE  order_common
+    SET  order_lack_price = '6233400'
+  WHERE  order_common_seqno = '32' 
+   
+-----<hr>
+-----<hr>
+(mysqli): 
+ INSERT INTO member_pay_history (
+      member_seqno
+     ,deal_date
+     ,order_num
+     ,dvs
+     ,sell_price
+     ,sale_price
+     ,pay_price
+     ,depo_price
+     ,depo_way
+     ,exist_prepay
+     ,prepay_bal
+     ,state
+     ,deal_num
+     ,public_dvs
+     ,prepay_use_yn
+ ) VALUES (
+      '5'
+     ,now()
+     ,'14713090258217'
+     ,'사용'
+     ,'-'
+     ,'0'
+     ,'0'
+     ,'0'
+     ,'0'
+     ,'-'
+     ,'0'
+     ,'0'
+     ,'-'
+     ,'-'
+     ,'Y'
+ ) 
+   
+-----<hr>
+-----<hr>
+(mysqli): COMMIT 
+   
+-----<hr>
+Smart Commit occurred
+LOOP OUT
+-----<hr>
+(mysqli): 
+ SELECT  A.order_common_seqno
+        ,A.member_seqno
+        ,A.cate_sortcode
+        ,A.order_num
+        ,A.sell_price
+        ,A.pay_price
+        ,A.grade_sale_price
+        ,A.use_point_price
+        ,A.cp_price
+        ,A.order_lack_price
+   FROM  order_common AS A
+  WHERE  A.order_lack_price != 0 
+   
+-----<hr>
+-----<hr>
+(mysqli): 
+ SELECT flattyp_yn FROM cate
+ WHERE sortcode='003003001' 
+   
+-----<hr>
+-----<hr>
+(mysqli): 
+ SELECT  A.prepay_price
+        ,A.order_lack_price
+        ,A.cumul_sales_price
+   FROM  member AS A
+  WHERE  A.member_seqno = '5' 
+   
+-----<hr>
+-----<hr>
+(mysqli): BEGIN 
+   
+-----<hr>
+!!!!!!!!!!!!!!!!!!!!!!!! IF
+1 : 5796967 / 0
+2 : 5796967 / 0
+-----<hr>
+(mysqli): 
+ UPDATE  member
+    SET  prepay_price = '0'
+        ,order_lack_price = '5796967'
+        ,cumul_sales_price = '6069270'
+  WHERE  member_seqno = '5' 
+   
+-----<hr>
+3 : 6233400 / 0
+4 : 6233400 / 0
+-----<hr>
+(mysqli): 
+ UPDATE  order_common
+    SET  order_lack_price = '6233400'
+  WHERE  order_common_seqno = '32' 
+   
+-----<hr>
+-----<hr>
+(mysqli): 
+ INSERT INTO member_pay_history (
+      member_seqno
+     ,deal_date
+     ,order_num
+     ,dvs
+     ,sell_price
+     ,sale_price
+     ,pay_price
+     ,depo_price
+     ,depo_way
+     ,exist_prepay
+     ,prepay_bal
+     ,state
+     ,deal_num
+     ,public_dvs
+     ,prepay_use_yn
+ ) VALUES (
+      '5'
+     ,now()
+     ,'14713090258217'
+     ,'사용'
+     ,'-'
+     ,'0'
+     ,'0'
+     ,'0'
+     ,'0'
+     ,'-'
+     ,'0'
+     ,'0'
+     ,'-'
+     ,'-'
+     ,'Y'
+ ) 
+   
+-----<hr>
+-----<hr>
+(mysqli): COMMIT 
+   
+-----<hr>
+Smart Commit occurred
+LOOP OUT
+-----<hr>
+(mysqli): 
+ SELECT  A.order_common_seqno
+        ,A.member_seqno
+        ,A.cate_sortcode
+        ,A.order_num
+        ,A.sell_price
+        ,A.pay_price
+        ,A.grade_sale_price
+        ,A.use_point_price
+        ,A.cp_price
+        ,A.order_lack_price
+   FROM  order_common AS A
+  WHERE  A.order_lack_price != 0 
+   
+-----<hr>
+-----<hr>
+(mysqli): 
+ SELECT flattyp_yn FROM cate
+ WHERE sortcode='003003001' 
+   
+-----<hr>
+-----<hr>
+(mysqli): 
+ SELECT  A.prepay_price
+        ,A.order_lack_price
+        ,A.cumul_sales_price
+   FROM  member AS A
+  WHERE  A.member_seqno = '5' 
+   
+-----<hr>
+-----<hr>
+(mysqli): BEGIN 
+   
+-----<hr>
+!!!!!!!!!!!!!!!!!!!!!!!! IF
+1 : 5796967 / 0
+2 : 5796967 / 0
+-----<hr>
+(mysqli): 
+ UPDATE  member
+    SET  prepay_price = '0'
+        ,order_lack_price = '5796967'
+        ,cumul_sales_price = '6069270'
+  WHERE  member_seqno = '5' 
+   
+-----<hr>
+3 : 6233400 / 0
+4 : 6233400 / 0
+-----<hr>
+(mysqli): 
+ UPDATE  order_common
+    SET  order_lack_price = '6233400'
+  WHERE  order_common_seqno = '32' 
+   
+-----<hr>
+-----<hr>
+(mysqli): 
+ INSERT INTO member_pay_history (
+      member_seqno
+     ,deal_date
+     ,order_num
+     ,dvs
+     ,sell_price
+     ,sale_price
+     ,pay_price
+     ,depo_price
+     ,depo_way
+     ,exist_prepay
+     ,prepay_bal
+     ,state
+     ,deal_num
+     ,public_dvs
+     ,prepay_use_yn
+ ) VALUES (
+      '5'
+     ,now()
+     ,'14713090258217'
+     ,'사용'
+     ,'-'
+     ,'0'
+     ,'0'
+     ,'0'
+     ,'0'
+     ,'-'
+     ,'0'
+     ,'0'
+     ,'-'
+     ,'-'
+     ,'Y'
+ ) 
+   
+-----<hr>
+-----<hr>
+(mysqli): COMMIT 
+   
+-----<hr>
+Smart Commit occurred
+LOOP OUT
+-----<hr>
+(mysqli): 
+ SELECT  A.order_common_seqno
+        ,A.member_seqno
+        ,A.cate_sortcode
+        ,A.order_num
+        ,A.sell_price
+        ,A.pay_price
+        ,A.grade_sale_price
+        ,A.use_point_price
+        ,A.cp_price
+        ,A.order_lack_price
+   FROM  order_common AS A
+  WHERE  A.order_lack_price != 0 
+   
+-----<hr>
+-----<hr>
+(mysqli): 
+ SELECT flattyp_yn FROM cate
+ WHERE sortcode='003003001' 
+   
+-----<hr>
+-----<hr>
+(mysqli): 
+ SELECT  A.prepay_price
+        ,A.order_lack_price
+        ,A.cumul_sales_price
+   FROM  member AS A
+  WHERE  A.member_seqno = '5' 
+   
+-----<hr>
+-----<hr>
+(mysqli): BEGIN 
+   
+-----<hr>
+!!!!!!!!!!!!!!!!!!!!!!!! IF
+1 : 5796967 / 0
+2 : 5796967 / 0
+-----<hr>
+(mysqli): 
+ UPDATE  member
+    SET  prepay_price = '0'
+        ,order_lack_price = '5796967'
+        ,cumul_sales_price = '6069270'
+  WHERE  member_seqno = '5' 
+   
+-----<hr>
+3 : 6233400 / 0
+4 : 6233400 / 0
+-----<hr>
+(mysqli): 
+ UPDATE  order_common
+    SET  order_lack_price = '6233400'
+  WHERE  order_common_seqno = '32' 
+   
+-----<hr>
+-----<hr>
+(mysqli): 
+ INSERT INTO member_pay_history (
+      member_seqno
+     ,deal_date
+     ,order_num
+     ,dvs
+     ,sell_price
+     ,sale_price
+     ,pay_price
+     ,depo_price
+     ,depo_way
+     ,exist_prepay
+     ,prepay_bal
+     ,state
+     ,deal_num
+     ,public_dvs
+     ,prepay_use_yn
+ ) VALUES (
+      '5'
+     ,now()
+     ,'14713090258217'
+     ,'사용'
+     ,'-'
+     ,'0'
+     ,'0'
+     ,'0'
+     ,'0'
+     ,'-'
+     ,'0'
+     ,'0'
+     ,'-'
+     ,'-'
+     ,'Y'
+ ) 
+   
+-----<hr>
+-----<hr>
+(mysqli): COMMIT 
+   
+-----<hr>
+Smart Commit occurred
+LOOP OUT
+-----<hr>
+(mysqli): 
+ SELECT  A.order_common_seqno
+        ,A.member_seqno
+        ,A.cate_sortcode
+        ,A.order_num
+        ,A.sell_price
+        ,A.pay_price
+        ,A.grade_sale_price
+        ,A.use_point_price
+        ,A.cp_price
+        ,A.order_lack_price
+   FROM  order_common AS A
+  WHERE  A.order_lack_price != 0 
+   
+-----<hr>
+-----<hr>
+(mysqli): 
+ SELECT flattyp_yn FROM cate
+ WHERE sortcode='003003001' 
+   
+-----<hr>
+-----<hr>
+(mysqli): 
+ SELECT  A.prepay_price
+        ,A.order_lack_price
+        ,A.cumul_sales_price
+   FROM  member AS A
+  WHERE  A.member_seqno = '5' 
+   
+-----<hr>
+-----<hr>
+(mysqli): BEGIN 
+   
+-----<hr>
+!!!!!!!!!!!!!!!!!!!!!!!! IF
+1 : 5796967 / 0
+2 : 5796967 / 0
+-----<hr>
+(mysqli): 
+ UPDATE  member
+    SET  prepay_price = '0'
+        ,order_lack_price = '5796967'
+        ,cumul_sales_price = '6069270'
+  WHERE  member_seqno = '5' 
+   
+-----<hr>
+3 : 6233400 / 0
+4 : 6233400 / 0
+-----<hr>
+(mysqli): 
+ UPDATE  order_common
+    SET  order_lack_price = '6233400'
+  WHERE  order_common_seqno = '32' 
+   
+-----<hr>
+-----<hr>
+(mysqli): 
+ INSERT INTO member_pay_history (
+      member_seqno
+     ,deal_date
+     ,order_num
+     ,dvs
+     ,sell_price
+     ,sale_price
+     ,pay_price
+     ,depo_price
+     ,depo_way
+     ,exist_prepay
+     ,prepay_bal
+     ,state
+     ,deal_num
+     ,public_dvs
+     ,prepay_use_yn
+ ) VALUES (
+      '5'
+     ,now()
+     ,'14713090258217'
+     ,'사용'
+     ,'-'
+     ,'0'
+     ,'0'
+     ,'0'
+     ,'0'
+     ,'-'
+     ,'0'
+     ,'0'
+     ,'-'
+     ,'-'
+     ,'Y'
+ ) 
+   
+-----<hr>
+-----<hr>
+(mysqli): COMMIT 
+   
+-----<hr>
+Smart Commit occurred
+LOOP OUT
+-----<hr>
+(mysqli): 
+ SELECT  A.order_common_seqno
+        ,A.member_seqno
+        ,A.cate_sortcode
+        ,A.order_num
+        ,A.sell_price
+        ,A.pay_price
+        ,A.grade_sale_price
+        ,A.use_point_price
+        ,A.cp_price
+        ,A.order_lack_price
+   FROM  order_common AS A
+  WHERE  A.order_lack_price != 0 
+   
+-----<hr>
+-----<hr>
+(mysqli): 
+ SELECT flattyp_yn FROM cate
+ WHERE sortcode='003003001' 
+   
+-----<hr>
+-----<hr>
+(mysqli): 
+ SELECT  A.prepay_price
+        ,A.order_lack_price
+        ,A.cumul_sales_price
+   FROM  member AS A
+  WHERE  A.member_seqno = '5' 
+   
+-----<hr>
+-----<hr>
+(mysqli): BEGIN 
+   
+-----<hr>
+!!!!!!!!!!!!!!!!!!!!!!!! IF
+1 : 5796967 / 0
+2 : 5796967 / 0
+-----<hr>
+(mysqli): 
+ UPDATE  member
+    SET  prepay_price = '0'
+        ,order_lack_price = '5796967'
+        ,cumul_sales_price = '6069270'
+  WHERE  member_seqno = '5' 
+   
+-----<hr>
+3 : 6233400 / 0
+4 : 6233400 / 0
+-----<hr>
+(mysqli): 
+ UPDATE  order_common
+    SET  order_lack_price = '6233400'
+  WHERE  order_common_seqno = '32' 
+   
+-----<hr>
+-----<hr>
+(mysqli): 
+ INSERT INTO member_pay_history (
+      member_seqno
+     ,deal_date
+     ,order_num
+     ,dvs
+     ,sell_price
+     ,sale_price
+     ,pay_price
+     ,depo_price
+     ,depo_way
+     ,exist_prepay
+     ,prepay_bal
+     ,state
+     ,deal_num
+     ,public_dvs
+     ,prepay_use_yn
+ ) VALUES (
+      '5'
+     ,now()
+     ,'14713090258217'
+     ,'사용'
+     ,'-'
+     ,'0'
+     ,'0'
+     ,'0'
+     ,'0'
+     ,'-'
+     ,'0'
+     ,'0'
+     ,'-'
+     ,'-'
+     ,'Y'
+ ) 
+   
+-----<hr>
+-----<hr>
+(mysqli): COMMIT 
+   
+-----<hr>
+Smart Commit occurred
+LOOP OUT
+-----<hr>
+(mysqli): 
+ SELECT  A.order_common_seqno
+        ,A.member_seqno
+        ,A.cate_sortcode
+        ,A.order_num
+        ,A.sell_price
+        ,A.pay_price
+        ,A.grade_sale_price
+        ,A.use_point_price
+        ,A.cp_price
+        ,A.order_lack_price
+   FROM  order_common AS A
+  WHERE  A.order_lack_price != 0 
+   
+-----<hr>
+-----<hr>
+(mysqli): 
+ SELECT flattyp_yn FROM cate
+ WHERE sortcode='003003001' 
+   
+-----<hr>
+-----<hr>
+(mysqli): 
+ SELECT  A.prepay_price
+        ,A.order_lack_price
+        ,A.cumul_sales_price
+   FROM  member AS A
+  WHERE  A.member_seqno = '5' 
+   
+-----<hr>
+-----<hr>
+(mysqli): BEGIN 
+   
+-----<hr>
+!!!!!!!!!!!!!!!!!!!!!!!! IF
+1 : 5796967 / 0
+2 : 5796967 / 0
+-----<hr>
+(mysqli): 
+ UPDATE  member
+    SET  prepay_price = '0'
+        ,order_lack_price = '5796967'
+        ,cumul_sales_price = '6069270'
+  WHERE  member_seqno = '5' 
+   
+-----<hr>
+3 : 6233400 / 0
+4 : 6233400 / 0
+-----<hr>
+(mysqli): 
+ UPDATE  order_common
+    SET  order_lack_price = '6233400'
+  WHERE  order_common_seqno = '32' 
+   
+-----<hr>
+-----<hr>
+(mysqli): 
+ INSERT INTO member_pay_history (
+      member_seqno
+     ,deal_date
+     ,order_num
+     ,dvs
+     ,sell_price
+     ,sale_price
+     ,pay_price
+     ,depo_price
+     ,depo_way
+     ,exist_prepay
+     ,prepay_bal
+     ,state
+     ,deal_num
+     ,public_dvs
+     ,prepay_use_yn
+ ) VALUES (
+      '5'
+     ,now()
+     ,'14713090258217'
+     ,'사용'
+     ,'-'
+     ,'0'
+     ,'0'
+     ,'0'
+     ,'0'
+     ,'-'
+     ,'0'
+     ,'0'
+     ,'-'
+     ,'-'
+     ,'Y'
+ ) 
+   
+-----<hr>
+-----<hr>
+(mysqli): COMMIT 
+   
+-----<hr>
+Smart Commit occurred
+LOOP OUT
+-----<hr>
+(mysqli): 
+ SELECT  A.order_common_seqno
+        ,A.member_seqno
+        ,A.cate_sortcode
+        ,A.order_num
+        ,A.sell_price
+        ,A.pay_price
+        ,A.grade_sale_price
+        ,A.use_point_price
+        ,A.cp_price
+        ,A.order_lack_price
+   FROM  order_common AS A
+  WHERE  A.order_lack_price != 0 
+   
+-----<hr>
+-----<hr>
+(mysqli): 
+ SELECT flattyp_yn FROM cate
+ WHERE sortcode='003003001' 
+   
+-----<hr>
+-----<hr>
+(mysqli): 
+ SELECT  A.prepay_price
+        ,A.order_lack_price
+        ,A.cumul_sales_price
+   FROM  member AS A
+  WHERE  A.member_seqno = '5' 
+   
+-----<hr>
+-----<hr>
+(mysqli): BEGIN 
+   
+-----<hr>
+!!!!!!!!!!!!!!!!!!!!!!!! IF
+1 : 5796967 / 0
+2 : 5796967 / 0
+-----<hr>
+(mysqli): 
+ UPDATE  member
+    SET  prepay_price = '0'
+        ,order_lack_price = '5796967'
+        ,cumul_sales_price = '6069270'
+  WHERE  member_seqno = '5' 
+   
+-----<hr>
+3 : 6233400 / 0
+4 : 6233400 / 0
+-----<hr>
+(mysqli): 
+ UPDATE  order_common
+    SET  order_lack_price = '6233400'
+  WHERE  order_common_seqno = '32' 
+   
+-----<hr>
+-----<hr>
+(mysqli): 
+ INSERT INTO member_pay_history (
+      member_seqno
+     ,deal_date
+     ,order_num
+     ,dvs
+     ,sell_price
+     ,sale_price
+     ,pay_price
+     ,depo_price
+     ,depo_way
+     ,exist_prepay
+     ,prepay_bal
+     ,state
+     ,deal_num
+     ,public_dvs
+     ,prepay_use_yn
+ ) VALUES (
+      '5'
+     ,now()
+     ,'14713090258217'
+     ,'사용'
+     ,'-'
+     ,'0'
+     ,'0'
+     ,'0'
+     ,'0'
+     ,'-'
+     ,'0'
+     ,'0'
+     ,'-'
+     ,'-'
+     ,'Y'
+ ) 
+   
+-----<hr>
+-----<hr>
+(mysqli): COMMIT 
+   
+-----<hr>
+Smart Commit occurred
+LOOP OUT
+-----<hr>
+(mysqli): 
+ SELECT  A.order_common_seqno
+        ,A.member_seqno
+        ,A.cate_sortcode
+        ,A.order_num
+        ,A.sell_price
+        ,A.pay_price
+        ,A.grade_sale_price
+        ,A.use_point_price
+        ,A.cp_price
+        ,A.order_lack_price
+   FROM  order_common AS A
+  WHERE  A.order_lack_price != 0 
+   
+-----<hr>
+-----<hr>
+(mysqli): 
+ SELECT flattyp_yn FROM cate
+ WHERE sortcode='003003001' 
+   
+-----<hr>
+-----<hr>
+(mysqli): 
+ SELECT  A.prepay_price
+        ,A.order_lack_price
+        ,A.cumul_sales_price
+   FROM  member AS A
+  WHERE  A.member_seqno = '5' 
+   
+-----<hr>
+-----<hr>
+(mysqli): BEGIN 
+   
+-----<hr>
+!!!!!!!!!!!!!!!!!!!!!!!! IF
+1 : 5796967 / 0
+2 : 5796967 / 0
+-----<hr>
+(mysqli): 
+ UPDATE  member
+    SET  prepay_price = '0'
+        ,order_lack_price = '5796967'
+        ,cumul_sales_price = '6069270'
+  WHERE  member_seqno = '5' 
+   
+-----<hr>
+3 : 6233400 / 0
+4 : 6233400 / 0
+-----<hr>
+(mysqli): 
+ UPDATE  order_common
+    SET  order_lack_price = '6233400'
+  WHERE  order_common_seqno = '32' 
+   
+-----<hr>
+-----<hr>
+(mysqli): 
+ INSERT INTO member_pay_history (
+      member_seqno
+     ,deal_date
+     ,order_num
+     ,dvs
+     ,sell_price
+     ,sale_price
+     ,pay_price
+     ,depo_price
+     ,depo_way
+     ,exist_prepay
+     ,prepay_bal
+     ,state
+     ,deal_num
+     ,public_dvs
+     ,prepay_use_yn
+ ) VALUES (
+      '5'
+     ,now()
+     ,'14713090258217'
+     ,'사용'
+     ,'-'
+     ,'0'
+     ,'0'
+     ,'0'
+     ,'0'
+     ,'-'
+     ,'0'
+     ,'0'
+     ,'-'
+     ,'-'
+     ,'Y'
+ ) 
+   
+-----<hr>
+-----<hr>
+(mysqli): COMMIT 
+   
+-----<hr>
+Smart Commit occurred
+LOOP OUT
+-----<hr>
+(mysqli): 
+ SELECT  A.order_common_seqno
+        ,A.member_seqno
+        ,A.cate_sortcode
+        ,A.order_num
+        ,A.sell_price
+        ,A.pay_price
+        ,A.grade_sale_price
+        ,A.use_point_price
+        ,A.cp_price
+        ,A.order_lack_price
+   FROM  order_common AS A
+  WHERE  A.order_lack_price != 0 
+   
+-----<hr>
+-----<hr>
+(mysqli): 
+ SELECT flattyp_yn FROM cate
+ WHERE sortcode='003003001' 
+   
+-----<hr>
+-----<hr>
+(mysqli): 
+ SELECT  A.prepay_price
+        ,A.order_lack_price
+        ,A.cumul_sales_price
+   FROM  member AS A
+  WHERE  A.member_seqno = '5' 
+   
+-----<hr>
+-----<hr>
+(mysqli): BEGIN 
+   
+-----<hr>
+!!!!!!!!!!!!!!!!!!!!!!!! IF
+1 : 5796967 / 0
+2 : 5796967 / 0
+-----<hr>
+(mysqli): 
+ UPDATE  member
+    SET  prepay_price = '0'
+        ,order_lack_price = '5796967'
+        ,cumul_sales_price = '6069270'
+  WHERE  member_seqno = '5' 
+   
+-----<hr>
+3 : 6233400 / 0
+4 : 6233400 / 0
+-----<hr>
+(mysqli): 
+ UPDATE  order_common
+    SET  order_lack_price = '6233400'
+  WHERE  order_common_seqno = '32' 
+   
+-----<hr>
+-----<hr>
+(mysqli): 
+ INSERT INTO member_pay_history (
+      member_seqno
+     ,deal_date
+     ,order_num
+     ,dvs
+     ,sell_price
+     ,sale_price
+     ,pay_price
+     ,depo_price
+     ,depo_way
+     ,exist_prepay
+     ,prepay_bal
+     ,state
+     ,deal_num
+     ,public_dvs
+     ,prepay_use_yn
+ ) VALUES (
+      '5'
+     ,now()
+     ,'14713090258217'
+     ,'사용'
+     ,'-'
+     ,'0'
+     ,'0'
+     ,'0'
+     ,'0'
+     ,'-'
+     ,'0'
+     ,'0'
+     ,'-'
+     ,'-'
+     ,'Y'
+ ) 
+   
+-----<hr>
+-----<hr>
+(mysqli): COMMIT 
+   
+-----<hr>
+Smart Commit occurred
+LOOP OUT
+-----<hr>
+(mysqli): 
+ SELECT  A.order_common_seqno
+        ,A.member_seqno
+        ,A.cate_sortcode
+        ,A.order_num
+        ,A.sell_price
+        ,A.pay_price
+        ,A.grade_sale_price
+        ,A.use_point_price
+        ,A.cp_price
+        ,A.order_lack_price
+   FROM  order_common AS A
+  WHERE  A.order_lack_price != 0 
+   
+-----<hr>
+-----<hr>
+(mysqli): 
+ SELECT flattyp_yn FROM cate
+ WHERE sortcode='003003001' 
+   
+-----<hr>
+-----<hr>
+(mysqli): 
+ SELECT  A.prepay_price
+        ,A.order_lack_price
+        ,A.cumul_sales_price
+   FROM  member AS A
+  WHERE  A.member_seqno = '5' 
+   
+-----<hr>
+-----<hr>
+(mysqli): BEGIN 
+   
+-----<hr>
+!!!!!!!!!!!!!!!!!!!!!!!! IF
+1 : 5796967 / 0
+2 : 5796967 / 0
+-----<hr>
+(mysqli): 
+ UPDATE  member
+    SET  prepay_price = '0'
+        ,order_lack_price = '5796967'
+        ,cumul_sales_price = '6069270'
+  WHERE  member_seqno = '5' 
+   
+-----<hr>
+3 : 6233400 / 0
+4 : 6233400 / 0
+-----<hr>
+(mysqli): 
+ UPDATE  order_common
+    SET  order_lack_price = '6233400'
+  WHERE  order_common_seqno = '32' 
+   
+-----<hr>
+-----<hr>
+(mysqli): 
+ INSERT INTO member_pay_history (
+      member_seqno
+     ,deal_date
+     ,order_num
+     ,dvs
+     ,sell_price
+     ,sale_price
+     ,pay_price
+     ,depo_price
+     ,depo_way
+     ,exist_prepay
+     ,prepay_bal
+     ,state
+     ,deal_num
+     ,public_dvs
+     ,prepay_use_yn
+ ) VALUES (
+      '5'
+     ,now()
+     ,'14713090258217'
+     ,'사용'
+     ,'-'
+     ,'0'
+     ,'0'
+     ,'0'
+     ,'0'
+     ,'-'
+     ,'0'
+     ,'0'
+     ,'-'
+     ,'-'
+     ,'Y'
+ ) 
+   
+-----<hr>
+-----<hr>
+(mysqli): COMMIT 
+   
+-----<hr>
+Smart Commit occurred
+LOOP OUT
+-----<hr>
+(mysqli): 
+ SELECT  A.order_common_seqno
+        ,A.member_seqno
+        ,A.cate_sortcode
+        ,A.order_num
+        ,A.sell_price
+        ,A.pay_price
+        ,A.grade_sale_price
+        ,A.use_point_price
+        ,A.cp_price
+        ,A.order_lack_price
+   FROM  order_common AS A
+  WHERE  A.order_lack_price != 0 
+   
+-----<hr>
+-----<hr>
+(mysqli): 
+ SELECT flattyp_yn FROM cate
+ WHERE sortcode='003003001' 
+   
+-----<hr>
+-----<hr>
+(mysqli): 
+ SELECT  A.prepay_price
+        ,A.order_lack_price
+        ,A.cumul_sales_price
+   FROM  member AS A
+  WHERE  A.member_seqno = '5' 
+   
+-----<hr>
+-----<hr>
+(mysqli): BEGIN 
+   
+-----<hr>
+!!!!!!!!!!!!!!!!!!!!!!!! IF
+1 : 5796967 / 0
+2 : 5796967 / 0
+-----<hr>
+(mysqli): 
+ UPDATE  member
+    SET  prepay_price = '0'
+        ,order_lack_price = '5796967'
+        ,cumul_sales_price = '6069270'
+  WHERE  member_seqno = '5' 
+   
+-----<hr>
+3 : 6233400 / 0
+4 : 6233400 / 0
+-----<hr>
+(mysqli): 
+ UPDATE  order_common
+    SET  order_lack_price = '6233400'
+  WHERE  order_common_seqno = '32' 
+   
+-----<hr>
+-----<hr>
+(mysqli): 
+ INSERT INTO member_pay_history (
+      member_seqno
+     ,deal_date
+     ,order_num
+     ,dvs
+     ,sell_price
+     ,sale_price
+     ,pay_price
+     ,depo_price
+     ,depo_way
+     ,exist_prepay
+     ,prepay_bal
+     ,state
+     ,deal_num
+     ,public_dvs
+     ,prepay_use_yn
+ ) VALUES (
+      '5'
+     ,now()
+     ,'14713090258217'
+     ,'사용'
+     ,'-'
+     ,'0'
+     ,'0'
+     ,'0'
+     ,'0'
+     ,'-'
+     ,'0'
+     ,'0'
+     ,'-'
+     ,'-'
+     ,'Y'
+ ) 
+   
+-----<hr>
+-----<hr>
+(mysqli): COMMIT 
+   
+-----<hr>
+Smart Commit occurred
+LOOP OUT
+-----<hr>
+(mysqli): 
+ SELECT  A.order_common_seqno
+        ,A.member_seqno
+        ,A.cate_sortcode
+        ,A.order_num
+        ,A.sell_price
+        ,A.pay_price
+        ,A.grade_sale_price
+        ,A.use_point_price
+        ,A.cp_price
+        ,A.order_lack_price
+   FROM  order_common AS A
+  WHERE  A.order_lack_price != 0 
+   
+-----<hr>
+-----<hr>
+(mysqli): 
+ SELECT flattyp_yn FROM cate
+ WHERE sortcode='003003001' 
+   
+-----<hr>
+-----<hr>
+(mysqli): 
+ SELECT  A.prepay_price
+        ,A.order_lack_price
+        ,A.cumul_sales_price
+   FROM  member AS A
+  WHERE  A.member_seqno = '5' 
+   
+-----<hr>
+-----<hr>
+(mysqli): BEGIN 
+   
+-----<hr>
+!!!!!!!!!!!!!!!!!!!!!!!! IF
+1 : 5796967 / 0
+2 : 5796967 / 0
+-----<hr>
+(mysqli): 
+ UPDATE  member
+    SET  prepay_price = '0'
+        ,order_lack_price = '5796967'
+        ,cumul_sales_price = '6069270'
+  WHERE  member_seqno = '5' 
+   
+-----<hr>
+3 : 6233400 / 0
+4 : 6233400 / 0
+-----<hr>
+(mysqli): 
+ UPDATE  order_common
+    SET  order_lack_price = '6233400'
+  WHERE  order_common_seqno = '32' 
+   
+-----<hr>
+-----<hr>
+(mysqli): 
+ INSERT INTO member_pay_history (
+      member_seqno
+     ,deal_date
+     ,order_num
+     ,dvs
+     ,sell_price
+     ,sale_price
+     ,pay_price
+     ,depo_price
+     ,depo_way
+     ,exist_prepay
+     ,prepay_bal
+     ,state
+     ,deal_num
+     ,public_dvs
+     ,prepay_use_yn
+ ) VALUES (
+      '5'
+     ,now()
+     ,'14713090258217'
+     ,'사용'
+     ,'-'
+     ,'0'
+     ,'0'
+     ,'0'
+     ,'0'
+     ,'-'
+     ,'0'
+     ,'0'
+     ,'-'
+     ,'-'
+     ,'Y'
+ ) 
+   
+-----<hr>
+-----<hr>
+(mysqli): COMMIT 
+   
+-----<hr>
+Smart Commit occurred
+LOOP OUT
+-----<hr>
+(mysqli): 
+ SELECT  A.order_common_seqno
+        ,A.member_seqno
+        ,A.cate_sortcode
+        ,A.order_num
+        ,A.sell_price
+        ,A.pay_price
+        ,A.grade_sale_price
+        ,A.use_point_price
+        ,A.cp_price
+        ,A.order_lack_price
+   FROM  order_common AS A
+  WHERE  A.order_lack_price != 0 
+   
+-----<hr>
+-----<hr>
+(mysqli): 
+ SELECT flattyp_yn FROM cate
+ WHERE sortcode='003003001' 
+   
+-----<hr>
+-----<hr>
+(mysqli): 
+ SELECT  A.prepay_price
+        ,A.order_lack_price
+        ,A.cumul_sales_price
+   FROM  member AS A
+  WHERE  A.member_seqno = '5' 
+   
+-----<hr>
+-----<hr>
+(mysqli): BEGIN 
+   
+-----<hr>
+!!!!!!!!!!!!!!!!!!!!!!!! IF
+1 : 5796967 / 0
+2 : 5796967 / 0
+-----<hr>
+(mysqli): 
+ UPDATE  member
+    SET  prepay_price = '0'
+        ,order_lack_price = '5796967'
+        ,cumul_sales_price = '6069270'
+  WHERE  member_seqno = '5' 
+   
+-----<hr>
+3 : 6233400 / 0
+4 : 6233400 / 0
+-----<hr>
+(mysqli): 
+ UPDATE  order_common
+    SET  order_lack_price = '6233400'
+  WHERE  order_common_seqno = '32' 
+   
+-----<hr>
+-----<hr>
+(mysqli): 
+ INSERT INTO member_pay_history (
+      member_seqno
+     ,deal_date
+     ,order_num
+     ,dvs
+     ,sell_price
+     ,sale_price
+     ,pay_price
+     ,depo_price
+     ,depo_way
+     ,exist_prepay
+     ,prepay_bal
+     ,state
+     ,deal_num
+     ,public_dvs
+     ,prepay_use_yn
+ ) VALUES (
+      '5'
+     ,now()
+     ,'14713090258217'
+     ,'사용'
+     ,'-'
+     ,'0'
+     ,'0'
+     ,'0'
+     ,'0'
+     ,'-'
+     ,'0'
+     ,'0'
+     ,'-'
+     ,'-'
+     ,'Y'
+ ) 
+   
+-----<hr>
+-----<hr>
+(mysqli): COMMIT 
+   
+-----<hr>
+Smart Commit occurred
+LOOP OUT
+-----<hr>
+(mysqli): 
+ SELECT  A.order_common_seqno
+        ,A.member_seqno
+        ,A.cate_sortcode
+        ,A.order_num
+        ,A.sell_price
+        ,A.pay_price
+        ,A.grade_sale_price
+        ,A.use_point_price
+        ,A.cp_price
+        ,A.order_lack_price
+   FROM  order_common AS A
+  WHERE  A.order_lack_price != 0 
+   
+-----<hr>
+-----<hr>
+(mysqli): 
+ SELECT flattyp_yn FROM cate
+ WHERE sortcode='003003001' 
+   
+-----<hr>
+-----<hr>
+(mysqli): 
+ SELECT  A.prepay_price
+        ,A.order_lack_price
+        ,A.cumul_sales_price
+   FROM  member AS A
+  WHERE  A.member_seqno = '5' 
+   
+-----<hr>
+-----<hr>
+(mysqli): BEGIN 
+   
+-----<hr>
+!!!!!!!!!!!!!!!!!!!!!!!! IF
+1 : 5796967 / 0
+2 : 5796967 / 0
+-----<hr>
+(mysqli): 
+ UPDATE  member
+    SET  prepay_price = '0'
+        ,order_lack_price = '5796967'
+        ,cumul_sales_price = '6069270'
+  WHERE  member_seqno = '5' 
+   
+-----<hr>
+3 : 6233400 / 0
+4 : 6233400 / 0
+-----<hr>
+(mysqli): 
+ UPDATE  order_common
+    SET  order_lack_price = '6233400'
+  WHERE  order_common_seqno = '32' 
+   
+-----<hr>
+-----<hr>
+(mysqli): 
+ INSERT INTO member_pay_history (
+      member_seqno
+     ,deal_date
+     ,order_num
+     ,dvs
+     ,sell_price
+     ,sale_price
+     ,pay_price
+     ,depo_price
+     ,depo_way
+     ,exist_prepay
+     ,prepay_bal
+     ,state
+     ,deal_num
+     ,public_dvs
+     ,prepay_use_yn
+ ) VALUES (
+      '5'
+     ,now()
+     ,'14713090258217'
+     ,'사용'
+     ,'-'
+     ,'0'
+     ,'0'
+     ,'0'
+     ,'0'
+     ,'-'
+     ,'0'
+     ,'0'
+     ,'-'
+     ,'-'
+     ,'Y'
+ ) 
+   
+-----<hr>
+-----<hr>
+(mysqli): COMMIT 
+   
+-----<hr>
+Smart Commit occurred
+LOOP OUT
+-----<hr>
+(mysqli): 
+ SELECT  A.order_common_seqno
+        ,A.member_seqno
+        ,A.cate_sortcode
+        ,A.order_num
+        ,A.sell_price
+        ,A.pay_price
+        ,A.grade_sale_price
+        ,A.use_point_price
+        ,A.cp_price
+        ,A.order_lack_price
+   FROM  order_common AS A
+  WHERE  A.order_lack_price != 0 
+   
+-----<hr>
+-----<hr>
+(mysqli): 
+ SELECT flattyp_yn FROM cate
+ WHERE sortcode='003003001' 
+   
+-----<hr>
+-----<hr>
+(mysqli): 
+ SELECT  A.prepay_price
+        ,A.order_lack_price
+        ,A.cumul_sales_price
+   FROM  member AS A
+  WHERE  A.member_seqno = '5' 
+   
+-----<hr>
+-----<hr>
+(mysqli): BEGIN 
+   
+-----<hr>
+!!!!!!!!!!!!!!!!!!!!!!!! IF
+1 : 5796967 / 0
+2 : 5796967 / 0
+-----<hr>
+(mysqli): 
+ UPDATE  member
+    SET  prepay_price = '0'
+        ,order_lack_price = '5796967'
+        ,cumul_sales_price = '6069270'
+  WHERE  member_seqno = '5' 
+   
+-----<hr>
+3 : 6233400 / 0
+4 : 6233400 / 0
+-----<hr>
+(mysqli): 
+ UPDATE  order_common
+    SET  order_lack_price = '6233400'
+  WHERE  order_common_seqno = '32' 
+   
+-----<hr>
+-----<hr>
+(mysqli): 
+ INSERT INTO member_pay_history (
+      member_seqno
+     ,deal_date
+     ,order_num
+     ,dvs
+     ,sell_price
+     ,sale_price
+     ,pay_price
+     ,depo_price
+     ,depo_way
+     ,exist_prepay
+     ,prepay_bal
+     ,state
+     ,deal_num
+     ,public_dvs
+     ,prepay_use_yn
+ ) VALUES (
+      '5'
+     ,now()
+     ,'14713090258217'
+     ,'사용'
+     ,'-'
+     ,'0'
+     ,'0'
+     ,'0'
+     ,'0'
+     ,'-'
+     ,'0'
+     ,'0'
+     ,'-'
+     ,'-'
+     ,'Y'
+ ) 
+   
+-----<hr>
+-----<hr>
+(mysqli): COMMIT 
+   
+-----<hr>
+Smart Commit occurred
+LOOP OUT
+-----<hr>
+(mysqli): 
+ SELECT  A.order_common_seqno
+        ,A.member_seqno
+        ,A.cate_sortcode
+        ,A.order_num
+        ,A.sell_price
+        ,A.pay_price
+        ,A.grade_sale_price
+        ,A.use_point_price
+        ,A.cp_price
+        ,A.order_lack_price
+   FROM  order_common AS A
+  WHERE  A.order_lack_price != 0 
+   
+-----<hr>
+-----<hr>
+(mysqli): 
+ SELECT flattyp_yn FROM cate
+ WHERE sortcode='003003001' 
+   
+-----<hr>
+-----<hr>
+(mysqli): 
+ SELECT  A.prepay_price
+        ,A.order_lack_price
+        ,A.cumul_sales_price
+   FROM  member AS A
+  WHERE  A.member_seqno = '5' 
+   
+-----<hr>
+-----<hr>
+(mysqli): BEGIN 
+   
+-----<hr>
+!!!!!!!!!!!!!!!!!!!!!!!! IF
+1 : 5796967 / 0
+2 : 5796967 / 0
+-----<hr>
+(mysqli): 
+ UPDATE  member
+    SET  prepay_price = '0'
+        ,order_lack_price = '5796967'
+        ,cumul_sales_price = '6069270'
+  WHERE  member_seqno = '5' 
+   
+-----<hr>
+3 : 6233400 / 0
+4 : 6233400 / 0
+-----<hr>
+(mysqli): 
+ UPDATE  order_common
+    SET  order_lack_price = '6233400'
+  WHERE  order_common_seqno = '32' 
+   
+-----<hr>
+-----<hr>
+(mysqli): 
+ INSERT INTO member_pay_history (
+      member_seqno
+     ,deal_date
+     ,order_num
+     ,dvs
+     ,sell_price
+     ,sale_price
+     ,pay_price
+     ,depo_price
+     ,depo_way
+     ,exist_prepay
+     ,prepay_bal
+     ,state
+     ,deal_num
+     ,public_dvs
+     ,prepay_use_yn
+ ) VALUES (
+      '5'
+     ,now()
+     ,'14713090258217'
+     ,'사용'
+     ,'-'
+     ,'0'
+     ,'0'
+     ,'0'
+     ,'0'
+     ,'-'
+     ,'0'
+     ,'0'
+     ,'-'
+     ,'-'
+     ,'Y'
+ ) 
+   
+-----<hr>
+-----<hr>
+(mysqli): COMMIT 
+   
+-----<hr>
+Smart Commit occurred
+LOOP OUT
+-----<hr>
+(mysqli): 
+ SELECT  A.order_common_seqno
+        ,A.member_seqno
+        ,A.cate_sortcode
+        ,A.order_num
+        ,A.sell_price
+        ,A.pay_price
+        ,A.grade_sale_price
+        ,A.use_point_price
+        ,A.cp_price
+        ,A.order_lack_price
+   FROM  order_common AS A
+  WHERE  A.order_lack_price != 0 
+   
+-----<hr>
+-----<hr>
+(mysqli): 
+ SELECT flattyp_yn FROM cate
+ WHERE sortcode='003003001' 
+   
+-----<hr>
+-----<hr>
+(mysqli): 
+ SELECT  A.prepay_price
+        ,A.order_lack_price
+        ,A.cumul_sales_price
+   FROM  member AS A
+  WHERE  A.member_seqno = '5' 
+   
+-----<hr>
+-----<hr>
+(mysqli): BEGIN 
+   
+-----<hr>
+!!!!!!!!!!!!!!!!!!!!!!!! IF
+1 : 5796967 / 0
+2 : 5796967 / 0
+-----<hr>
+(mysqli): 
+ UPDATE  member
+    SET  prepay_price = '0'
+        ,order_lack_price = '5796967'
+        ,cumul_sales_price = '6069270'
+  WHERE  member_seqno = '5' 
+   
+-----<hr>
+3 : 6233400 / 0
+4 : 6233400 / 0
+-----<hr>
+(mysqli): 
+ UPDATE  order_common
+    SET  order_lack_price = '6233400'
+  WHERE  order_common_seqno = '32' 
+   
+-----<hr>
+-----<hr>
+(mysqli): 
+ INSERT INTO member_pay_history (
+      member_seqno
+     ,deal_date
+     ,order_num
+     ,dvs
+     ,sell_price
+     ,sale_price
+     ,pay_price
+     ,depo_price
+     ,depo_way
+     ,exist_prepay
+     ,prepay_bal
+     ,state
+     ,deal_num
+     ,public_dvs
+     ,prepay_use_yn
+ ) VALUES (
+      '5'
+     ,now()
+     ,'14713090258217'
+     ,'사용'
+     ,'-'
+     ,'0'
+     ,'0'
+     ,'0'
+     ,'0'
+     ,'-'
+     ,'0'
+     ,'0'
+     ,'-'
+     ,'-'
+     ,'Y'
+ ) 
+   
+-----<hr>
+-----<hr>
+(mysqli): COMMIT 
+   
+-----<hr>
+Smart Commit occurred
+LOOP OUT
+-----<hr>
+(mysqli): 
+ SELECT  A.order_common_seqno
+        ,A.member_seqno
+        ,A.cate_sortcode
+        ,A.order_num
+        ,A.sell_price
+        ,A.pay_price
+        ,A.grade_sale_price
+        ,A.use_point_price
+        ,A.cp_price
+        ,A.order_lack_price
+   FROM  order_common AS A
+  WHERE  A.order_lack_price != 0 
+   
+-----<hr>
+-----<hr>
+(mysqli): 
+ SELECT flattyp_yn FROM cate
+ WHERE sortcode='003003001' 
+   
+-----<hr>
+-----<hr>
+(mysqli): 
+ SELECT  A.prepay_price
+        ,A.order_lack_price
+        ,A.cumul_sales_price
+   FROM  member AS A
+  WHERE  A.member_seqno = '5' 
+   
+-----<hr>
+-----<hr>
+(mysqli): BEGIN 
+   
+-----<hr>
+!!!!!!!!!!!!!!!!!!!!!!!! IF
+1 : 5796967 / 0
+2 : 5796967 / 0
+-----<hr>
+(mysqli): 
+ UPDATE  member
+    SET  prepay_price = '0'
+        ,order_lack_price = '5796967'
+        ,cumul_sales_price = '6069270'
+  WHERE  member_seqno = '5' 
+   
+-----<hr>
+3 : 6233400 / 0
+4 : 6233400 / 0
+-----<hr>
+(mysqli): 
+ UPDATE  order_common
+    SET  order_lack_price = '6233400'
+  WHERE  order_common_seqno = '32' 
+   
+-----<hr>
+-----<hr>
+(mysqli): 
+ INSERT INTO member_pay_history (
+      member_seqno
+     ,deal_date
+     ,order_num
+     ,dvs
+     ,sell_price
+     ,sale_price
+     ,pay_price
+     ,depo_price
+     ,depo_way
+     ,exist_prepay
+     ,prepay_bal
+     ,state
+     ,deal_num
+     ,public_dvs
+     ,prepay_use_yn
+ ) VALUES (
+      '5'
+     ,now()
+     ,'14713090258217'
+     ,'사용'
+     ,'-'
+     ,'0'
+     ,'0'
+     ,'0'
+     ,'0'
+     ,'-'
+     ,'0'
+     ,'0'
+     ,'-'
+     ,'-'
+     ,'Y'
+ ) 
+   
+-----<hr>
+-----<hr>
+(mysqli): COMMIT 
+   
+-----<hr>
+Smart Commit occurred
+LOOP OUT
+-----<hr>
+(mysqli): 
+ SELECT  A.order_common_seqno
+        ,A.member_seqno
+        ,A.cate_sortcode
+        ,A.order_num
+        ,A.sell_price
+        ,A.pay_price
+        ,A.grade_sale_price
+        ,A.use_point_price
+        ,A.cp_price
+        ,A.order_lack_price
+   FROM  order_common AS A
+  WHERE  A.order_lack_price != 0 
+   
+-----<hr>
+-----<hr>
+(mysqli): 
+ SELECT flattyp_yn FROM cate
+ WHERE sortcode='003003001' 
+   
+-----<hr>
+-----<hr>
+(mysqli): 
+ SELECT  A.prepay_price
+        ,A.order_lack_price
+        ,A.cumul_sales_price
+   FROM  member AS A
+  WHERE  A.member_seqno = '5' 
+   
+-----<hr>
+-----<hr>
+(mysqli): BEGIN 
+   
+-----<hr>
+!!!!!!!!!!!!!!!!!!!!!!!! IF
+1 : 5796967 / 0
+2 : 5796967 / 0
+-----<hr>
+(mysqli): 
+ UPDATE  member
+    SET  prepay_price = '0'
+        ,order_lack_price = '5796967'
+        ,cumul_sales_price = '6069270'
+  WHERE  member_seqno = '5' 
+   
+-----<hr>
+3 : 6233400 / 0
+4 : 6233400 / 0
+-----<hr>
+(mysqli): 
+ UPDATE  order_common
+    SET  order_lack_price = '6233400'
+  WHERE  order_common_seqno = '32' 
+   
+-----<hr>
+-----<hr>
+(mysqli): 
+ INSERT INTO member_pay_history (
+      member_seqno
+     ,deal_date
+     ,order_num
+     ,dvs
+     ,sell_price
+     ,sale_price
+     ,pay_price
+     ,depo_price
+     ,depo_way
+     ,exist_prepay
+     ,prepay_bal
+     ,state
+     ,deal_num
+     ,public_dvs
+     ,prepay_use_yn
+ ) VALUES (
+      '5'
+     ,now()
+     ,'14713090258217'
+     ,'사용'
+     ,'-'
+     ,'0'
+     ,'0'
+     ,'0'
+     ,'0'
+     ,'-'
+     ,'0'
+     ,'0'
+     ,'-'
+     ,'-'
+     ,'Y'
+ ) 
+   
+-----<hr>
+-----<hr>
+(mysqli): COMMIT 
+   
+-----<hr>
+Smart Commit occurred
+LOOP OUT
+-----<hr>
+(mysqli): 
+ SELECT  A.order_common_seqno
+        ,A.member_seqno
+        ,A.cate_sortcode
+        ,A.order_num
+        ,A.sell_price
+        ,A.pay_price
+        ,A.grade_sale_price
+        ,A.use_point_price
+        ,A.cp_price
+        ,A.order_lack_price
+   FROM  order_common AS A
+  WHERE  A.order_lack_price != 0 
+   
+-----<hr>
+-----<hr>
+(mysqli): 
+ SELECT flattyp_yn FROM cate
+ WHERE sortcode='003003001' 
+   
+-----<hr>
+-----<hr>
+(mysqli): 
+ SELECT  A.prepay_price
+        ,A.order_lack_price
+        ,A.cumul_sales_price
+   FROM  member AS A
+  WHERE  A.member_seqno = '5' 
+   
+-----<hr>
+-----<hr>
+(mysqli): BEGIN 
+   
+-----<hr>
+!!!!!!!!!!!!!!!!!!!!!!!! IF
+1 : 5796967 / 0
+2 : 5796967 / 0
+-----<hr>
+(mysqli): 
+ UPDATE  member
+    SET  prepay_price = '0'
+        ,order_lack_price = '5796967'
+        ,cumul_sales_price = '6069270'
+  WHERE  member_seqno = '5' 
+   
+-----<hr>
+3 : 6233400 / 0
+4 : 6233400 / 0
+-----<hr>
+(mysqli): 
+ UPDATE  order_common
+    SET  order_lack_price = '6233400'
+  WHERE  order_common_seqno = '32' 
+   
+-----<hr>
+-----<hr>
+(mysqli): 
+ INSERT INTO member_pay_history (
+      member_seqno
+     ,deal_date
+     ,order_num
+     ,dvs
+     ,sell_price
+     ,sale_price
+     ,pay_price
+     ,depo_price
+     ,depo_way
+     ,exist_prepay
+     ,prepay_bal
+     ,state
+     ,deal_num
+     ,public_dvs
+     ,prepay_use_yn
+ ) VALUES (
+      '5'
+     ,now()
+     ,'14713090258217'
+     ,'사용'
+     ,'-'
+     ,'0'
+     ,'0'
+     ,'0'
+     ,'0'
+     ,'-'
+     ,'0'
+     ,'0'
+     ,'-'
+     ,'-'
+     ,'Y'
+ ) 
+   
+-----<hr>
+-----<hr>
+(mysqli): COMMIT 
+   
+-----<hr>
+Smart Commit occurred
+LOOP OUT
+-----<hr>
+(mysqli): 
+ SELECT  A.order_common_seqno
+        ,A.member_seqno
+        ,A.cate_sortcode
+        ,A.order_num
+        ,A.sell_price
+        ,A.pay_price
+        ,A.grade_sale_price
+        ,A.use_point_price
+        ,A.cp_price
+        ,A.order_lack_price
+   FROM  order_common AS A
+  WHERE  A.order_lack_price != 0 
+   
+-----<hr>
+-----<hr>
+(mysqli): 
+ SELECT flattyp_yn FROM cate
+ WHERE sortcode='003003001' 
+   
+-----<hr>
+-----<hr>
+(mysqli): 
+ SELECT  A.prepay_price
+        ,A.order_lack_price
+        ,A.cumul_sales_price
+   FROM  member AS A
+  WHERE  A.member_seqno = '5' 
+   
+-----<hr>
+-----<hr>
+(mysqli): BEGIN 
+   
+-----<hr>
+!!!!!!!!!!!!!!!!!!!!!!!! IF
+1 : 5796967 / 0
+2 : 5796967 / 0
+-----<hr>
+(mysqli): 
+ UPDATE  member
+    SET  prepay_price = '0'
+        ,order_lack_price = '5796967'
+        ,cumul_sales_price = '6069270'
+  WHERE  member_seqno = '5' 
+   
+-----<hr>
+3 : 6233400 / 0
+4 : 6233400 / 0
+-----<hr>
+(mysqli): 
+ UPDATE  order_common
+    SET  order_lack_price = '6233400'
+  WHERE  order_common_seqno = '32' 
+   
+-----<hr>
+-----<hr>
+(mysqli): 
+ INSERT INTO member_pay_history (
+      member_seqno
+     ,deal_date
+     ,order_num
+     ,dvs
+     ,sell_price
+     ,sale_price
+     ,pay_price
+     ,depo_price
+     ,depo_way
+     ,exist_prepay
+     ,prepay_bal
+     ,state
+     ,deal_num
+     ,public_dvs
+     ,prepay_use_yn
+ ) VALUES (
+      '5'
+     ,now()
+     ,'14713090258217'
+     ,'사용'
+     ,'-'
+     ,'0'
+     ,'0'
+     ,'0'
+     ,'0'
+     ,'-'
+     ,'0'
+     ,'0'
+     ,'-'
+     ,'-'
+     ,'Y'
+ ) 
+   
+-----<hr>
+-----<hr>
+(mysqli): COMMIT 
+   
+-----<hr>
+Smart Commit occurred
+LOOP OUT
+-----<hr>
+(mysqli): 
+ SELECT  A.order_common_seqno
+        ,A.member_seqno
+        ,A.cate_sortcode
+        ,A.order_num
+        ,A.sell_price
+        ,A.pay_price
+        ,A.grade_sale_price
+        ,A.use_point_price
+        ,A.cp_price
+        ,A.order_lack_price
+   FROM  order_common AS A
+  WHERE  A.order_lack_price != 0 
+   
+-----<hr>
+-----<hr>
+(mysqli): 
+ SELECT flattyp_yn FROM cate
+ WHERE sortcode='003003001' 
+   
+-----<hr>
+-----<hr>
+(mysqli): 
+ SELECT  A.prepay_price
+        ,A.order_lack_price
+        ,A.cumul_sales_price
+   FROM  member AS A
+  WHERE  A.member_seqno = '5' 
+   
+-----<hr>
+-----<hr>
+(mysqli): BEGIN 
+   
+-----<hr>
+!!!!!!!!!!!!!!!!!!!!!!!! IF
+1 : 5796967 / 0
+2 : 5796967 / 0
+-----<hr>
+(mysqli): 
+ UPDATE  member
+    SET  prepay_price = '0'
+        ,order_lack_price = '5796967'
+        ,cumul_sales_price = '6069270'
+  WHERE  member_seqno = '5' 
+   
+-----<hr>
+3 : 6233400 / 0
+4 : 6233400 / 0
+-----<hr>
+(mysqli): 
+ UPDATE  order_common
+    SET  order_lack_price = '6233400'
+  WHERE  order_common_seqno = '32' 
+   
+-----<hr>
+-----<hr>
+(mysqli): 
+ INSERT INTO member_pay_history (
+      member_seqno
+     ,deal_date
+     ,order_num
+     ,dvs
+     ,sell_price
+     ,sale_price
+     ,pay_price
+     ,depo_price
+     ,depo_way
+     ,exist_prepay
+     ,prepay_bal
+     ,state
+     ,deal_num
+     ,public_dvs
+     ,prepay_use_yn
+ ) VALUES (
+      '5'
+     ,now()
+     ,'14713090258217'
+     ,'사용'
+     ,'-'
+     ,'0'
+     ,'0'
+     ,'0'
+     ,'0'
+     ,'-'
+     ,'0'
+     ,'0'
+     ,'-'
+     ,'-'
+     ,'Y'
+ ) 
+   
+-----<hr>
+-----<hr>
+(mysqli): COMMIT 
+   
+-----<hr>
+Smart Commit occurred
+LOOP OUT
+-----<hr>
+(mysqli): 
+ SELECT  A.order_common_seqno
+        ,A.member_seqno
+        ,A.cate_sortcode
+        ,A.order_num
+        ,A.sell_price
+        ,A.pay_price
+        ,A.grade_sale_price
+        ,A.use_point_price
+        ,A.cp_price
+        ,A.order_lack_price
+   FROM  order_common AS A
+  WHERE  A.order_lack_price != 0 
+   
+-----<hr>
+-----<hr>
+(mysqli): 
+ SELECT flattyp_yn FROM cate
+ WHERE sortcode='003003001' 
+   
+-----<hr>
+-----<hr>
+(mysqli): 
+ SELECT  A.prepay_price
+        ,A.order_lack_price
+        ,A.cumul_sales_price
+   FROM  member AS A
+  WHERE  A.member_seqno = '5' 
+   
+-----<hr>
+-----<hr>
+(mysqli): BEGIN 
+   
+-----<hr>
+!!!!!!!!!!!!!!!!!!!!!!!! IF
+1 : 5796967 / 0
+2 : 5796967 / 0
+-----<hr>
+(mysqli): 
+ UPDATE  member
+    SET  prepay_price = '0'
+        ,order_lack_price = '5796967'
+        ,cumul_sales_price = '6069270'
+  WHERE  member_seqno = '5' 
+   
+-----<hr>
+3 : 6233400 / 0
+4 : 6233400 / 0
+-----<hr>
+(mysqli): 
+ UPDATE  order_common
+    SET  order_lack_price = '6233400'
+  WHERE  order_common_seqno = '32' 
+   
+-----<hr>
+-----<hr>
+(mysqli): 
+ INSERT INTO member_pay_history (
+      member_seqno
+     ,deal_date
+     ,order_num
+     ,dvs
+     ,sell_price
+     ,sale_price
+     ,pay_price
+     ,depo_price
+     ,depo_way
+     ,exist_prepay
+     ,prepay_bal
+     ,state
+     ,deal_num
+     ,public_dvs
+     ,prepay_use_yn
+ ) VALUES (
+      '5'
+     ,now()
+     ,'14713090258217'
+     ,'사용'
+     ,'-'
+     ,'0'
+     ,'0'
+     ,'0'
+     ,'0'
+     ,'-'
+     ,'0'
+     ,'0'
+     ,'-'
+     ,'-'
+     ,'Y'
+ ) 
+   
+-----<hr>
+-----<hr>
+(mysqli): COMMIT 
+   
+-----<hr>
+Smart Commit occurred
+LOOP OUT
+-----<hr>
+(mysqli): 
+ SELECT  A.order_common_seqno
+        ,A.member_seqno
+        ,A.cate_sortcode
+        ,A.order_num
+        ,A.sell_price
+        ,A.pay_price
+        ,A.grade_sale_price
+        ,A.use_point_price
+        ,A.cp_price
+        ,A.order_lack_price
+   FROM  order_common AS A
+  WHERE  A.order_lack_price != 0 
+   
+-----<hr>
+-----<hr>
+(mysqli): 
+ SELECT flattyp_yn FROM cate
+ WHERE sortcode='003003001' 
+   
+-----<hr>
+-----<hr>
+(mysqli): 
+ SELECT  A.prepay_price
+        ,A.order_lack_price
+        ,A.cumul_sales_price
+   FROM  member AS A
+  WHERE  A.member_seqno = '5' 
+   
+-----<hr>
+-----<hr>
+(mysqli): BEGIN 
+   
+-----<hr>
+!!!!!!!!!!!!!!!!!!!!!!!! IF
+1 : 5796967 / 0
+2 : 5796967 / 0
+-----<hr>
+(mysqli): 
+ UPDATE  member
+    SET  prepay_price = '0'
+        ,order_lack_price = '5796967'
+        ,cumul_sales_price = '6069270'
+  WHERE  member_seqno = '5' 
+   
+-----<hr>
+3 : 6233400 / 0
+4 : 6233400 / 0
+-----<hr>
+(mysqli): 
+ UPDATE  order_common
+    SET  order_lack_price = '6233400'
+  WHERE  order_common_seqno = '32' 
+   
+-----<hr>
+-----<hr>
+(mysqli): 
+ INSERT INTO member_pay_history (
+      member_seqno
+     ,deal_date
+     ,order_num
+     ,dvs
+     ,sell_price
+     ,sale_price
+     ,pay_price
+     ,depo_price
+     ,depo_way
+     ,exist_prepay
+     ,prepay_bal
+     ,state
+     ,deal_num
+     ,public_dvs
+     ,prepay_use_yn
+ ) VALUES (
+      '5'
+     ,now()
+     ,'14713090258217'
+     ,'사용'
+     ,'-'
+     ,'0'
+     ,'0'
+     ,'0'
+     ,'0'
+     ,'-'
+     ,'0'
+     ,'0'
+     ,'-'
+     ,'-'
+     ,'Y'
+ ) 
+   
+-----<hr>
+-----<hr>
+(mysqli): COMMIT 
+   
+-----<hr>
+Smart Commit occurred
+LOOP OUT
+-----<hr>
+(mysqli): 
+ SELECT  A.order_common_seqno
+        ,A.member_seqno
+        ,A.cate_sortcode
+        ,A.order_num
+        ,A.sell_price
+        ,A.pay_price
+        ,A.grade_sale_price
+        ,A.use_point_price
+        ,A.cp_price
+        ,A.order_lack_price
+   FROM  order_common AS A
+  WHERE  A.order_lack_price != 0 
+   
+-----<hr>
+-----<hr>
+(mysqli): 
+ SELECT flattyp_yn FROM cate
+ WHERE sortcode='003003001' 
+   
+-----<hr>
+-----<hr>
+(mysqli): 
+ SELECT  A.prepay_price
+        ,A.order_lack_price
+        ,A.cumul_sales_price
+   FROM  member AS A
+  WHERE  A.member_seqno = '5' 
+   
+-----<hr>
+-----<hr>
+(mysqli): BEGIN 
+   
+-----<hr>
+!!!!!!!!!!!!!!!!!!!!!!!! IF
+1 : 5796967 / 0
+2 : 5796967 / 0
+-----<hr>
+(mysqli): 
+ UPDATE  member
+    SET  prepay_price = '0'
+        ,order_lack_price = '5796967'
+        ,cumul_sales_price = '6069270'
+  WHERE  member_seqno = '5' 
+   
+-----<hr>
+3 : 6233400 / 0
+4 : 6233400 / 0
+-----<hr>
+(mysqli): 
+ UPDATE  order_common
+    SET  order_lack_price = '6233400'
+  WHERE  order_common_seqno = '32' 
+   
+-----<hr>
+-----<hr>
+(mysqli): 
+ INSERT INTO member_pay_history (
+      member_seqno
+     ,deal_date
+     ,order_num
+     ,dvs
+     ,sell_price
+     ,sale_price
+     ,pay_price
+     ,depo_price
+     ,depo_way
+     ,exist_prepay
+     ,prepay_bal
+     ,state
+     ,deal_num
+     ,public_dvs
+     ,prepay_use_yn
+ ) VALUES (
+      '5'
+     ,now()
+     ,'14713090258217'
+     ,'사용'
+     ,'-'
+     ,'0'
+     ,'0'
+     ,'0'
+     ,'0'
+     ,'-'
+     ,'0'
+     ,'0'
+     ,'-'
+     ,'-'
+     ,'Y'
+ ) 
+   
+-----<hr>
+-----<hr>
+(mysqli): COMMIT 
+   
+-----<hr>
+Smart Commit occurred
+LOOP OUT
+Kill PROCESS

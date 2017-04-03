@@ -1,0 +1,595 @@
+
+ UPDATE  cate_print
+    SET  seq = '1'
+  WHERE  cate_print_seqno = '97'
+ UPDATE  cate_print
+    SET  seq = '1'
+  WHERE  cate_print_seqno = '102'
+ UPDATE  cate_print
+    SET  seq = '2'
+  WHERE  cate_print_seqno = '101'
+ UPDATE  cate_print
+    SET  seq = '3'
+  WHERE  cate_print_seqno = '100'
+ UPDATE  cate_print
+    SET  seq = '1'
+  WHERE  cate_print_seqno = '105'
+ UPDATE  cate_print
+    SET  seq = '2'
+  WHERE  cate_print_seqno = '104'
+ UPDATE  cate_print
+    SET  seq = '3'
+  WHERE  cate_print_seqno = '103'
+ UPDATE  cate_print
+    SET  seq = '1'
+  WHERE  cate_print_seqno = '107'
+ UPDATE  cate_print
+    SET  seq = '2'
+  WHERE  cate_print_seqno = '106'
+ UPDATE  cate_print
+    SET  seq = '1'
+  WHERE  cate_print_seqno = '109'
+ UPDATE  cate_print
+    SET  seq = '2'
+  WHERE  cate_print_seqno = '108'
+ UPDATE  cate_print
+    SET  seq = '1'
+  WHERE  cate_print_seqno = '111'
+ UPDATE  cate_print
+    SET  seq = '2'
+  WHERE  cate_print_seqno = '110'
+ UPDATE  cate_print
+    SET  seq = '1'
+  WHERE  cate_print_seqno = '112'
+ UPDATE  cate_print
+    SET  seq = '1'
+  WHERE  cate_print_seqno = '113'
+ UPDATE  cate_print
+    SET  seq = '1'
+  WHERE  cate_print_seqno = '114'
+ UPDATE  cate_print
+    SET  seq = '1'
+  WHERE  cate_print_seqno = '115'
+ UPDATE  cate_print
+    SET  seq = '1'
+  WHERE  cate_print_seqno = '116'
+ UPDATE  cate_print
+    SET  seq = '1'
+  WHERE  cate_print_seqno = '117'
+ UPDATE  cate_print
+    SET  seq = '1'
+  WHERE  cate_print_seqno = '118'
+ UPDATE  cate_print
+    SET  seq = '1'
+  WHERE  cate_print_seqno = '119'
+ UPDATE  cate_print
+    SET  seq = '1'
+  WHERE  cate_print_seqno = '120'
+ UPDATE  cate_print
+    SET  seq = '1'
+  WHERE  cate_print_seqno = '121'
+ UPDATE  cate_print
+    SET  seq = '1'
+  WHERE  cate_print_seqno = '122'
+ UPDATE  cate_print
+    SET  seq = '1'
+  WHERE  cate_print_seqno = '123'
+ UPDATE  cate_print
+    SET  seq = '1'
+  WHERE  cate_print_seqno = '124'
+ UPDATE  cate_print
+    SET  seq = '1'
+  WHERE  cate_print_seqno = '125'
+ UPDATE  cate_print
+    SET  seq = '1'
+  WHERE  cate_print_seqno = '126'
+ UPDATE  cate_print
+    SET  seq = '1'
+  WHERE  cate_print_seqno = '127'
+ UPDATE  cate_print
+    SET  seq = '1'
+  WHERE  cate_print_seqno = '128'
+ UPDATE  cate_print
+    SET  seq = '1'
+  WHERE  cate_print_seqno = '129'
+ UPDATE  cate_print
+    SET  seq = '1'
+  WHERE  cate_print_seqno = '131'
+ UPDATE  cate_print
+    SET  seq = '2'
+  WHERE  cate_print_seqno = '130'
+ UPDATE  cate_print
+    SET  seq = '1'
+  WHERE  cate_print_seqno = '133'
+ UPDATE  cate_print
+    SET  seq = '2'
+  WHERE  cate_print_seqno = '132'
+ UPDATE  cate_print
+    SET  seq = '1'
+  WHERE  cate_print_seqno = '445'
+ UPDATE  cate_print
+    SET  seq = '1'
+  WHERE  cate_print_seqno = '134'
+ UPDATE  cate_print
+    SET  seq = '1'
+  WHERE  cate_print_seqno = '442'
+ UPDATE  cate_print
+    SET  seq = '1'
+  WHERE  cate_print_seqno = '137'
+ UPDATE  cate_print
+    SET  seq = '2'
+  WHERE  cate_print_seqno = '135'
+ UPDATE  cate_print
+    SET  seq = '2'
+  WHERE  cate_print_seqno = '443'
+ UPDATE  cate_print
+    SET  seq = '2'
+  WHERE  cate_print_seqno = '138'
+ UPDATE  cate_print
+    SET  seq = '2'
+  WHERE  cate_print_seqno = '446'
+ UPDATE  cate_print
+    SET  seq = '3'
+  WHERE  cate_print_seqno = '136'
+ UPDATE  cate_print
+    SET  seq = '3'
+  WHERE  cate_print_seqno = '444'
+ UPDATE  cate_print
+    SET  seq = '1'
+  WHERE  cate_print_seqno = '521'
+ UPDATE  cate_print
+    SET  seq = '1'
+  WHERE  cate_print_seqno = '481'
+ UPDATE  cate_print
+    SET  seq = '1'
+  WHERE  cate_print_seqno = '482'
+ UPDATE  cate_print
+    SET  seq = '1'
+  WHERE  cate_print_seqno = '514'
+ UPDATE  cate_print
+    SET  seq = '1'
+  WHERE  cate_print_seqno = '515'
+ UPDATE  cate_print
+    SET  seq = '1'
+  WHERE  cate_print_seqno = '472'
+ UPDATE  cate_print
+    SET  seq = '1'
+  WHERE  cate_print_seqno = '473'
+ UPDATE  cate_print
+    SET  seq = '1'
+  WHERE  cate_print_seqno = '520'
+ UPDATE  cate_print
+    SET  seq = '2'
+  WHERE  cate_print_seqno = '516'
+ UPDATE  cate_print
+    SET  seq = '2'
+  WHERE  cate_print_seqno = '517'
+ UPDATE  cate_print
+    SET  seq = '2'
+  WHERE  cate_print_seqno = '475'
+ UPDATE  cate_print
+    SET  seq = '2'
+  WHERE  cate_print_seqno = '476'
+ UPDATE  cate_print
+    SET  seq = '2'
+  WHERE  cate_print_seqno = '522'
+ UPDATE  cate_print
+    SET  seq = '2'
+  WHERE  cate_print_seqno = '523'
+ UPDATE  cate_print
+    SET  seq = '2'
+  WHERE  cate_print_seqno = '484'
+ UPDATE  cate_print
+    SET  seq = '2'
+  WHERE  cate_print_seqno = '485'
+ UPDATE  cate_print
+    SET  seq = '3'
+  WHERE  cate_print_seqno = '518'
+ UPDATE  cate_print
+    SET  seq = '3'
+  WHERE  cate_print_seqno = '519'
+ UPDATE  cate_print
+    SET  seq = '3'
+  WHERE  cate_print_seqno = '478'
+ UPDATE  cate_print
+    SET  seq = '3'
+  WHERE  cate_print_seqno = '479'
+ UPDATE  cate_print
+    SET  seq = '1'
+  WHERE  cate_print_seqno = '492'
+ UPDATE  cate_print
+    SET  seq = '1'
+  WHERE  cate_print_seqno = '144'
+ UPDATE  cate_print
+    SET  seq = '1'
+  WHERE  cate_print_seqno = '489'
+ UPDATE  cate_print
+    SET  seq = '1'
+  WHERE  cate_print_seqno = '147'
+ UPDATE  cate_print
+    SET  seq = '2'
+  WHERE  cate_print_seqno = '145'
+ UPDATE  cate_print
+    SET  seq = '2'
+  WHERE  cate_print_seqno = '490'
+ UPDATE  cate_print
+    SET  seq = '2'
+  WHERE  cate_print_seqno = '148'
+ UPDATE  cate_print
+    SET  seq = '2'
+  WHERE  cate_print_seqno = '493'
+ UPDATE  cate_print
+    SET  seq = '3'
+  WHERE  cate_print_seqno = '146'
+ UPDATE  cate_print
+    SET  seq = '3'
+  WHERE  cate_print_seqno = '491'
+ UPDATE  cate_print
+    SET  seq = '1'
+  WHERE  cate_print_seqno = '504'
+ UPDATE  cate_print
+    SET  seq = '1'
+  WHERE  cate_print_seqno = '507'
+ UPDATE  cate_print
+    SET  seq = '1'
+  WHERE  cate_print_seqno = '506'
+ UPDATE  cate_print
+    SET  seq = '1'
+  WHERE  cate_print_seqno = '505'
+ UPDATE  cate_print
+    SET  seq = '2'
+  WHERE  cate_print_seqno = '513'
+ UPDATE  cate_print
+    SET  seq = '2'
+  WHERE  cate_print_seqno = '512'
+ UPDATE  cate_print
+    SET  seq = '2'
+  WHERE  cate_print_seqno = '510'
+ UPDATE  cate_print
+    SET  seq = '2'
+  WHERE  cate_print_seqno = '511'
+ UPDATE  cate_print
+    SET  seq = '3'
+  WHERE  cate_print_seqno = '509'
+ UPDATE  cate_print
+    SET  seq = '3'
+  WHERE  cate_print_seqno = '508'
+ UPDATE  cate_print
+    SET  seq = '1'
+  WHERE  cate_print_seqno = '156'
+ UPDATE  cate_print
+    SET  seq = '1'
+  WHERE  cate_print_seqno = '488'
+ UPDATE  cate_print
+    SET  seq = '1'
+  WHERE  cate_print_seqno = '154'
+ UPDATE  cate_print
+    SET  seq = '1'
+  WHERE  cate_print_seqno = '486'
+ UPDATE  cate_print
+    SET  seq = '2'
+  WHERE  cate_print_seqno = '155'
+ UPDATE  cate_print
+    SET  seq = '2'
+  WHERE  cate_print_seqno = '487'
+ UPDATE  cate_print
+    SET  seq = '1'
+  WHERE  cate_print_seqno = '159'
+ UPDATE  cate_print
+    SET  seq = '1'
+  WHERE  cate_print_seqno = '157'
+ UPDATE  cate_print
+    SET  seq = '2'
+  WHERE  cate_print_seqno = '158'
+ UPDATE  cate_print
+    SET  seq = '1'
+  WHERE  cate_print_seqno = '162'
+ UPDATE  cate_print
+    SET  seq = '1'
+  WHERE  cate_print_seqno = '160'
+ UPDATE  cate_print
+    SET  seq = '2'
+  WHERE  cate_print_seqno = '161'
+ UPDATE  cate_print
+    SET  seq = '1'
+  WHERE  cate_print_seqno = '165'
+ UPDATE  cate_print
+    SET  seq = '1'
+  WHERE  cate_print_seqno = '163'
+ UPDATE  cate_print
+    SET  seq = '2'
+  WHERE  cate_print_seqno = '164'
+ UPDATE  cate_print
+    SET  seq = '1'
+  WHERE  cate_print_seqno = '170'
+ UPDATE  cate_print
+    SET  seq = '1'
+  WHERE  cate_print_seqno = '503'
+ UPDATE  cate_print
+    SET  seq = '1'
+  WHERE  cate_print_seqno = '167'
+ UPDATE  cate_print
+    SET  seq = '1'
+  WHERE  cate_print_seqno = '500'
+ UPDATE  cate_print
+    SET  seq = '2'
+  WHERE  cate_print_seqno = '502'
+ UPDATE  cate_print
+    SET  seq = '2'
+  WHERE  cate_print_seqno = '166'
+ UPDATE  cate_print
+    SET  seq = '2'
+  WHERE  cate_print_seqno = '499'
+ UPDATE  cate_print
+    SET  seq = '2'
+  WHERE  cate_print_seqno = '169'
+ UPDATE  cate_print
+    SET  seq = '3'
+  WHERE  cate_print_seqno = '168'
+ UPDATE  cate_print
+    SET  seq = '3'
+  WHERE  cate_print_seqno = '501'
+ UPDATE  cate_print
+    SET  seq = '1'
+  WHERE  cate_print_seqno = '440'
+ UPDATE  cate_print
+    SET  seq = '1'
+  WHERE  cate_print_seqno = '441'
+ UPDATE  cate_print
+    SET  seq = '1'
+  WHERE  cate_print_seqno = '175'
+ UPDATE  cate_print
+    SET  seq = '1'
+  WHERE  cate_print_seqno = '177'
+ UPDATE  cate_print
+    SET  seq = '2'
+  WHERE  cate_print_seqno = '176'
+ UPDATE  cate_print
+    SET  seq = '1'
+  WHERE  cate_print_seqno = '179'
+ UPDATE  cate_print
+    SET  seq = '2'
+  WHERE  cate_print_seqno = '178'
+ UPDATE  cate_print
+    SET  seq = '1'
+  WHERE  cate_print_seqno = '181'
+ UPDATE  cate_print
+    SET  seq = '2'
+  WHERE  cate_print_seqno = '180'
+ UPDATE  cate_print
+    SET  seq = '1'
+  WHERE  cate_print_seqno = '183'
+ UPDATE  cate_print
+    SET  seq = '2'
+  WHERE  cate_print_seqno = '182'
+ UPDATE  cate_print
+    SET  seq = '1'
+  WHERE  cate_print_seqno = '525'
+ UPDATE  cate_print
+    SET  seq = '2'
+  WHERE  cate_print_seqno = '524'
+ UPDATE  cate_print
+    SET  seq = '1'
+  WHERE  cate_print_seqno = '184'
+ UPDATE  cate_print
+    SET  seq = '1'
+  WHERE  cate_print_seqno = '185'
+ UPDATE  cate_print
+    SET  seq = '1'
+  WHERE  cate_print_seqno = '186'
+ UPDATE  cate_print
+    SET  seq = '1'
+  WHERE  cate_print_seqno = '187'
+ UPDATE  cate_print
+    SET  seq = '1'
+  WHERE  cate_print_seqno = '188'
+ UPDATE  cate_print
+    SET  seq = '1'
+  WHERE  cate_print_seqno = '189'
+ UPDATE  cate_print
+    SET  seq = '1'
+  WHERE  cate_print_seqno = '408'
+ UPDATE  cate_print
+    SET  seq = '2'
+  WHERE  cate_print_seqno = '409'
+ UPDATE  cate_print
+    SET  seq = '3'
+  WHERE  cate_print_seqno = '407'
+ UPDATE  cate_print
+    SET  seq = '1'
+  WHERE  cate_print_seqno = '411'
+ UPDATE  cate_print
+    SET  seq = '2'
+  WHERE  cate_print_seqno = '412'
+ UPDATE  cate_print
+    SET  seq = '3'
+  WHERE  cate_print_seqno = '410'
+ UPDATE  cate_print
+    SET  seq = '1'
+  WHERE  cate_print_seqno = '414'
+ UPDATE  cate_print
+    SET  seq = '2'
+  WHERE  cate_print_seqno = '415'
+ UPDATE  cate_print
+    SET  seq = '3'
+  WHERE  cate_print_seqno = '413'
+ UPDATE  cate_print
+    SET  seq = '1'
+  WHERE  cate_print_seqno = '417'
+ UPDATE  cate_print
+    SET  seq = '2'
+  WHERE  cate_print_seqno = '418'
+ UPDATE  cate_print
+    SET  seq = '3'
+  WHERE  cate_print_seqno = '416'
+ UPDATE  cate_print
+    SET  seq = '1'
+  WHERE  cate_print_seqno = '420'
+ UPDATE  cate_print
+    SET  seq = '2'
+  WHERE  cate_print_seqno = '421'
+ UPDATE  cate_print
+    SET  seq = '3'
+  WHERE  cate_print_seqno = '419'
+ UPDATE  cate_print
+    SET  seq = '1'
+  WHERE  cate_print_seqno = '423'
+ UPDATE  cate_print
+    SET  seq = '2'
+  WHERE  cate_print_seqno = '424'
+ UPDATE  cate_print
+    SET  seq = '3'
+  WHERE  cate_print_seqno = '422'
+ UPDATE  cate_print
+    SET  seq = '1'
+  WHERE  cate_print_seqno = '426'
+ UPDATE  cate_print
+    SET  seq = '2'
+  WHERE  cate_print_seqno = '427'
+ UPDATE  cate_print
+    SET  seq = '3'
+  WHERE  cate_print_seqno = '425'
+ UPDATE  cate_print
+    SET  seq = '1'
+  WHERE  cate_print_seqno = '429'
+ UPDATE  cate_print
+    SET  seq = '2'
+  WHERE  cate_print_seqno = '430'
+ UPDATE  cate_print
+    SET  seq = '3'
+  WHERE  cate_print_seqno = '428'
+ UPDATE  cate_print
+    SET  seq = '1'
+  WHERE  cate_print_seqno = '432'
+ UPDATE  cate_print
+    SET  seq = '2'
+  WHERE  cate_print_seqno = '433'
+ UPDATE  cate_print
+    SET  seq = '3'
+  WHERE  cate_print_seqno = '431'
+ UPDATE  cate_print
+    SET  seq = '1'
+  WHERE  cate_print_seqno = '280'
+ UPDATE  cate_print
+    SET  seq = '2'
+  WHERE  cate_print_seqno = '279'
+ UPDATE  cate_print
+    SET  seq = '1'
+  WHERE  cate_print_seqno = '529'
+ UPDATE  cate_print
+    SET  seq = '1'
+  WHERE  cate_print_seqno = '538'
+ UPDATE  cate_print
+    SET  seq = '1'
+  WHERE  cate_print_seqno = '539'
+ UPDATE  cate_print
+    SET  seq = '1'
+  WHERE  cate_print_seqno = '540'
+ UPDATE  cate_print
+    SET  seq = '1'
+  WHERE  cate_print_seqno = '541'
+ UPDATE  cate_print
+    SET  seq = '1'
+  WHERE  cate_print_seqno = '526'
+ UPDATE  cate_print
+    SET  seq = '1'
+  WHERE  cate_print_seqno = '527'
+ UPDATE  cate_print
+    SET  seq = '1'
+  WHERE  cate_print_seqno = '528'
+ UPDATE  cate_print
+    SET  seq = '2'
+  WHERE  cate_print_seqno = '530'
+ UPDATE  cate_print
+    SET  seq = '2'
+  WHERE  cate_print_seqno = '531'
+ UPDATE  cate_print
+    SET  seq = '2'
+  WHERE  cate_print_seqno = '532'
+ UPDATE  cate_print
+    SET  seq = '2'
+  WHERE  cate_print_seqno = '533'
+ UPDATE  cate_print
+    SET  seq = '2'
+  WHERE  cate_print_seqno = '542'
+ UPDATE  cate_print
+    SET  seq = '2'
+  WHERE  cate_print_seqno = '543'
+ UPDATE  cate_print
+    SET  seq = '2'
+  WHERE  cate_print_seqno = '544'
+ UPDATE  cate_print
+    SET  seq = '2'
+  WHERE  cate_print_seqno = '545'
+ UPDATE  cate_print
+    SET  seq = '3'
+  WHERE  cate_print_seqno = '534'
+ UPDATE  cate_print
+    SET  seq = '3'
+  WHERE  cate_print_seqno = '535'
+ UPDATE  cate_print
+    SET  seq = '3'
+  WHERE  cate_print_seqno = '536'
+ UPDATE  cate_print
+    SET  seq = '3'
+  WHERE  cate_print_seqno = '537'
+ UPDATE  cate_print
+    SET  seq = '1'
+  WHERE  cate_print_seqno = '548'
+ UPDATE  cate_print
+    SET  seq = '1'
+  WHERE  cate_print_seqno = '549'
+ UPDATE  cate_print
+    SET  seq = '1'
+  WHERE  cate_print_seqno = '558'
+ UPDATE  cate_print
+    SET  seq = '1'
+  WHERE  cate_print_seqno = '559'
+ UPDATE  cate_print
+    SET  seq = '1'
+  WHERE  cate_print_seqno = '560'
+ UPDATE  cate_print
+    SET  seq = '1'
+  WHERE  cate_print_seqno = '561'
+ UPDATE  cate_print
+    SET  seq = '1'
+  WHERE  cate_print_seqno = '546'
+ UPDATE  cate_print
+    SET  seq = '1'
+  WHERE  cate_print_seqno = '547'
+ UPDATE  cate_print
+    SET  seq = '2'
+  WHERE  cate_print_seqno = '563'
+ UPDATE  cate_print
+    SET  seq = '2'
+  WHERE  cate_print_seqno = '564'
+ UPDATE  cate_print
+    SET  seq = '2'
+  WHERE  cate_print_seqno = '565'
+ UPDATE  cate_print
+    SET  seq = '2'
+  WHERE  cate_print_seqno = '550'
+ UPDATE  cate_print
+    SET  seq = '2'
+  WHERE  cate_print_seqno = '551'
+ UPDATE  cate_print
+    SET  seq = '2'
+  WHERE  cate_print_seqno = '552'
+ UPDATE  cate_print
+    SET  seq = '2'
+  WHERE  cate_print_seqno = '553'
+ UPDATE  cate_print
+    SET  seq = '2'
+  WHERE  cate_print_seqno = '562'
+ UPDATE  cate_print
+    SET  seq = '3'
+  WHERE  cate_print_seqno = '554'
+ UPDATE  cate_print
+    SET  seq = '3'
+  WHERE  cate_print_seqno = '555'
+ UPDATE  cate_print
+    SET  seq = '3'
+  WHERE  cate_print_seqno = '556'
+ UPDATE  cate_print
+    SET  seq = '3'
+  WHERE  cate_print_seqno = '557'

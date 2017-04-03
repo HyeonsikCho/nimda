@@ -1,0 +1,558 @@
+
+20:37:20 조판중 데이터 조회 -> SUCCESS
+
+20:37:20 -> SELECT order_detail_count_file_seqno, order_detail_file_num, state FROM order_detail_count_file WHERE order_detail_file_num LIKE 'SGPT161202NC0033301%' ORDER BY seq ASC
+
+20:37:20 -> 업데이트 시작 
+
+20:37:20 AMT UPDATE -> UPDATE amt_order_detail_sheet SET state = '2130', sheet_typset_seqno = '1' WHERE order_detail_count_file_seqno = '29591'
+
+20:37:20 -> SGPT161202NC003330101_2120_2130
+
+20:37:20 -> SELECT order_detail_count_file_seqno, order_detail_file_num, state FROM order_detail_count_file WHERE order_detail_file_num LIKE 'SGPT161207NC0039301%' ORDER BY seq ASC
+
+20:37:20 -> 업데이트 시작 
+
+20:37:20 AMT UPDATE -> UPDATE amt_order_detail_sheet SET state = '2130', sheet_typset_seqno = '1' WHERE order_detail_count_file_seqno = '34696'
+
+20:37:20 -> SGPT161207NC003930101_2120_2130
+
+20:37:20 -> SELECT order_detail_count_file_seqno, order_detail_file_num, state FROM order_detail_count_file WHERE order_detail_file_num LIKE 'SGPT161226NC0041401%' ORDER BY seq ASC
+
+20:37:20 -> 업데이트 시작 
+
+20:37:20 AMT UPDATE -> UPDATE amt_order_detail_sheet SET state = '2130', sheet_typset_seqno = '1' WHERE order_detail_count_file_seqno = '52664'
+
+20:37:20 -> SGPT161226NC004140101_2120_2130
+
+20:37:20 -> SELECT order_detail_count_file_seqno, order_detail_file_num, state FROM order_detail_count_file WHERE order_detail_file_num LIKE 'SGPT161202NC0031701%' ORDER BY seq ASC
+
+20:37:20 -> 업데이트 시작 
+
+20:37:20 AMT UPDATE -> UPDATE amt_order_detail_sheet SET state = '2130', sheet_typset_seqno = '1' WHERE order_detail_count_file_seqno = '29574'
+
+20:37:20 -> SGPT161202NC003170101_2120_2130
+
+20:37:20 -> SELECT order_detail_count_file_seqno, order_detail_file_num, state FROM order_detail_count_file WHERE order_detail_file_num LIKE 'SGPT161202NC0136401%' ORDER BY seq ASC
+
+20:37:20 -> 업데이트 시작 
+
+20:37:20 AMT UPDATE -> UPDATE amt_order_detail_sheet SET state = '2130', sheet_typset_seqno = '1' WHERE order_detail_count_file_seqno = '30999'
+
+20:37:20 -> SGPT161202NC013640101_2120_2130
+
+20:37:20 -> SELECT order_detail_count_file_seqno, order_detail_file_num, state FROM order_detail_count_file WHERE order_detail_file_num LIKE 'SGPT161202NC0198501%' ORDER BY seq ASC
+
+20:37:20 -> 업데이트 시작 
+
+20:37:20 AMT UPDATE -> UPDATE amt_order_detail_sheet SET state = '2130', sheet_typset_seqno = '1' WHERE order_detail_count_file_seqno = '31890'
+
+20:37:20 -> SGPT161202NC019850101_2120_2130
+
+20:37:20 -> SELECT order_detail_count_file_seqno, order_detail_file_num, state FROM order_detail_count_file WHERE order_detail_file_num LIKE 'SGPT161202NC0206501%' ORDER BY seq ASC
+
+20:37:20 -> 업데이트 시작 
+
+20:37:20 AMT UPDATE -> UPDATE amt_order_detail_sheet SET state = '2130', sheet_typset_seqno = '1' WHERE order_detail_count_file_seqno = '32003'
+
+20:37:20ORDER DETAIL FILE UPDATE -> UPDATE order_detail_count_file SET state = '2130' WHERE order_detail_file_num = 'SGPT161202NC020650101' LIMIT 1
+
+20:37:20 상태 단계 1
+
+20:37:20 -> 업데이트 시작 
+
+20:37:20 -> SGPT161202NC020650101_2120_2130
+
+20:37:31 조판중 데이터 조회 -> SUCCESS
+
+20:37:31 -> SELECT order_detail_count_file_seqno, order_detail_file_num, state FROM order_detail_count_file WHERE order_detail_file_num LIKE 'SGPT161202NC0206501%' ORDER BY seq ASC
+
+20:37:31 -> 업데이트 시작 
+
+20:37:31 상태 단계 3
+
+20:37:31 -> 업데이트 시작 
+
+20:37:31 AMT UPDATE -> UPDATE amt_order_detail_sheet SET state = '2130', sheet_typset_seqno = '1' WHERE order_detail_count_file_seqno = '32004'
+
+20:37:31 -> SGPT161202NC020650102_2120_2130
+
+20:37:31 -> SELECT order_detail_count_file_seqno, order_detail_file_num, state FROM order_detail_count_file WHERE order_detail_file_num LIKE 'SGPT161202NC0281001%' ORDER BY seq ASC
+
+20:37:31 -> 업데이트 시작 
+
+20:37:31 AMT UPDATE -> UPDATE amt_order_detail_sheet SET state = '2130', sheet_typset_seqno = '1' WHERE order_detail_count_file_seqno = '33070'
+
+20:37:31 -> SGPT161202NC028100101_2120_2130
+
+20:37:31 -> SELECT order_detail_count_file_seqno, order_detail_file_num, state FROM order_detail_count_file WHERE order_detail_file_num LIKE 'SGPT161202NC0333701%' ORDER BY seq ASC
+
+20:37:31 -> 업데이트 시작 
+
+20:37:31 AMT UPDATE -> UPDATE amt_order_detail_sheet SET state = '2130', sheet_typset_seqno = '1' WHERE order_detail_count_file_seqno = '33908'
+
+20:37:31 -> SGPT161202NC033370101_2120_2130
+
+20:37:31 -> SELECT order_detail_count_file_seqno, order_detail_file_num, state FROM order_detail_count_file WHERE order_detail_file_num LIKE 'SGPT161207NC0138801%' ORDER BY seq ASC
+
+20:37:31 -> 업데이트 시작 
+
+20:37:31 AMT UPDATE -> UPDATE amt_order_detail_sheet SET state = '2130', sheet_typset_seqno = '1' WHERE order_detail_count_file_seqno = '36008'
+
+20:37:31 -> SGPT161207NC013880101_2120_2130
+
+20:37:31 -> SELECT order_detail_count_file_seqno, order_detail_file_num, state FROM order_detail_count_file WHERE order_detail_file_num LIKE 'SGPT161207NC0149201%' ORDER BY seq ASC
+
+20:37:31 -> 업데이트 시작 
+
+20:37:31 AMT UPDATE -> UPDATE amt_order_detail_sheet SET state = '2130', sheet_typset_seqno = '1' WHERE order_detail_count_file_seqno = '36165'
+
+20:37:31 -> SGPT161207NC014920101_2120_2130
+
+20:37:31 -> SELECT order_detail_count_file_seqno, order_detail_file_num, state FROM order_detail_count_file WHERE order_detail_file_num LIKE 'SGPT161207NC0160701%' ORDER BY seq ASC
+
+20:37:31 -> 업데이트 시작 
+
+20:37:31 AMT UPDATE -> UPDATE amt_order_detail_sheet SET state = '2130', sheet_typset_seqno = '1' WHERE order_detail_count_file_seqno = '36366'
+
+20:37:31 -> SGPT161207NC016070101_2120_2130
+
+20:37:31 -> SELECT order_detail_count_file_seqno, order_detail_file_num, state FROM order_detail_count_file WHERE order_detail_file_num LIKE 'SGPT161207NC0248401%' ORDER BY seq ASC
+
+20:37:31 -> 업데이트 시작 
+
+20:37:31 AMT UPDATE -> UPDATE amt_order_detail_sheet SET state = '2130', sheet_typset_seqno = '1' WHERE order_detail_count_file_seqno = '37523'
+
+20:37:31ORDER DETAIL FILE UPDATE -> UPDATE order_detail_count_file SET state = '2130' WHERE order_detail_file_num = 'SGPT161207NC024840101' LIMIT 1
+
+20:37:31 상태 단계 1
+
+20:37:31 -> 업데이트 시작 
+
+20:37:31 -> SGPT161207NC024840101_2120_2130
+
+20:37:50 조판중 데이터 조회 -> SUCCESS
+
+20:37:50 -> SELECT order_detail_count_file_seqno, order_detail_file_num, state FROM order_detail_count_file WHERE order_detail_file_num LIKE 'SGPT161207NC0248401%' ORDER BY seq ASC
+
+20:37:50 -> 업데이트 시작 
+
+20:37:50 상태 단계 3
+
+20:37:50 -> 업데이트 시작 
+
+20:37:50 AMT UPDATE -> UPDATE amt_order_detail_sheet SET state = '2130', sheet_typset_seqno = '1' WHERE order_detail_count_file_seqno = '37524'
+
+20:37:50 -> SGPT161207NC024840102_2120_2130
+
+20:37:50 -> SELECT order_detail_count_file_seqno, order_detail_file_num, state FROM order_detail_count_file WHERE order_detail_file_num LIKE 'SGPT161208NC0002701%' ORDER BY seq ASC
+
+20:37:50 -> 업데이트 시작 
+
+20:37:50 AMT UPDATE -> UPDATE amt_order_detail_sheet SET state = '2130', sheet_typset_seqno = '1' WHERE order_detail_count_file_seqno = '39445'
+
+20:37:50 -> SGPT161208NC000270101_2120_2130
+
+20:37:50 -> SELECT order_detail_count_file_seqno, order_detail_file_num, state FROM order_detail_count_file WHERE order_detail_file_num LIKE 'SGPT161208NC0059501%' ORDER BY seq ASC
+
+20:37:50 -> 업데이트 시작 
+
+20:37:50 AMT UPDATE -> UPDATE amt_order_detail_sheet SET state = '2130', sheet_typset_seqno = '1' WHERE order_detail_count_file_seqno = '40209'
+
+20:37:50 -> SGPT161208NC005950101_2120_2130
+
+20:37:50 -> SELECT order_detail_count_file_seqno, order_detail_file_num, state FROM order_detail_count_file WHERE order_detail_file_num LIKE 'SGPT161208NC0116901%' ORDER BY seq ASC
+
+20:37:50 -> 업데이트 시작 
+
+20:37:50 AMT UPDATE -> UPDATE amt_order_detail_sheet SET state = '2130', sheet_typset_seqno = '1' WHERE order_detail_count_file_seqno = '40989'
+
+20:37:50 -> SGPT161208NC011690101_2120_2130
+
+20:37:50 -> SELECT order_detail_count_file_seqno, order_detail_file_num, state FROM order_detail_count_file WHERE order_detail_file_num LIKE 'SGPT161208NC0273401%' ORDER BY seq ASC
+
+20:37:50 -> 업데이트 시작 
+
+20:37:50 AMT UPDATE -> UPDATE amt_order_detail_sheet SET state = '2130', sheet_typset_seqno = '1' WHERE order_detail_count_file_seqno = '43166'
+
+20:37:50 -> SGPT161208NC027340101_2120_2130
+
+20:37:50 -> SELECT order_detail_count_file_seqno, order_detail_file_num, state FROM order_detail_count_file WHERE order_detail_file_num LIKE 'SGPT161209NC0126801%' ORDER BY seq ASC
+
+20:37:50 -> 업데이트 시작 
+
+20:37:50 AMT UPDATE -> UPDATE amt_order_detail_sheet SET state = '2130', sheet_typset_seqno = '1' WHERE order_detail_count_file_seqno = '16409'
+
+20:37:50ORDER DETAIL FILE UPDATE -> UPDATE order_detail_count_file SET state = '2130' WHERE order_detail_file_num = 'SGPT161209NC012680101' LIMIT 1
+
+20:37:50 상태 단계 1
+
+20:37:50 -> 업데이트 시작 
+
+20:37:50 -> 업데이트 시작 
+
+20:37:50 -> 업데이트 시작 
+
+20:37:50 -> 업데이트 시작 
+
+20:37:50 -> SGPT161209NC012680101_2120_2130
+
+20:37:50 -> SELECT order_detail_count_file_seqno, order_detail_file_num, state FROM order_detail_count_file WHERE order_detail_file_num LIKE 'SGPT161209NC0126801%' ORDER BY seq ASC
+
+20:37:50 -> 업데이트 시작 
+
+20:37:50 상태 단계 3
+
+20:37:50 -> 업데이트 시작 
+
+20:37:50 AMT UPDATE -> UPDATE amt_order_detail_sheet SET state = '2130', sheet_typset_seqno = '1' WHERE order_detail_count_file_seqno = '16410'
+
+20:37:50ORDER DETAIL FILE UPDATE -> UPDATE order_detail_count_file SET state = '2130' WHERE order_detail_file_num = 'SGPT161209NC012680102' LIMIT 1
+
+20:37:50 상태 단계 1
+
+20:37:50 -> 업데이트 시작 
+
+20:37:50 -> 업데이트 시작 
+
+20:37:50 -> 업데이트 시작 
+
+20:37:50 -> SGPT161209NC012680102_2120_2130
+
+20:37:50 -> SELECT order_detail_count_file_seqno, order_detail_file_num, state FROM order_detail_count_file WHERE order_detail_file_num LIKE 'SGPT161209NC0126801%' ORDER BY seq ASC
+
+20:37:50 -> 업데이트 시작 
+
+20:37:50 상태 단계 3
+
+20:37:50 -> 업데이트 시작 
+
+20:37:50 상태 단계 3
+
+20:37:50 -> 업데이트 시작 
+
+20:37:50 AMT UPDATE -> UPDATE amt_order_detail_sheet SET state = '2130', sheet_typset_seqno = '1' WHERE order_detail_count_file_seqno = '16411'
+
+20:37:50ORDER DETAIL FILE UPDATE -> UPDATE order_detail_count_file SET state = '2130' WHERE order_detail_file_num = 'SGPT161209NC012680103' LIMIT 1
+
+20:37:50 상태 단계 1
+
+20:37:50 -> 업데이트 시작 
+
+20:37:50 -> 업데이트 시작 
+
+20:37:50 -> SGPT161209NC012680103_2120_2130
+
+20:37:50 -> SELECT order_detail_count_file_seqno, order_detail_file_num, state FROM order_detail_count_file WHERE order_detail_file_num LIKE 'SGPT161209NC0126801%' ORDER BY seq ASC
+
+20:37:50 -> 업데이트 시작 
+
+20:37:50 상태 단계 3
+
+20:37:50 -> 업데이트 시작 
+
+20:37:50 상태 단계 3
+
+20:37:50 -> 업데이트 시작 
+
+20:37:50 상태 단계 3
+
+20:37:50 -> 업데이트 시작 
+
+20:37:50 AMT UPDATE -> UPDATE amt_order_detail_sheet SET state = '2130', sheet_typset_seqno = '1' WHERE order_detail_count_file_seqno = '16412'
+
+20:37:50ORDER DETAIL FILE UPDATE -> UPDATE order_detail_count_file SET state = '2130' WHERE order_detail_file_num = 'SGPT161209NC012680104' LIMIT 1
+
+20:37:50 상태 단계 1
+
+20:37:50 -> 업데이트 시작 
+
+20:37:50 -> SGPT161209NC012680104_2120_2130
+
+20:37:50 -> SELECT order_detail_count_file_seqno, order_detail_file_num, state FROM order_detail_count_file WHERE order_detail_file_num LIKE 'SGPT161209NC0126801%' ORDER BY seq ASC
+
+20:37:50 -> 업데이트 시작 
+
+20:37:50 상태 단계 3
+
+20:37:50 -> 업데이트 시작 
+
+20:37:50 상태 단계 3
+
+20:37:50 -> 업데이트 시작 
+
+20:37:50 상태 단계 3
+
+20:37:50 -> 업데이트 시작 
+
+20:37:50 상태 단계 3
+
+20:37:50 -> 업데이트 시작 
+
+20:37:50 AMT UPDATE -> UPDATE amt_order_detail_sheet SET state = '2130', sheet_typset_seqno = '1' WHERE order_detail_count_file_seqno = '16413'
+
+20:37:50 -> SGPT161209NC012680105_2120_2130
+
+20:37:56 조판중 데이터 조회 -> SUCCESS
+
+20:37:56 -> SELECT order_detail_count_file_seqno, order_detail_file_num, state FROM order_detail_count_file WHERE order_detail_file_num LIKE 'SGPT161226NC0189201%' ORDER BY seq ASC
+
+20:37:56 -> 업데이트 시작 
+
+20:37:56 AMT UPDATE -> UPDATE amt_order_detail_sheet SET state = '2130', sheet_typset_seqno = '1' WHERE order_detail_count_file_seqno = '54823'
+
+20:37:56ORDER DETAIL FILE UPDATE -> UPDATE order_detail_count_file SET state = '2130' WHERE order_detail_file_num = 'SGPT161226NC018920101' LIMIT 1
+
+20:37:56 상태 단계 1
+
+20:37:56 -> 업데이트 시작 
+
+20:37:56 -> 업데이트 시작 
+
+20:37:56 -> SGPT161226NC018920101_2120_2130
+
+20:40:05 PLATEITEM DEL QUERY -> SELECT st.typset_num FROM order_detail_count_file AS odcf, amt_order_detail_sheet AS aods, sheet_typset AS st WHERE odcf.order_detail_count_file_seqno = aods.order_detail_count_file_seqno AND aods.sheet_typset_seqno = st.sheet_typset_seqno AND odcf.order_detail_file_num = 'SGPT161202NC003330101'
+
+20:40:05 ITMRES 결과 -> FAILED
+
+20:40:05 -> SELECT order_detail_count_file_seqno, order_detail_file_num, state FROM order_detail_count_file WHERE order_detail_file_num LIKE 'SGPT161202NC0033301%' ORDER BY seq ASC
+
+20:40:05 AMT UPDATE -> UPDATE amt_order_detail_sheet SET state = '2120', sheet_typset_seqno = '1' WHERE order_detail_count_file_seqno = '29591'
+
+20:40:05 PLATEITEM DEL QUERY -> SELECT st.typset_num FROM order_detail_count_file AS odcf, amt_order_detail_sheet AS aods, sheet_typset AS st WHERE odcf.order_detail_count_file_seqno = aods.order_detail_count_file_seqno AND aods.sheet_typset_seqno = st.sheet_typset_seqno AND odcf.order_detail_file_num = 'SGPT161207NC003930101'
+
+20:40:05 ITMRES 결과 -> FAILED
+
+20:40:05 -> SELECT order_detail_count_file_seqno, order_detail_file_num, state FROM order_detail_count_file WHERE order_detail_file_num LIKE 'SGPT161207NC0039301%' ORDER BY seq ASC
+
+20:40:05 AMT UPDATE -> UPDATE amt_order_detail_sheet SET state = '2120', sheet_typset_seqno = '1' WHERE order_detail_count_file_seqno = '34696'
+
+20:40:05 PLATEITEM DEL QUERY -> SELECT st.typset_num FROM order_detail_count_file AS odcf, amt_order_detail_sheet AS aods, sheet_typset AS st WHERE odcf.order_detail_count_file_seqno = aods.order_detail_count_file_seqno AND aods.sheet_typset_seqno = st.sheet_typset_seqno AND odcf.order_detail_file_num = 'SGPT161207NC003930101'
+
+20:40:05 ITMRES 결과 -> FAILED
+
+20:40:05 -> SELECT order_detail_count_file_seqno, order_detail_file_num, state FROM order_detail_count_file WHERE order_detail_file_num LIKE 'SGPT161207NC0039301%' ORDER BY seq ASC
+
+20:40:05 AMT UPDATE -> UPDATE amt_order_detail_sheet SET state = '2120', sheet_typset_seqno = '1' WHERE order_detail_count_file_seqno = '34696'
+
+20:40:05 PLATEITEM DEL QUERY -> SELECT st.typset_num FROM order_detail_count_file AS odcf, amt_order_detail_sheet AS aods, sheet_typset AS st WHERE odcf.order_detail_count_file_seqno = aods.order_detail_count_file_seqno AND aods.sheet_typset_seqno = st.sheet_typset_seqno AND odcf.order_detail_file_num = 'SGPT161226NC004140101'
+
+20:40:05 ITMRES 결과 -> FAILED
+
+20:40:05 -> SELECT order_detail_count_file_seqno, order_detail_file_num, state FROM order_detail_count_file WHERE order_detail_file_num LIKE 'SGPT161226NC0041401%' ORDER BY seq ASC
+
+20:40:05 AMT UPDATE -> UPDATE amt_order_detail_sheet SET state = '2120', sheet_typset_seqno = '1' WHERE order_detail_count_file_seqno = '52664'
+
+20:40:05 PLATEITEM DEL QUERY -> SELECT st.typset_num FROM order_detail_count_file AS odcf, amt_order_detail_sheet AS aods, sheet_typset AS st WHERE odcf.order_detail_count_file_seqno = aods.order_detail_count_file_seqno AND aods.sheet_typset_seqno = st.sheet_typset_seqno AND odcf.order_detail_file_num = 'SGPT161226NC004140101'
+
+20:40:05 ITMRES 결과 -> FAILED
+
+20:40:05 -> SELECT order_detail_count_file_seqno, order_detail_file_num, state FROM order_detail_count_file WHERE order_detail_file_num LIKE 'SGPT161226NC0041401%' ORDER BY seq ASC
+
+20:40:05 AMT UPDATE -> UPDATE amt_order_detail_sheet SET state = '2120', sheet_typset_seqno = '1' WHERE order_detail_count_file_seqno = '52664'
+
+20:40:05 PLATEITEM DEL QUERY -> SELECT st.typset_num FROM order_detail_count_file AS odcf, amt_order_detail_sheet AS aods, sheet_typset AS st WHERE odcf.order_detail_count_file_seqno = aods.order_detail_count_file_seqno AND aods.sheet_typset_seqno = st.sheet_typset_seqno AND odcf.order_detail_file_num = 'SGPT161202NC003170101'
+
+20:40:05 ITMRES 결과 -> FAILED
+
+20:40:05 -> SELECT order_detail_count_file_seqno, order_detail_file_num, state FROM order_detail_count_file WHERE order_detail_file_num LIKE 'SGPT161202NC0031701%' ORDER BY seq ASC
+
+20:40:05 AMT UPDATE -> UPDATE amt_order_detail_sheet SET state = '2120', sheet_typset_seqno = '1' WHERE order_detail_count_file_seqno = '29574'
+
+20:40:05 PLATEITEM DEL QUERY -> SELECT st.typset_num FROM order_detail_count_file AS odcf, amt_order_detail_sheet AS aods, sheet_typset AS st WHERE odcf.order_detail_count_file_seqno = aods.order_detail_count_file_seqno AND aods.sheet_typset_seqno = st.sheet_typset_seqno AND odcf.order_detail_file_num = 'SGPT161202NC003170101'
+
+20:40:05 ITMRES 결과 -> FAILED
+
+20:40:05 -> SELECT order_detail_count_file_seqno, order_detail_file_num, state FROM order_detail_count_file WHERE order_detail_file_num LIKE 'SGPT161202NC0031701%' ORDER BY seq ASC
+
+20:40:05 AMT UPDATE -> UPDATE amt_order_detail_sheet SET state = '2120', sheet_typset_seqno = '1' WHERE order_detail_count_file_seqno = '29574'
+
+20:40:05 PLATEITEM DEL QUERY -> SELECT st.typset_num FROM order_detail_count_file AS odcf, amt_order_detail_sheet AS aods, sheet_typset AS st WHERE odcf.order_detail_count_file_seqno = aods.order_detail_count_file_seqno AND aods.sheet_typset_seqno = st.sheet_typset_seqno AND odcf.order_detail_file_num = 'SGPT161202NC013640101'
+
+20:40:05 ITMRES 결과 -> FAILED
+
+20:40:05 -> SELECT order_detail_count_file_seqno, order_detail_file_num, state FROM order_detail_count_file WHERE order_detail_file_num LIKE 'SGPT161202NC0136401%' ORDER BY seq ASC
+
+20:40:05 AMT UPDATE -> UPDATE amt_order_detail_sheet SET state = '2120', sheet_typset_seqno = '1' WHERE order_detail_count_file_seqno = '30999'
+
+20:40:05 PLATEITEM DEL QUERY -> SELECT st.typset_num FROM order_detail_count_file AS odcf, amt_order_detail_sheet AS aods, sheet_typset AS st WHERE odcf.order_detail_count_file_seqno = aods.order_detail_count_file_seqno AND aods.sheet_typset_seqno = st.sheet_typset_seqno AND odcf.order_detail_file_num = 'SGPT161202NC019850101'
+
+20:40:05 ITMRES 결과 -> FAILED
+
+20:40:05 -> SELECT order_detail_count_file_seqno, order_detail_file_num, state FROM order_detail_count_file WHERE order_detail_file_num LIKE 'SGPT161202NC0198501%' ORDER BY seq ASC
+
+20:40:05 AMT UPDATE -> UPDATE amt_order_detail_sheet SET state = '2120', sheet_typset_seqno = '1' WHERE order_detail_count_file_seqno = '31890'
+
+20:40:05 PLATEITEM DEL QUERY -> SELECT st.typset_num FROM order_detail_count_file AS odcf, amt_order_detail_sheet AS aods, sheet_typset AS st WHERE odcf.order_detail_count_file_seqno = aods.order_detail_count_file_seqno AND aods.sheet_typset_seqno = st.sheet_typset_seqno AND odcf.order_detail_file_num = 'SGPT161202NC019850101'
+
+20:40:05 ITMRES 결과 -> FAILED
+
+20:40:05 -> SELECT order_detail_count_file_seqno, order_detail_file_num, state FROM order_detail_count_file WHERE order_detail_file_num LIKE 'SGPT161202NC0198501%' ORDER BY seq ASC
+
+20:40:05 AMT UPDATE -> UPDATE amt_order_detail_sheet SET state = '2120', sheet_typset_seqno = '1' WHERE order_detail_count_file_seqno = '31890'
+
+20:40:05 PLATEITEM DEL QUERY -> SELECT st.typset_num FROM order_detail_count_file AS odcf, amt_order_detail_sheet AS aods, sheet_typset AS st WHERE odcf.order_detail_count_file_seqno = aods.order_detail_count_file_seqno AND aods.sheet_typset_seqno = st.sheet_typset_seqno AND odcf.order_detail_file_num = 'SGPT161202NC020650101'
+
+20:40:05 ITMRES 결과 -> FAILED
+
+20:40:05 -> SELECT order_detail_count_file_seqno, order_detail_file_num, state FROM order_detail_count_file WHERE order_detail_file_num LIKE 'SGPT161202NC0206501%' ORDER BY seq ASC
+
+20:40:05 AMT UPDATE -> UPDATE amt_order_detail_sheet SET state = '2120', sheet_typset_seqno = '1' WHERE order_detail_count_file_seqno = '32003'
+
+20:40:05ORDER DETAIL FILE UPDATE -> UPDATE order_detail_count_file SET state = '2120' WHERE order_detail_file_num = 'SGPT161202NC020650101' LIMIT 1
+
+20:40:05 PLATEITEM DEL QUERY -> SELECT st.typset_num FROM order_detail_count_file AS odcf, amt_order_detail_sheet AS aods, sheet_typset AS st WHERE odcf.order_detail_count_file_seqno = aods.order_detail_count_file_seqno AND aods.sheet_typset_seqno = st.sheet_typset_seqno AND odcf.order_detail_file_num = 'SGPT161202NC020650102'
+
+20:40:05 ITMRES 결과 -> FAILED
+
+20:40:05 -> SELECT order_detail_count_file_seqno, order_detail_file_num, state FROM order_detail_count_file WHERE order_detail_file_num LIKE 'SGPT161202NC0206501%' ORDER BY seq ASC
+
+20:40:05 AMT UPDATE -> UPDATE amt_order_detail_sheet SET state = '2120', sheet_typset_seqno = '1' WHERE order_detail_count_file_seqno = '32004'
+
+20:40:05 PLATEITEM DEL QUERY -> SELECT st.typset_num FROM order_detail_count_file AS odcf, amt_order_detail_sheet AS aods, sheet_typset AS st WHERE odcf.order_detail_count_file_seqno = aods.order_detail_count_file_seqno AND aods.sheet_typset_seqno = st.sheet_typset_seqno AND odcf.order_detail_file_num = 'SGPT161202NC028100101'
+
+20:40:05 ITMRES 결과 -> FAILED
+
+20:40:05 -> SELECT order_detail_count_file_seqno, order_detail_file_num, state FROM order_detail_count_file WHERE order_detail_file_num LIKE 'SGPT161202NC0281001%' ORDER BY seq ASC
+
+20:40:05 AMT UPDATE -> UPDATE amt_order_detail_sheet SET state = '2120', sheet_typset_seqno = '1' WHERE order_detail_count_file_seqno = '33070'
+
+20:40:05 PLATEITEM DEL QUERY -> SELECT st.typset_num FROM order_detail_count_file AS odcf, amt_order_detail_sheet AS aods, sheet_typset AS st WHERE odcf.order_detail_count_file_seqno = aods.order_detail_count_file_seqno AND aods.sheet_typset_seqno = st.sheet_typset_seqno AND odcf.order_detail_file_num = 'SGPT161202NC033370101'
+
+20:40:05 ITMRES 결과 -> FAILED
+
+20:40:05 -> SELECT order_detail_count_file_seqno, order_detail_file_num, state FROM order_detail_count_file WHERE order_detail_file_num LIKE 'SGPT161202NC0333701%' ORDER BY seq ASC
+
+20:40:05 AMT UPDATE -> UPDATE amt_order_detail_sheet SET state = '2120', sheet_typset_seqno = '1' WHERE order_detail_count_file_seqno = '33908'
+
+20:40:05 PLATEITEM DEL QUERY -> SELECT st.typset_num FROM order_detail_count_file AS odcf, amt_order_detail_sheet AS aods, sheet_typset AS st WHERE odcf.order_detail_count_file_seqno = aods.order_detail_count_file_seqno AND aods.sheet_typset_seqno = st.sheet_typset_seqno AND odcf.order_detail_file_num = 'SGPT161207NC013880101'
+
+20:40:05 ITMRES 결과 -> FAILED
+
+20:40:05 -> SELECT order_detail_count_file_seqno, order_detail_file_num, state FROM order_detail_count_file WHERE order_detail_file_num LIKE 'SGPT161207NC0138801%' ORDER BY seq ASC
+
+20:40:05 AMT UPDATE -> UPDATE amt_order_detail_sheet SET state = '2120', sheet_typset_seqno = '1' WHERE order_detail_count_file_seqno = '36008'
+
+20:40:05 PLATEITEM DEL QUERY -> SELECT st.typset_num FROM order_detail_count_file AS odcf, amt_order_detail_sheet AS aods, sheet_typset AS st WHERE odcf.order_detail_count_file_seqno = aods.order_detail_count_file_seqno AND aods.sheet_typset_seqno = st.sheet_typset_seqno AND odcf.order_detail_file_num = 'SGPT161207NC014920101'
+
+20:40:05 ITMRES 결과 -> FAILED
+
+20:40:05 -> SELECT order_detail_count_file_seqno, order_detail_file_num, state FROM order_detail_count_file WHERE order_detail_file_num LIKE 'SGPT161207NC0149201%' ORDER BY seq ASC
+
+20:40:05 AMT UPDATE -> UPDATE amt_order_detail_sheet SET state = '2120', sheet_typset_seqno = '1' WHERE order_detail_count_file_seqno = '36165'
+
+20:40:05 PLATEITEM DEL QUERY -> SELECT st.typset_num FROM order_detail_count_file AS odcf, amt_order_detail_sheet AS aods, sheet_typset AS st WHERE odcf.order_detail_count_file_seqno = aods.order_detail_count_file_seqno AND aods.sheet_typset_seqno = st.sheet_typset_seqno AND odcf.order_detail_file_num = 'SGPT161207NC016070101'
+
+20:40:05 ITMRES 결과 -> FAILED
+
+20:40:05 -> SELECT order_detail_count_file_seqno, order_detail_file_num, state FROM order_detail_count_file WHERE order_detail_file_num LIKE 'SGPT161207NC0160701%' ORDER BY seq ASC
+
+20:40:05 AMT UPDATE -> UPDATE amt_order_detail_sheet SET state = '2120', sheet_typset_seqno = '1' WHERE order_detail_count_file_seqno = '36366'
+
+20:40:05 PLATEITEM DEL QUERY -> SELECT st.typset_num FROM order_detail_count_file AS odcf, amt_order_detail_sheet AS aods, sheet_typset AS st WHERE odcf.order_detail_count_file_seqno = aods.order_detail_count_file_seqno AND aods.sheet_typset_seqno = st.sheet_typset_seqno AND odcf.order_detail_file_num = 'SGPT161207NC024840101'
+
+20:40:05 ITMRES 결과 -> FAILED
+
+20:40:05 -> SELECT order_detail_count_file_seqno, order_detail_file_num, state FROM order_detail_count_file WHERE order_detail_file_num LIKE 'SGPT161207NC0248401%' ORDER BY seq ASC
+
+20:40:05 AMT UPDATE -> UPDATE amt_order_detail_sheet SET state = '2120', sheet_typset_seqno = '1' WHERE order_detail_count_file_seqno = '37523'
+
+20:40:05ORDER DETAIL FILE UPDATE -> UPDATE order_detail_count_file SET state = '2120' WHERE order_detail_file_num = 'SGPT161207NC024840101' LIMIT 1
+
+20:40:05 PLATEITEM DEL QUERY -> SELECT st.typset_num FROM order_detail_count_file AS odcf, amt_order_detail_sheet AS aods, sheet_typset AS st WHERE odcf.order_detail_count_file_seqno = aods.order_detail_count_file_seqno AND aods.sheet_typset_seqno = st.sheet_typset_seqno AND odcf.order_detail_file_num = 'SGPT161207NC024840102'
+
+20:40:05 ITMRES 결과 -> FAILED
+
+20:40:05 -> SELECT order_detail_count_file_seqno, order_detail_file_num, state FROM order_detail_count_file WHERE order_detail_file_num LIKE 'SGPT161207NC0248401%' ORDER BY seq ASC
+
+20:40:05 AMT UPDATE -> UPDATE amt_order_detail_sheet SET state = '2120', sheet_typset_seqno = '1' WHERE order_detail_count_file_seqno = '37524'
+
+20:40:05 PLATEITEM DEL QUERY -> SELECT st.typset_num FROM order_detail_count_file AS odcf, amt_order_detail_sheet AS aods, sheet_typset AS st WHERE odcf.order_detail_count_file_seqno = aods.order_detail_count_file_seqno AND aods.sheet_typset_seqno = st.sheet_typset_seqno AND odcf.order_detail_file_num = 'SGPT161208NC000270101'
+
+20:40:05 ITMRES 결과 -> FAILED
+
+20:40:05 -> SELECT order_detail_count_file_seqno, order_detail_file_num, state FROM order_detail_count_file WHERE order_detail_file_num LIKE 'SGPT161208NC0002701%' ORDER BY seq ASC
+
+20:40:05 AMT UPDATE -> UPDATE amt_order_detail_sheet SET state = '2120', sheet_typset_seqno = '1' WHERE order_detail_count_file_seqno = '39445'
+
+20:40:05 PLATEITEM DEL QUERY -> SELECT st.typset_num FROM order_detail_count_file AS odcf, amt_order_detail_sheet AS aods, sheet_typset AS st WHERE odcf.order_detail_count_file_seqno = aods.order_detail_count_file_seqno AND aods.sheet_typset_seqno = st.sheet_typset_seqno AND odcf.order_detail_file_num = 'SGPT161208NC005950101'
+
+20:40:05 ITMRES 결과 -> FAILED
+
+20:40:05 -> SELECT order_detail_count_file_seqno, order_detail_file_num, state FROM order_detail_count_file WHERE order_detail_file_num LIKE 'SGPT161208NC0059501%' ORDER BY seq ASC
+
+20:40:05 AMT UPDATE -> UPDATE amt_order_detail_sheet SET state = '2120', sheet_typset_seqno = '1' WHERE order_detail_count_file_seqno = '40209'
+
+20:40:05 PLATEITEM DEL QUERY -> SELECT st.typset_num FROM order_detail_count_file AS odcf, amt_order_detail_sheet AS aods, sheet_typset AS st WHERE odcf.order_detail_count_file_seqno = aods.order_detail_count_file_seqno AND aods.sheet_typset_seqno = st.sheet_typset_seqno AND odcf.order_detail_file_num = 'SGPT161208NC011690101'
+
+20:40:05 ITMRES 결과 -> FAILED
+
+20:40:05 -> SELECT order_detail_count_file_seqno, order_detail_file_num, state FROM order_detail_count_file WHERE order_detail_file_num LIKE 'SGPT161208NC0116901%' ORDER BY seq ASC
+
+20:40:05 AMT UPDATE -> UPDATE amt_order_detail_sheet SET state = '2120', sheet_typset_seqno = '1' WHERE order_detail_count_file_seqno = '40989'
+
+20:40:05 PLATEITEM DEL QUERY -> SELECT st.typset_num FROM order_detail_count_file AS odcf, amt_order_detail_sheet AS aods, sheet_typset AS st WHERE odcf.order_detail_count_file_seqno = aods.order_detail_count_file_seqno AND aods.sheet_typset_seqno = st.sheet_typset_seqno AND odcf.order_detail_file_num = 'SGPT161208NC027340101'
+
+20:40:05 ITMRES 결과 -> FAILED
+
+20:40:05 -> SELECT order_detail_count_file_seqno, order_detail_file_num, state FROM order_detail_count_file WHERE order_detail_file_num LIKE 'SGPT161208NC0273401%' ORDER BY seq ASC
+
+20:40:05 AMT UPDATE -> UPDATE amt_order_detail_sheet SET state = '2120', sheet_typset_seqno = '1' WHERE order_detail_count_file_seqno = '43166'
+
+20:40:05 PLATEITEM DEL QUERY -> SELECT st.typset_num FROM order_detail_count_file AS odcf, amt_order_detail_sheet AS aods, sheet_typset AS st WHERE odcf.order_detail_count_file_seqno = aods.order_detail_count_file_seqno AND aods.sheet_typset_seqno = st.sheet_typset_seqno AND odcf.order_detail_file_num = 'SGPT161209NC012680101'
+
+20:40:05 ITMRES 결과 -> FAILED
+
+20:40:05 -> SELECT order_detail_count_file_seqno, order_detail_file_num, state FROM order_detail_count_file WHERE order_detail_file_num LIKE 'SGPT161209NC0126801%' ORDER BY seq ASC
+
+20:40:05 AMT UPDATE -> UPDATE amt_order_detail_sheet SET state = '2120', sheet_typset_seqno = '1' WHERE order_detail_count_file_seqno = '16409'
+
+20:40:05ORDER DETAIL FILE UPDATE -> UPDATE order_detail_count_file SET state = '2120' WHERE order_detail_file_num = 'SGPT161209NC012680101' LIMIT 1
+
+20:40:05 PLATEITEM DEL QUERY -> SELECT st.typset_num FROM order_detail_count_file AS odcf, amt_order_detail_sheet AS aods, sheet_typset AS st WHERE odcf.order_detail_count_file_seqno = aods.order_detail_count_file_seqno AND aods.sheet_typset_seqno = st.sheet_typset_seqno AND odcf.order_detail_file_num = 'SGPT161209NC012680102'
+
+20:40:05 ITMRES 결과 -> FAILED
+
+20:40:05 -> SELECT order_detail_count_file_seqno, order_detail_file_num, state FROM order_detail_count_file WHERE order_detail_file_num LIKE 'SGPT161209NC0126801%' ORDER BY seq ASC
+
+20:40:05 AMT UPDATE -> UPDATE amt_order_detail_sheet SET state = '2120', sheet_typset_seqno = '1' WHERE order_detail_count_file_seqno = '16410'
+
+20:40:05ORDER DETAIL FILE UPDATE -> UPDATE order_detail_count_file SET state = '2120' WHERE order_detail_file_num = 'SGPT161209NC012680102' LIMIT 1
+
+20:40:05 PLATEITEM DEL QUERY -> SELECT st.typset_num FROM order_detail_count_file AS odcf, amt_order_detail_sheet AS aods, sheet_typset AS st WHERE odcf.order_detail_count_file_seqno = aods.order_detail_count_file_seqno AND aods.sheet_typset_seqno = st.sheet_typset_seqno AND odcf.order_detail_file_num = 'SGPT161209NC012680103'
+
+20:40:05 ITMRES 결과 -> FAILED
+
+20:40:05 -> SELECT order_detail_count_file_seqno, order_detail_file_num, state FROM order_detail_count_file WHERE order_detail_file_num LIKE 'SGPT161209NC0126801%' ORDER BY seq ASC
+
+20:40:05 AMT UPDATE -> UPDATE amt_order_detail_sheet SET state = '2120', sheet_typset_seqno = '1' WHERE order_detail_count_file_seqno = '16411'
+
+20:40:05ORDER DETAIL FILE UPDATE -> UPDATE order_detail_count_file SET state = '2120' WHERE order_detail_file_num = 'SGPT161209NC012680103' LIMIT 1
+
+20:40:05 PLATEITEM DEL QUERY -> SELECT st.typset_num FROM order_detail_count_file AS odcf, amt_order_detail_sheet AS aods, sheet_typset AS st WHERE odcf.order_detail_count_file_seqno = aods.order_detail_count_file_seqno AND aods.sheet_typset_seqno = st.sheet_typset_seqno AND odcf.order_detail_file_num = 'SGPT161209NC012680104'
+
+20:40:05 ITMRES 결과 -> FAILED
+
+20:40:05 -> SELECT order_detail_count_file_seqno, order_detail_file_num, state FROM order_detail_count_file WHERE order_detail_file_num LIKE 'SGPT161209NC0126801%' ORDER BY seq ASC
+
+20:40:05 AMT UPDATE -> UPDATE amt_order_detail_sheet SET state = '2120', sheet_typset_seqno = '1' WHERE order_detail_count_file_seqno = '16412'
+
+20:40:05ORDER DETAIL FILE UPDATE -> UPDATE order_detail_count_file SET state = '2120' WHERE order_detail_file_num = 'SGPT161209NC012680104' LIMIT 1
+
+20:40:05 PLATEITEM DEL QUERY -> SELECT st.typset_num FROM order_detail_count_file AS odcf, amt_order_detail_sheet AS aods, sheet_typset AS st WHERE odcf.order_detail_count_file_seqno = aods.order_detail_count_file_seqno AND aods.sheet_typset_seqno = st.sheet_typset_seqno AND odcf.order_detail_file_num = 'SGPT161209NC012680105'
+
+20:40:05 ITMRES 결과 -> FAILED
+
+20:40:05 -> SELECT order_detail_count_file_seqno, order_detail_file_num, state FROM order_detail_count_file WHERE order_detail_file_num LIKE 'SGPT161209NC0126801%' ORDER BY seq ASC
+
+20:40:05 AMT UPDATE -> UPDATE amt_order_detail_sheet SET state = '2120', sheet_typset_seqno = '1' WHERE order_detail_count_file_seqno = '16413'
+
+20:40:05 PLATEITEM DEL QUERY -> SELECT st.typset_num FROM order_detail_count_file AS odcf, amt_order_detail_sheet AS aods, sheet_typset AS st WHERE odcf.order_detail_count_file_seqno = aods.order_detail_count_file_seqno AND aods.sheet_typset_seqno = st.sheet_typset_seqno AND odcf.order_detail_file_num = 'SGPT161226NC018920101'
+
+20:40:05 ITMRES 결과 -> FAILED
+
+20:40:05 -> SELECT order_detail_count_file_seqno, order_detail_file_num, state FROM order_detail_count_file WHERE order_detail_file_num LIKE 'SGPT161226NC0189201%' ORDER BY seq ASC
+
+20:40:05 AMT UPDATE -> UPDATE amt_order_detail_sheet SET state = '2120', sheet_typset_seqno = '1' WHERE order_detail_count_file_seqno = '54823'
+
+20:40:05ORDER DETAIL FILE UPDATE -> UPDATE order_detail_count_file SET state = '2120' WHERE order_detail_file_num = 'SGPT161226NC018920101' LIMIT 1

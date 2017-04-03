@@ -1,0 +1,238 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<title>[TPH_Vmain_title]</title>
+<meta charset="utf-8">
+[TPH_I/common/common.html]
+</head>
+<body>
+
+<div id="container">
+
+  <!-- TOP NAVIGATION -->
+  [TPH_I/common/header.html]
+
+  <!-- LEFT NAVIGATION -->
+  [TPH_Vleft]
+
+  <!-- CONTENT -->
+  <section id="page-content">
+
+  <!-- 히스토리 -->
+  [TPH_I/common/history.html]
+
+  <!-- 본문 컨텐츠  시작-->
+
+  <!-- 탭 박스 1 기본검색 -->
+  <div class="tb_group clear">
+    <ul class="tab_box mt25">
+    </ul>
+    <form>
+    <div class="tab_box_con">
+      <div class="form-group">
+        <label class="control-label fix_width150 tar">날짜</label><label class="fix_width20 fs14 tac">:</label>
+        [TPH_Vdatepicker_html]
+      </div>
+
+      <div class="form-group">
+        <label class="control-label fix_width150 tar">상태</label><label class="fix_width20 fs14 tac">:</label>
+        <select class="fix_width150" id="op_state">
+        [TPH_Vstate_html]
+        </select>
+      </div>
+
+      <div class="form-group">
+        <label class="control-label fix_width150 tar">조건 검색</label><label class="fix_width20 fs14 tac">:</label>
+        <select class="fix_width150" id="cnd_val" onchange="changeSearchCnd(this.value);">
+          <option value="op_num">발주번호</option>
+          <option value="extnl_brand_seqno">종이제조사</option>
+          <option value="storplace">입고처</option>
+        </select>
+        <input type="text" class="input_co2 fix_width150" id="search_val">
+      </div>
+    </div>
+    </form>
+  </div>
+  <!-- 탭 박스 1 기본검색 -->
+
+  <!-- 상세검색버튼 -->
+  <div>
+    <p class="btn-lg red_btn">
+    <a style="cursor: pointer;" onclick="searchOpList();">선택 조건으로 검색</a>
+    </p>
+    <div>
+
+      <br />
+
+      <div class="table-body">
+        <ul class="nav nav-tabs">
+          <li class="li1 active"><a href="#" data-toggle="tab" onclick="tabView('list');"> 종이발주 리스트 </a> </li>
+          <li class="li2"><a href="#" data-toggle="tab" onclick="tabView('add');"> 종이발주서 등록/수정</a> </li>
+        </ul>
+
+        <div id="paper_op_list">
+          <table class="table fix_width100f">
+          <thead>
+          <tr>
+            <th class="bm2px"><input type="checkbox" id="allCheck" onclick="allCheck();"></th>
+            <th class="bm2px">발주번호</th>
+            <th class="bm2px">종이명</th>
+            <th class="bm2px">입고사이즈</th>
+            <th class="bm2px">결</th>
+            <th class="bm2px">수량</th>
+            <th class="bm2px">종이제조사</th>
+            <th class="bm2px">발주자</th>
+            <th class="bm2px">발주일</th>
+            <th class="bm2px">입고처</th>
+            <th class="bm2px">상태</th>
+            <th class="bm2px">메모</th>
+            <th class="bm2px">관리</th>
+          </tr>
+          </thead>
+          <tbody id="list">
+            <tr><td colspan="13">검색 된 내용이 없습니다.</td></tr>
+          </tbody>
+          </table>
+          <p class="p_num_b fs12">
+          Showing 1 to 5 of 30 entries
+          <select name="list_set" class="fix_width55" onchange="showPageSetting(this.value, 'nomal');">
+          <option>5</option>
+          <option>10</option>
+          <option>20</option>
+          <option selected="selected">30</option>
+          </select>
+          </p>
+          <div class="tac clear" id="page">
+          </div>
+
+          <p class="btn-lg red_btn clear">
+          <a style="cursor:pointer;" onclick="paperOp();">발주</a>
+          </p>
+        </div>
+
+        <div id="paper_op_add" style="display:none;">
+          <ul class="ofh" style="width:100%;">
+            <li class="fix_width440 fl" style="width:25%;margin-top: 50px;margin-left: 5%;">
+              <label class="control-label fix_width79 tar">종이명</label><label class="fix_width20 fs14 tac">:</label>
+              <input type="text" class="input_co5 fix_width145" id="paper_name" value="" disabled>
+              <input type="hidden" id="paper_dvs">
+              <input type="hidden" id="paper_color">
+              <input type="hidden" id="paper_basisweight">
+              <br />
+
+              <label class="control-label fix_width79 tar">종이제조사</label><label class="fix_width20 fs14 tac">:</label>
+              <input type="text" class="input_co5 fix_width145" id="paper_manu_name" value="" disabled>
+              <input type="hidden" id="paper_brand_seqno" value="" disabled>
+              <input type="hidden" id="paper_op_seqno" value="" disabled>
+              <br />
+
+              <label class="control-label fix_width79 tar">발주사이즈</label><label class="fix_width20 fs14 tac">:</label>
+              <input type="text" class="input_co5 fix_width145" id="paper_affil" value="" disabled>
+              <input type="text" style="margin-left:2px;" class="input_co5 fix_width55" id="paper_op_wid_size" value="" disabled> * <input type="text" class="input_co5 fix_width55" id="paper_op_vert_size" value="" disabled>
+              <br />
+
+              <label class="control-label fix_width79 tar blue_text01">조판번호</label><label class="fix_width20 fs14 tac">:</label>
+              <input type="text" class="input_co5 fix_width145" id="typset_num" value="">
+              <br />
+
+
+              <label class="control-label fix_width79 tar blue_text01">입고처</label><label class="fix_width20 fs14 tac">:</label>
+              <select class="fix_width150" id="storplace">
+                [TPH_Vprint_manu_html]
+              </select>
+              <br />
+
+              <label class="control-label fix_width79 tar blue_text01">입고사이즈</label><label class="fix_width20 fs14 tac">:</label>
+              <select class="fix_width150" onchange="changeSubpaper(this.value);" id="paper_subpaper">
+              <option value="">절수(전체)</option>
+              <option value="1">전절</option>
+              <option value="2">2절</option>
+              <option value="4">4절</option>
+              <option value="8">8절</option>
+              <option value="16">16절</option>
+              <option value="32">32절</option>
+              <option value="별">별절</option>
+              </select>
+              <input type="text" class="input_co5 fix_width55" id="paper_stor_wid_size" onkeyup="onlyNumber2(event)" value=""> * <input type="text" class="input_co5 fix_width55" onkeyup="onlyNumber2(event)" id="paper_stor_vert_size" value="">
+              <br />
+
+              <label class="control-label fix_width79 tar blue_text01">결 </label><label class="fix_width20 fs14 tac">:</label>
+              <label class="control-label cp"><input type="radio" class="radio_box" name="paper_grain" value="종목" checked="checked">종목</label>
+              <label class=" fix_width15"></label>
+              <label class="control-label cp"><input type="radio" class="radio_box" name="paper_grain" value="횡목">횡목</label>
+              <br />
+
+              <label class="control-label fix_width79 tar blue_text01">수량</label><label class="fix_width20 fs14 tac">:</label>
+              <input type="text" class="input_co5 fix_width145" id="paper_amt" onkeyup="onlyNumber2(event)" value="">
+              <select class="fix_width75" id="paper_amt_unit">
+                <option value="장">장</option>
+                <option value="R">R</option>
+              </select>
+              <br />
+
+              <label class="control-label fix_width79 tar blue_text01">발주메모</label><label class="fix_width20 fs14 tac">:</label>
+              <textarea class="bs_noti2" id="paper_memo"></textarea>
+            </li>
+            <li  class="fl" style="width:65%;">
+            <div class="tab-content">
+              <div class="tab-pane active" id="stab_tit_1">
+                <p class="tar">
+                <select class="fix_width150" onchange="changeManuListCall();" id="paper_extnl_etprs_seqno">
+                [TPH_Vpaper_manu_html]
+                </select>
+                <select class="fix_width110" id="name" onchange="selectPaperName(); return false;">
+                [TPH_Vpaper_opt]
+                </select>
+                <select class="fix_width110" id="dvs" onchange="selectPaperDvs(); return false;" disabled>
+                <option value="">구분(전체)</option>
+                </select>
+                <select class="fix_width110" id="color" onchange="selectPaperColor(); return false;" disabled>
+                <option value="">색상(전체)</option>
+                </select>
+                <select class="fix_width110" id="basisweight" onchange="cndSearch.info(''); return false;" disabled>
+                <option value="">평량(전체)</option>
+                </select>
+                </p>
+
+                <div class="ofa fix_height325 mt15 mb15">
+                  <table class="table" style="width:100%;">
+                  <colgroup>
+                  <col style="width:50px;" />
+                  <col style="width:120px;" />
+                  <col style="width:100px;" />
+                  <col style="width:150px;" />
+                  <col style="width:60px;" />
+                  <col style="width:100px;" />
+                  </colgroup>
+                  <thead>
+                  <tr>
+                    <th class="bm2px">선택</th>
+                    <th class="bm2px"><a style="cursor: pointer;" onclick="sortList('manu_name', this, 'paper');" class="blue_text01 sorting">제조사 <i class="fa fa-sort"></i></a></th>
+                    <th class="bm2px"><a style="cursor: pointer;" onclick="sortList('brand_name', this, 'paper');" class="blue_text01 sorting">브랜드 <i class="fa fa-sort"></i></a></th>
+                    <th class="bm2px"><a style="cursor: pointer;" onclick="sortList('paper_name', this, 'paper');" class="blue_text01 sorting">종이명 <i class="fa fa-sort"></i></a></th>
+                    <th class="bm2px">계열</th>
+                    <th class="bm2px">사이즈</th>
+                  </tr>
+                  </thead>
+                  <tbody id="paper_info_list">
+                  </tbody>
+                  </table>
+                </div>
+                <hr class="hr_bd3">
+                <label class="btn btn_md fix_width55" onclick="getPaper();">적용</label>
+              </div>
+            </div>
+            </li>
+          </ul>
+          <p class="btn-lg red_btn">
+          <a style="cursor:pointer;" onclick="regiPaperOp();">발주서 등록/수정</a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- table-body -->
+  </section>
+</div>
+</body>
+</html>

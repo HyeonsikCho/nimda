@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="ko">
+<head>
+    <title>전산관리</title>
+    <meta charset="utf-8">
+    [TPH_I/common/common.html]
+</head>
+<body>
+
+<div id="container">
+    	
+    	<!-- TOP NAVIGATION --> 
+       [TPH_I/common/header.html]
+		<!-- LEFT NAVIGATION --> 
+       [TPH_Vleft]
+       <!-- CONTENT --> 
+        <section id="page-content">            
+
+            <!-- 히스토리 -->
+            [TPH_I/common/history.html]
+            <!-- 본문 컨텐츠  시작-->
+            
+            <!-- 탭 박스 1 기본검색 -->
+            <div class="tb_group clear">
+    			<ul class="tab_box mt25">
+    			</ul>
+			    <form>
+			        <div class="tab_box_con">
+					    <div class="form-group">
+			                <label class="control-label fix_width79 tar">카테고리</label><label class="fix_width20 fs14 tac">:</label>
+	                        <select id="cate_top" onchange="cateSelect.exec('top', this.value);" class="fix_width120">
+                                [TPH_Vcate_html]
+        		            </select>
+	                        <select id="cate_mid" onchange="cateSelect.exec('mid', this.value);" class="fix_width120">
+        					    <option value="">중분류</option>
+        		            </select>
+	                        <select id="cate_bot" onchange="loadTemplateInfo(this.value);" class="fix_width120">
+        					    <option value="">소분류</option>
+        		            </select>
+					    </div>			    
+			        </div>
+			    </form>
+            </div> <!-- 탭 박스 1 기본검색 -->
+           
+            
+            <!-- 탭 박스 3 TAB -->
+            <div class="tb_group mt25">
+                <div class="table-body">
+                    <ul class="pro_list_line">
+                        <li class="fwb7">* [<span id="selected_cate" class="red_text01 fs14"></span>]에 등록된 템플릿 파일입니다.</li>
+                    </ul>
+                    <table class="table fix_width100f">
+                        <thead>
+                            <tr>
+                                <th class="bm2px">고유번호</th>
+                                <th class="bm2px">사이즈</th>
+                                <th class="bm2px">재단사이즈(mm)</th>
+                                <th class="bm2px">작업사이즈(mm)</th>
+                                <th class="bm2px">AI파일</th>
+                                <th class="bm2px">EPS파일</th>
+                                <th class="bm2px">CDR파일</th>
+                                <th class="bm2px">수정</th>
+                            </tr>
+                        </thead>
+                        <tbody id="template_list">
+                            <tr>
+                                <td colspan="7">카테고리를 선택해주세요.</td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+                    <button type="button" onclick="showTemplatePop(null);" class="btn btn-warning">
+                        템플릿 추가
+                    </button>
+                </div>
+            </div> <!-- 탭 박스 3 TAB -->
+        </section>
+        <iframe id="file_ifr" width="0" height="0" style="display:none;" src=""></iframe>
+</div>
+</body>
+</html>

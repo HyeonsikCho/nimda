@@ -1,0 +1,63 @@
+<?
+include_once($_SERVER["DOCUMENT_ROOT"] . "/common_lib/CommonUtil.php");
+include_once($_SERVER["DOCUMENT_ROOT"] . "/com/nexmotion/common/util/ConnectionPool.php");
+include_once($_SERVER["DOCUMENT_ROOT"] . "/com/nexmotion/common/entity/FormBean.php");
+include_once($_SERVER["DOCUMENT_ROOT"] . "/com/nexmotion/job/produce/typset_mng/TypsetListDAO.php");
+
+$connectionPool = new ConnectionPool();
+$conn = $connectionPool->getPooledConnection();
+
+$fb = new FormBean();
+$dao = new TypsetListDAO();
+$util = new CommonUtil();
+
+$param = array();
+$param["seqno"] = $fb->form("seqno");
+$rs = $dao->selectTypsetDirectionsView($conn, $param);
+
+$param = array();
+$param["table"] = "sheet_typset_file";
+$param["col"] = "sheet_typset_file_seqno, origin_file_name, size, save_file_name";
+$param["where"]["sheet_typset_seqno"] = $rs->fields["sheet_typset_seqno"];
+
+$file_rs = $dao->selectData($conn, $param);
+
+$file_html = "";
+$html  = "<div class=\"tmp\" id=\"%s\" style=\"margin-left: 102px;\">";
+$html .= "\n<a href=\"/common/sheet_typset_file_down.php?seqno=" . $file_rs->fields["sheet_typset_file_seqno"] . "\"> %s (";
+$html .= "\n%s";
+$html .= "\n)<b>100%%</b></a>";
+$html .= "\n&nbsp;"; 
+$html .= "\n<img src=\"/design_template/images/btn_circle_x_red.png\"";
+$html .= "\n     file_seqno=\"\"";
+$html .= "\n     alt=\"X\"";
+$html .= "\n     onclick=\"removeFile('%s', true, 'format_file', '%s');\"";
+$html .= "\n     style=\"cursor:pointer;\" /></div>";
+
+while ($file_rs && !$file_rs->EOF) {
+
+    $tmp = explode(".", $file_rs->fields["save_file_name"]);
+    $tmp[0] = preg_replace ("/[ #\&\+\-%@=\/\\\:;,\.'\"\^`~\_|\!\?\*$#<>()\[\]\{\}]/i", "", $tmp[0]); 
+    $file_html .= sprintf($html, $tmp[0]
+                               , $file_rs->fields["origin_file_name"]
+                               , getFileSize($file_rs->fields["size"])
+                               , $file_rs->fields["sheet_typset_file_seqno"]
+                               , $tmp[0]);
+    $file_rs->moveNext();
+}
+
+echo $file_html;
+$conn->close();
+
+/*******************************************************************************
+                                 함수 영역
+ ******************************************************************************/
+
+//파일 용량 단위 변환 함수
+function getFileSize($size, $float = 0) { 
+    $unit = array('byte', 'kb', 'mb', 'gb', 'tb'); 
+    for ($L = 0; intval($size / 1024) > 0; $L++, $size/= 1024); 
+    if (($float === 0) && (intval($size) != $size)) $float = 2; 
+    return round(number_format($size, $float, '.', ',')) .' '. $unit[$L]; 
+} 
+?>

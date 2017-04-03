@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="ko">
+<head>
+    <title>전산관리</title>
+    <meta charset="utf-8">
+    [TPH_I/common/common.html]
+</head>
+<body>
+    <div id="container">
+    	<!-- TOP NAVIGATION --> 
+       [TPH_I/common/header.html]
+		<!-- LEFT NAVIGATION --> 
+       [TPH_Vleft]
+       <!-- CONTENT --> 
+        <section id="page-content">            
+
+            <!-- 히스토리 -->
+            [TPH_I/common/history.html]
+            <!-- 본문 컨텐츠  시작-->
+            
+            <!-- 배너 기본설정 시작 -->
+            <div class="tb_group clear">
+    			<ul class="tab_box mt25"></ul>
+
+                <div class="tab_box_con">
+                    <div class="form-group">
+                        <label class="control-label fix_width150 tar">게시물수 </label><label class="fix_width20 fs14 tac">:</label>
+                        <select id="mb_count" name="mb_count" onchange="objCountView(this.value);" class="fix_width120">
+                            [TPH_Vmb_count_html]
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label class="control-label fix_width150 tar">슬라이드 타이머 </label><label class="fix_width20 fs14 tac">:</label>
+                        <label class="form-radio form-normal"><input type="radio" name="slide_timer" value="5" class="radio_box" [TPH_Vslide_timer1]>5초</label>
+                        <label class="fix_width15"></label>
+                        <label class="form-radio"><input type="radio" name="slide_timer" value="10" class="radio_box" [TPH_Vslide_timer2]>10초</label>
+                        <label class="fix_width15"></label>
+                        <label class="form-radio"><input type="radio" name="slide_timer" value="15" class="radio_box" [TPH_Vslide_timer3]>15초</label>
+                    </div>
+                </div>
+            </div>
+            <!-- 배너 기본설정 종료 -->
+            
+            <div id="banner_contents">
+                [TPH_Vbanner_contents]
+            </div>
+
+             <!-- 상세검색버튼 --> 
+            <div class="center">
+                <input type="hidden" id="set_seqno" value="[TPH_Vset_seqno]">
+                <div class="mbanner_blue_btn btn"><a style="cursor:pointer;" onclick="apply()">적 용</a></div>&nbsp;
+                <div class="mbanner_red_btn btn"><a style="cursor:pointer;" onclick="init()">초기화</a></div>
+            </div>
+        </section>
+    </div>
+</body>
+</html>
