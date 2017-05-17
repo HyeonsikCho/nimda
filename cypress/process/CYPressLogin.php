@@ -65,6 +65,10 @@ $passwd  = $fb->form("passwd");
  /***********************************************************************************
  *** 회원 로그인 정보 체크
  ***********************************************************************************/
+ echo  "ok pass:";
+
+ exit;
+
  $chkpass = $CMembers->getPassWDCheck($conn, $rData);
  $mbRes = $CMembers->getEmplLoginCheck($conn, $rData);
 

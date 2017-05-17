@@ -1,10 +1,10 @@
 @charset "utf-8";
 
-.input_co {background: #fff; border:#e1e5ea 1px solid;vertical-align: middle; padding-left: 5px;margin: 0 2px;height: 30px; color: #515151}
-.input_co2 {background: #fff; border:#e1e5ea 1px solid;vertical-align: middle;padding-left: 5px;margin: 5px 2px;height: 25px; color: #515151} 
-.input_co4 {background: #fff; border:#e1e5ea 1px solid;vertical-align: middle;padding-left: 5px;margin: 0 2px;height: 25px;} 
-.input_co3 {background: #fff; border:#e1e5ea 1px solid;vertical-align: middle;padding-left: 5px;margin: 0 2px;height: 25px; color: #515151;position:relative;top:-2px;} 
-.input_co5 {background: #fff; border:#e1e5ea 1px solid;vertical-align: middle;padding-left: 5px;height: 25px; color: #515151;position:relative;top:-1px} 
+.input_co {background: #fff; border:#ccc 1px solid;vertical-align: middle; padding-left: 5px;margin: 0 2px;height: 30px; color: #515151}
+.input_co2 {background: #fff; border:#ccc 1px solid;vertical-align: middle;padding-left: 5px;margin: 5px 2px;height: 25px; color: #515151}
+.input_co4 {background: #fff; border:#ccc 1px solid;vertical-align: middle;padding-left: 5px;margin: 0 2px;height: 25px;}
+.input_co3 {background: #fff; border:#ccc 1px solid;vertical-align: middle;padding-left: 5px;margin: 0 2px;height: 25px; color: #515151;position:relative;top:-2px;}
+.input_co5 {background: #fff; border:#ccc 1px solid;vertical-align: middle;padding-left: 5px;height: 25px; color: #515151;position:relative;top:-1px}
 .box_sm{display: inline-block; padding: 3px;}
 .con_label {font-size:13px;padding-left:5px;}
 .control-label2 {font-size: 14px; font-weight: bold; padding: 10px 0 5px 0;}
@@ -92,6 +92,3 @@ span.address {font-size: 14px;color: #993333}
 /* 주문조회 */
 .order_sch {overflow:hidden;}
 .order_sch li.fd_bg {background:url(../images/folder-horizontal.png) left 2px no-repeat;padding-left:21px;}
-
-
-

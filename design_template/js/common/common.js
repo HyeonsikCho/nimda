@@ -2,7 +2,7 @@
  *
  * Copyright (c) 2015 Nexmotion, Inc.
  * All rights reserved.
- * 
+ *
  * REVISION HISTORY (reverse chronological order)
  *=============================================================================
  * 2015/10/28 임종건 생성
@@ -59,7 +59,7 @@ $(function(){
         });
 
         lastScroll = st;
-    });       
+    });
 });
 */
 
@@ -92,7 +92,7 @@ function startDrag(e, obj){
 
     document.onmousemove = moveDrag;
     document.onmouseup = stopDrag;
-    if(e_obj.preventDefault)e_obj.preventDefault(); 
+    if(e_obj.preventDefault)e_obj.preventDefault();
 }
 
 function stopDrag(){
@@ -125,10 +125,10 @@ var ajaxCall  = function(url, dataType, data, sucCallback) {
         dataType : dataType,
         data     : data,
         success  : function(result) {
-            hideMask(); 
+            hideMask();
             return sucCallback(result);
         },
-        error: getAjaxError 
+        error: getAjaxError
     });
 };
 
@@ -145,10 +145,10 @@ var ajaxCallMultipart = function(url, dataType, data, sucCallback) {
         processData : false,
         contentType : false,
         success  : function(result) {
-            hideMask(); 
+            hideMask();
             return sucCallback(result);
         },
-        error: getAjaxError 
+        error: getAjaxError
     });
 }
 
@@ -191,7 +191,7 @@ var isVar = function(varName) {
 
 //정열 초기화
 var sortInit = function() {
- 
+
     $(".sorting").children().removeClass("fa-sort-desc");
     $(".sorting").children().removeClass("fa-sort-asc");
     $(".sorting").children().addClass("fa-sort");
@@ -222,9 +222,9 @@ var showMsg440 = function(msg) {
         top : ($(window).height() - $('#alert_msg_440').outerHeight())/2 + $(window).scrollTop() + "px"
     });
 
-    $("#alert_msg_440").html(html); 
+    $("#alert_msg_440").html(html);
     $("#showMsg440").focus();
-    $("#alert_msg_440").show(); 
+    $("#alert_msg_440").show();
 }
 
 //경고메세지 width440 size hide
@@ -247,24 +247,24 @@ var showMask = function() {
 }
 
 //로딩 중 이미지 숨기기
-var hideMask = function() { 
+var hideMask = function() {
 
-    $("#loading_img").hide() 
+    $("#loading_img").hide()
     hideBgMask();
 }
 
 //Background 마스크 show
 var showBgMask = function() {
 
-    var maskHeight = $(document).height();  
-    var maskWidth = $(window).width();  
+    var maskHeight = $(document).height();
+    var maskWidth = $(window).width();
 
     //마스크의 높이와 너비를 화면 것으로 만들어 전체 화면을 채운다.
-    $("#black_mask").css({'width':maskWidth,'height':maskHeight}); 
+    $("#black_mask").css({'width':maskWidth,'height':maskHeight});
     $("#black_mask").show();
 }
 
-//Background 마스크 hide 
+//Background 마스크 hide
 var hideBgMask = function() {
 
     $("#black_mask").hide();
@@ -273,15 +273,15 @@ var hideBgMask = function() {
 //Background 마스크 show
 var showPopMask = function() {
 
-    var maskHeight = $(document).height();  
-    var maskWidth = $(window).width();  
+    var maskHeight = $(document).height();
+    var maskWidth = $(window).width();
 
     //마스크의 높이와 너비를 화면 것으로 만들어 전체 화면을 채운다.
-    $("#pop_mask").css({'width':maskWidth,'height':maskHeight}); 
+    $("#pop_mask").css({'width':maskWidth,'height':maskHeight});
     $("#pop_mask").show();
 }
 
-//Background 마스크 hide 
+//Background 마스크 hide
 var hidePopMask = function() {
 
     $("#pop_mask").hide();
@@ -290,11 +290,11 @@ var hidePopMask = function() {
 //Background 마스크 show
 var showPopPopMask = function() {
 
-    var maskHeight = $(document).height();  
-    var maskWidth = $(window).width();  
+    var maskHeight = $(document).height();
+    var maskWidth = $(window).width();
 
     //마스크의 높이와 너비를 화면 것으로 만들어 전체 화면을 채운다.
-    $("#pop_pop_mask").css({'width':maskWidth,'height':maskHeight}); 
+    $("#pop_pop_mask").css({'width':maskWidth,'height':maskHeight});
     $("#pop_pop_mask").show();
 }
 
@@ -310,13 +310,13 @@ var popShow = function($obj) {
     $obj.css("position","absolute");
           $obj.css("top", Math.max(0, (($(window).height() - $obj.height()) / 2) + $(window).scrollTop()) + "px");
                 $obj.css("left", Math.max(0, (($(window).width() - $obj.width()) / 2) + $(window).scrollLeft()) + "px");
-    $obj.fadeIn(); 
+    $obj.fadeIn();
 }
 
 //레이어 팝업 hide
 var popHide = function($obj) {
-    $obj.fadeOut(); 
-} 
+    $obj.fadeOut();
+}
 
 //검색창 팝업 show
 var searchPopShow = function(event, fn1, fn2) {
@@ -406,7 +406,7 @@ var checkExt = function($obj) {
         alert("엑셀파일만 업로드 할 수 있습니다.");
         return false;
     }
-    
+
     return true;
 };
 
@@ -448,24 +448,35 @@ var dateSet = function(num) {
  *
  * @param cateType     = 카테고리 선택 구분(top, mid)
  * @param cateSortcode = 카테고리 분류코드
+ * @param prefix       = 객체 id prefix값
  */
 var cateSelect = {
     "type" : null,
-    "exec" : function(cateType, cateSortcode) {
+    "exec" : function(cateType, cateSortcode, prefix) {
+        var midId = "cate_mid";
+        var botId = "cate_bot";
+        if (checkBlank(prefix)) {
+            midId = '#' +  midId;
+            botId = '#' +  botId;
+        } else {
+            midId = '#' + prefix + '_' + midId;
+            botId = '#' + prefix + '_' + botId;
+        }
+
         //카테고리 분류코드가 빈값인 경우
-        if (checkBlank(cateSortcode) === true) {
+        if (checkBlank(cateSortcode)) {
             var html = "";
 
             //카테고리 대분류
             if (cateType === "top") {
                 html = makeOption("중분류(전체)");
-                $("#cate_mid").html(html);
+                $(midId).html(html);
                 html = makeOption("소분류(전체)");
-                $("#cate_bot").html(html);
+                $(botId).html(html);
             } else if (cateType === "mid") {
                 html = makeOption("소분류(전체)");
-                $("#cate_bot").html(html);
-            } 
+                $(botId).html(html);
+            }
 
             // 상세 검색정보 초기화 하는 함수 있을경우 실행
             if (isFunc('resetDetailInfo') === true) {
@@ -479,7 +490,7 @@ var cateSelect = {
         // 카테고리 대 변경시 카테고리 소 초기화
         if (cateType === "top") {
             html = makeOption("소분류(전체)");
-            $("#cate_bot").html(html);
+            $(botId).html(html);
         }
 
         var url = "/ajax/common/load_cate_list.php";
@@ -490,10 +501,10 @@ var cateSelect = {
         var callback = function(result) {
             var html = "";
             if (cateSelect.type === "top") {
-                $("#cate_mid").html(result);
+                $(midId).html(result);
             } else if (cateSelect.type === "mid") {
-                $("#cate_bot").html(result);
-            } 
+                $(botId).html(result);
+            }
 
             // 상세 검색정보 초기화 하는 함수 있을경우 실행
             if (isFunc('resetDetailInfo') === true) {
@@ -518,7 +529,7 @@ var cateSelect = {
             } else if (cateType === "mid") {
                 html = makeOption("소분류(전체)");
                 $("#cate_bot").html(html);
-            } 
+            }
 
             // 상세 검색정보 초기화 하는 함수 있을경우 실행
             if (isFunc('resetDetailInfo') === true) {
@@ -546,7 +557,7 @@ var cateSelect = {
                 $("#cate_mid").html(result);
             } else if (cateSelect.type === "mid") {
                 $("#cate_bot").html(result);
-            } 
+            }
             showBgMask();
         }
 
@@ -575,7 +586,7 @@ var isSelectCateBot = function() {
 var inputOnlyNumber = function(val) {
     // 숫자를 제외한 나머지만 반환하는 정규식
     // 12.34214asd -> asd만 반환
-    var pattern1 = /[^-?\d+\.?\d+]+/gi; 
+    var pattern1 = /[^-?\d+\.?\d+]+/gi;
     // 소수점 세 자리 까지만 유지하는 정규식
     // 123124.3214 -> 123124.321만 반환
     var pattern2 = /^[-]?\d*[\.]?\d{0,3}/gi;
@@ -597,8 +608,8 @@ var inputOnlyNumber = function(val) {
 var onlyNumber = function(event, el) {
 
     var num_pattern = /^[0-9]*$/;
-    var str_pattern = /[^-?\d+\.?\d+]+/gi; 
-    var spc_pattern = /[^(가-힣ㄱ-ㅎㅏ-ㅣa-zA-Z0-9)]/gi; 
+    var str_pattern = /[^-?\d+\.?\d+]+/gi;
+    var spc_pattern = /[^(가-힣ㄱ-ㅎㅏ-ㅣa-zA-Z0-9)]/gi;
 
     if (!num_pattern.test(el.value)) {
         alert("숫자만 입력 가능합니다.");
@@ -644,7 +655,7 @@ var onlyNumberPrice = function(event) {
 */
 var openRegiPopup = function(html, el_width, el_height) {
 
-    $("#regi_popup").html(html); 
+    $("#regi_popup").html(html);
     $("#regi_popup").css("width", el_width + "px");
 
     var height = $(window).height();
@@ -674,7 +685,7 @@ var openRegiPopup = function(html, el_width, el_height) {
             top : (height - 600)/2 + st + "px",
             width : el_width + "px"
         });
- 
+
         $(".pop_add_box .pop-base").css({
             height : "550px"
         });
@@ -688,15 +699,15 @@ var openRegiPopup = function(html, el_width, el_height) {
     }
 
     $("#regi_popup").focus();
-    $("#regi_popup").show(); 
+    $("#regi_popup").show();
 }
 
 //등록창 닫기
 var hideRegiPopup = function() {
 
     hideBgMask();
-    $("#regi_popup").html(""); 
-    $("#regi_popup").hide(); 
+    $("#regi_popup").html("");
+    $("#regi_popup").hide();
 }
 
 /**
@@ -708,7 +719,7 @@ var hideRegiPopup = function() {
 */
 var openPopPopup = function(html, el_width) {
 
-    $("#pop_popup").html(html); 
+    $("#pop_popup").html(html);
     $("#pop_popup").css("width", el_width + "px");
 
     var height = $(window).height();
@@ -734,7 +745,7 @@ var openPopPopup = function(html, el_width) {
             top : (height - 600)/2 + st + "px",
             width : el_width + "px"
         });
- 
+
         $("#pop_popup .pop_add_box .pop-base").css({
             height : "550px"
         });
@@ -748,7 +759,7 @@ var openPopPopup = function(html, el_width) {
     }
 
     $("#pop_popup").focus();
-    $("#pop_popup").show(); 
+    $("#pop_popup").show();
 }
 
 //팝업 위 팝업 닫기
@@ -756,12 +767,12 @@ var hidePopPopup = function() {
 
     showBgMask();
     hidePopMask();
-    $("#pop_popup").html(""); 
-    $("#pop_popup").hide(); 
+    $("#pop_popup").html("");
+    $("#pop_popup").hide();
 }
 
 /**
- * 
+ *
  * @brief 숫자, backspace, delete, -, . , ←, →  만 입력 받기
  *
 */
@@ -771,16 +782,16 @@ var checkNumber = function(event){
 
     var keyID = (event.which) ? event.which : event.keyCode;
 
-    if ( (keyID >= 48 && keyID <= 57) || (keyID >= 96 && keyID <= 105) 
-            || keyID == 8 || keyID == 46 || keyID == 37 || keyID == 39 
-            || keyID == 109 || keyID == 173 || keyID == 190) 
+    if ( (keyID >= 48 && keyID <= 57) || (keyID >= 96 && keyID <= 105)
+            || keyID == 8 || keyID == 46 || keyID == 37 || keyID == 39
+            || keyID == 109 || keyID == 173 || keyID == 190)
         return;
     else
         return false;
 }
 
 /**
- * 
+ *
  * @brief 숫자, backspace, delete, ←, → 만 입력 받기
  *
 */
@@ -790,15 +801,15 @@ var checkOnlyNumber = function(event){
 
     var keyID = (event.which) ? event.which : event.keyCode;
 
-    if ( (keyID >= 48 && keyID <= 57) || (keyID >= 96 && keyID <= 105) 
-            || keyID == 8 || keyID == 46 || keyID == 37 || keyID == 39 ) 
+    if ( (keyID >= 48 && keyID <= 57) || (keyID >= 96 && keyID <= 105)
+            || keyID == 8 || keyID == 46 || keyID == 37 || keyID == 39 )
         return;
     else
         return false;
 }
 
 /**
- * 
+ *
  * @brief 숫자, backspace, delete, -, . 외 문자 삭제
  *
 */
@@ -807,7 +818,7 @@ var removeChar = function(event) {
     event = event || window.event;
 
     var keyID = (event.which) ? event.which : event.keyCode;
-    if ( keyID == 8 || keyID == 46 || keyID == 37 || keyID == 39 ) 
+    if ( keyID == 8 || keyID == 46 || keyID == 37 || keyID == 39 )
 
         return;
     else
@@ -840,7 +851,7 @@ var checkBirth = function(str, obj) {
  *  전화번호 형식체크
  */
 var checkTel = function(str, obj) {
-    
+
     if (str == "")  return false;
 
     var num = str.replace(/[^0-9]/g, '');
@@ -861,7 +872,7 @@ var checkTel = function(str, obj) {
             obj.value = phone_format(2, num);
         else
             obj.value = phone_format(3, num);
-    } else if (len == 11) { // ex) 
+    } else if (len == 11) { // ex)
         if (num.substring(0,2) == "02")
             error_num(obj);
         else
@@ -908,9 +919,9 @@ var checkEmail = function(str, obj) {
         obj.focus();
         return false;
     }
-    
+
     return true;
-} 
+}
 
 //이메일 형식 체크
 var emailCheck = function(str) {
@@ -921,9 +932,9 @@ var emailCheck = function(str) {
     if (!str.match(reg)){
         return false;
     }
-    
+
     return true;
-} 
+}
 
 /**
  * @brief 회원명 검색할 때 사용하는 함수
@@ -1089,7 +1100,7 @@ String.prototype.format = function(){
  * @brief 판매채널에 해당하는 영업팀 검색
  */
 var loadDeparInfo = function() {
- 
+
     showMask();
 
     var url = "/ajax/common/load_depar_list.php";
@@ -1107,7 +1118,7 @@ var loadDeparInfo = function() {
  * @brief 로그인
  */
 var login = function() {
- 
+
     showMask();
 
     var url = "/common/login.php";
@@ -1139,7 +1150,7 @@ var login = function() {
         $("#id").focus();
         return false;
     }
- 
+
     if (checkBlank($("#pw").val())) {
         alert("암호를 입력 해주세요.");
         $("#pw").focus();
@@ -1228,7 +1239,7 @@ var paperSelect = {
             "paper_dvs"     : $(prefix + "paper_dvs").val(),
             "paper_color"   : $(prefix + "paper_color").val()
         };
-      
+
         var callback = function(result) {
             if (paperSelect.type === "NAME") {
                 $(prefix + "paper_dvs").html(result.dvs);
@@ -1288,7 +1299,7 @@ var getDetail = {
         var data = {
             "empl_seqno"   : empl_seqno
         };
-      
+
         var callback = function(result) {
         };
 
@@ -1303,7 +1314,7 @@ var getDetail = {
         var data = {
             "empl_seqno"   : empl_seqno
         };
-      
+
         var callback = function(result) {
         };
 
@@ -1318,7 +1329,7 @@ var getDetail = {
         var data = {
             "empl_seqno"   : empl_seqno
         };
-      
+
         var callback = function(result) {
         };
 
@@ -1333,7 +1344,7 @@ var getDetail = {
         var data = {
             "empl_seqno"   : empl_seqno
         };
-      
+
         var callback = function(result) {
         };
 

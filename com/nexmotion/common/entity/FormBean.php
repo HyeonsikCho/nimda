@@ -1,11 +1,13 @@
 <?
 //ini_set("session.gc_probability", 1);
 //ini_set("session.gc_divisor", 1);
-ini_set("session.save_path", "/home/dprinting/nimda_sess");
-ini_set("session.gc_maxlifetime", 8640000);
-ini_set("session.cookie_lifetime", 8640000);
-ini_set("session.cache_expire", 8640000);
-session_start();
+
+//ini_set("session.save_path", "/home/dprinting/nimda_sess");
+session_start([
+    "gc_maxlifetime"  => 8640000,
+    "cookie_lifetime" => 8640000,
+    "cache_expire"    => 8640000
+]);
 
 class FormBean {
 
@@ -140,7 +142,7 @@ class FormBean {
 
 	}
 
-	//post, get À¸·Î ³Ñ¾î¿Â µ¥ÀÌÅÍ¸¦ ¹ÝÈ¯
+	//post, get ï¿½ï¿½ï¿½ï¿½ ï¿½Ñ¾ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Í¸ï¿½ ï¿½ï¿½È¯
 	function getdata() {
 		while ( list($key, $val) = each($this->fb) ) {
 			    $getmsg .= $key . "=" . $val . "&";
@@ -149,7 +151,7 @@ class FormBean {
 		return $getmsg;
 	}
 
-	//post, get À¸·Î ³Ñ¾î¿Â µ¥ÀÌÅÍ¸¦ ¹ÝÈ¯(urlencode)
+	//post, get ï¿½ï¿½ï¿½ï¿½ ï¿½Ñ¾ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Í¸ï¿½ ï¿½ï¿½È¯(urlencode)
 	function getdataURLEncode() {
 		while ( list($key, $val) = each($fb->fb) ) {
 			$getmsg .= $key . "=" . urlencode($val) . "&";

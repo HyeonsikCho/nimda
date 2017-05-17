@@ -19,7 +19,7 @@ class Template {
     var $suffixLength;
     var $hashtable;
 
-    function Template() {
+    function __construct() {
 
         $this->prefix = "[TPH_";
         $this->suffix = "]";

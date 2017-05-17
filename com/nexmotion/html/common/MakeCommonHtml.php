@@ -33,8 +33,8 @@ function makeOptionHtml($rs, $val, $dvs, $base="전체", $flag="Y") {
         if ($val === "") {
             $value = $fields;
         } else {
-			$value = $rs->fields[$val];
-		}
+            $value = $rs->fields[$val];
+        }
 
         $html .= "\n" . option($fields, $value);   
 
@@ -77,8 +77,8 @@ function makeStanOptionHtml($rs,
         if ($val === "") {
             $value = $fields;
         } else {
-			$value = $rs->fields[$val];
-		}
+            $value = $rs->fields[$val];
+        }
 
         $attr  = "affil=\"" . $rs->fields["affil"] . "\"";
 
@@ -130,7 +130,7 @@ function makeSelectOptionHtml($rs, $arr) {
         if ($arr["val"] === "" || $arr["val"] === NULL) {
             $value = $fields;
         } else {
-			$value = $rs->fields[$arr["val"]];
+            $value = $rs->fields[$arr["val"]];
         }
 
         $html .= "\n" . option($fields, $value);   

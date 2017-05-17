@@ -1,8 +1,13 @@
 #! /usr/local/bin/php -f
 <?
-$name = "/home/dprinting/nimda/test.xlsx";
+class t {
+    static function t1() {
+        echo "123123123\n";
+    }
+}
 
-$ret = is_file($name) ? (@unlink($name) ? true : false) : "err";
+$a = new t();
 
-var_dump($ret);
+t::t1();
+$a->t1();
 ?>

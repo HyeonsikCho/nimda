@@ -1,595 +1,1793 @@
+Array
+(
+    [명함사이즈|투터치재단|86*52|86|52|88|54] => Array
+        (
+            [0] => 1
+        )
 
- UPDATE  cate_print
-    SET  seq = '1'
-  WHERE  cate_print_seqno = '97'
- UPDATE  cate_print
-    SET  seq = '1'
-  WHERE  cate_print_seqno = '102'
- UPDATE  cate_print
-    SET  seq = '2'
-  WHERE  cate_print_seqno = '101'
- UPDATE  cate_print
-    SET  seq = '3'
-  WHERE  cate_print_seqno = '100'
- UPDATE  cate_print
-    SET  seq = '1'
-  WHERE  cate_print_seqno = '105'
- UPDATE  cate_print
-    SET  seq = '2'
-  WHERE  cate_print_seqno = '104'
- UPDATE  cate_print
-    SET  seq = '3'
-  WHERE  cate_print_seqno = '103'
- UPDATE  cate_print
-    SET  seq = '1'
-  WHERE  cate_print_seqno = '107'
- UPDATE  cate_print
-    SET  seq = '2'
-  WHERE  cate_print_seqno = '106'
- UPDATE  cate_print
-    SET  seq = '1'
-  WHERE  cate_print_seqno = '109'
- UPDATE  cate_print
-    SET  seq = '2'
-  WHERE  cate_print_seqno = '108'
- UPDATE  cate_print
-    SET  seq = '1'
-  WHERE  cate_print_seqno = '111'
- UPDATE  cate_print
-    SET  seq = '2'
-  WHERE  cate_print_seqno = '110'
- UPDATE  cate_print
-    SET  seq = '1'
-  WHERE  cate_print_seqno = '112'
- UPDATE  cate_print
-    SET  seq = '1'
-  WHERE  cate_print_seqno = '113'
- UPDATE  cate_print
-    SET  seq = '1'
-  WHERE  cate_print_seqno = '114'
- UPDATE  cate_print
-    SET  seq = '1'
-  WHERE  cate_print_seqno = '115'
- UPDATE  cate_print
-    SET  seq = '1'
-  WHERE  cate_print_seqno = '116'
- UPDATE  cate_print
-    SET  seq = '1'
-  WHERE  cate_print_seqno = '117'
- UPDATE  cate_print
-    SET  seq = '1'
-  WHERE  cate_print_seqno = '118'
- UPDATE  cate_print
-    SET  seq = '1'
-  WHERE  cate_print_seqno = '119'
- UPDATE  cate_print
-    SET  seq = '1'
-  WHERE  cate_print_seqno = '120'
- UPDATE  cate_print
-    SET  seq = '1'
-  WHERE  cate_print_seqno = '121'
- UPDATE  cate_print
-    SET  seq = '1'
-  WHERE  cate_print_seqno = '122'
- UPDATE  cate_print
-    SET  seq = '1'
-  WHERE  cate_print_seqno = '123'
- UPDATE  cate_print
-    SET  seq = '1'
-  WHERE  cate_print_seqno = '124'
- UPDATE  cate_print
-    SET  seq = '1'
-  WHERE  cate_print_seqno = '125'
- UPDATE  cate_print
-    SET  seq = '1'
-  WHERE  cate_print_seqno = '126'
- UPDATE  cate_print
-    SET  seq = '1'
-  WHERE  cate_print_seqno = '127'
- UPDATE  cate_print
-    SET  seq = '1'
-  WHERE  cate_print_seqno = '128'
- UPDATE  cate_print
-    SET  seq = '1'
-  WHERE  cate_print_seqno = '129'
- UPDATE  cate_print
-    SET  seq = '1'
-  WHERE  cate_print_seqno = '131'
- UPDATE  cate_print
-    SET  seq = '2'
-  WHERE  cate_print_seqno = '130'
- UPDATE  cate_print
-    SET  seq = '1'
-  WHERE  cate_print_seqno = '133'
- UPDATE  cate_print
-    SET  seq = '2'
-  WHERE  cate_print_seqno = '132'
- UPDATE  cate_print
-    SET  seq = '1'
-  WHERE  cate_print_seqno = '445'
- UPDATE  cate_print
-    SET  seq = '1'
-  WHERE  cate_print_seqno = '134'
- UPDATE  cate_print
-    SET  seq = '1'
-  WHERE  cate_print_seqno = '442'
- UPDATE  cate_print
-    SET  seq = '1'
-  WHERE  cate_print_seqno = '137'
- UPDATE  cate_print
-    SET  seq = '2'
-  WHERE  cate_print_seqno = '135'
- UPDATE  cate_print
-    SET  seq = '2'
-  WHERE  cate_print_seqno = '443'
- UPDATE  cate_print
-    SET  seq = '2'
-  WHERE  cate_print_seqno = '138'
- UPDATE  cate_print
-    SET  seq = '2'
-  WHERE  cate_print_seqno = '446'
- UPDATE  cate_print
-    SET  seq = '3'
-  WHERE  cate_print_seqno = '136'
- UPDATE  cate_print
-    SET  seq = '3'
-  WHERE  cate_print_seqno = '444'
- UPDATE  cate_print
-    SET  seq = '1'
-  WHERE  cate_print_seqno = '521'
- UPDATE  cate_print
-    SET  seq = '1'
-  WHERE  cate_print_seqno = '481'
- UPDATE  cate_print
-    SET  seq = '1'
-  WHERE  cate_print_seqno = '482'
- UPDATE  cate_print
-    SET  seq = '1'
-  WHERE  cate_print_seqno = '514'
- UPDATE  cate_print
-    SET  seq = '1'
-  WHERE  cate_print_seqno = '515'
- UPDATE  cate_print
-    SET  seq = '1'
-  WHERE  cate_print_seqno = '472'
- UPDATE  cate_print
-    SET  seq = '1'
-  WHERE  cate_print_seqno = '473'
- UPDATE  cate_print
-    SET  seq = '1'
-  WHERE  cate_print_seqno = '520'
- UPDATE  cate_print
-    SET  seq = '2'
-  WHERE  cate_print_seqno = '516'
- UPDATE  cate_print
-    SET  seq = '2'
-  WHERE  cate_print_seqno = '517'
- UPDATE  cate_print
-    SET  seq = '2'
-  WHERE  cate_print_seqno = '475'
- UPDATE  cate_print
-    SET  seq = '2'
-  WHERE  cate_print_seqno = '476'
- UPDATE  cate_print
-    SET  seq = '2'
-  WHERE  cate_print_seqno = '522'
- UPDATE  cate_print
-    SET  seq = '2'
-  WHERE  cate_print_seqno = '523'
- UPDATE  cate_print
-    SET  seq = '2'
-  WHERE  cate_print_seqno = '484'
- UPDATE  cate_print
-    SET  seq = '2'
-  WHERE  cate_print_seqno = '485'
- UPDATE  cate_print
-    SET  seq = '3'
-  WHERE  cate_print_seqno = '518'
- UPDATE  cate_print
-    SET  seq = '3'
-  WHERE  cate_print_seqno = '519'
- UPDATE  cate_print
-    SET  seq = '3'
-  WHERE  cate_print_seqno = '478'
- UPDATE  cate_print
-    SET  seq = '3'
-  WHERE  cate_print_seqno = '479'
- UPDATE  cate_print
-    SET  seq = '1'
-  WHERE  cate_print_seqno = '492'
- UPDATE  cate_print
-    SET  seq = '1'
-  WHERE  cate_print_seqno = '144'
- UPDATE  cate_print
-    SET  seq = '1'
-  WHERE  cate_print_seqno = '489'
- UPDATE  cate_print
-    SET  seq = '1'
-  WHERE  cate_print_seqno = '147'
- UPDATE  cate_print
-    SET  seq = '2'
-  WHERE  cate_print_seqno = '145'
- UPDATE  cate_print
-    SET  seq = '2'
-  WHERE  cate_print_seqno = '490'
- UPDATE  cate_print
-    SET  seq = '2'
-  WHERE  cate_print_seqno = '148'
- UPDATE  cate_print
-    SET  seq = '2'
-  WHERE  cate_print_seqno = '493'
- UPDATE  cate_print
-    SET  seq = '3'
-  WHERE  cate_print_seqno = '146'
- UPDATE  cate_print
-    SET  seq = '3'
-  WHERE  cate_print_seqno = '491'
- UPDATE  cate_print
-    SET  seq = '1'
-  WHERE  cate_print_seqno = '504'
- UPDATE  cate_print
-    SET  seq = '1'
-  WHERE  cate_print_seqno = '507'
- UPDATE  cate_print
-    SET  seq = '1'
-  WHERE  cate_print_seqno = '506'
- UPDATE  cate_print
-    SET  seq = '1'
-  WHERE  cate_print_seqno = '505'
- UPDATE  cate_print
-    SET  seq = '2'
-  WHERE  cate_print_seqno = '513'
- UPDATE  cate_print
-    SET  seq = '2'
-  WHERE  cate_print_seqno = '512'
- UPDATE  cate_print
-    SET  seq = '2'
-  WHERE  cate_print_seqno = '510'
- UPDATE  cate_print
-    SET  seq = '2'
-  WHERE  cate_print_seqno = '511'
- UPDATE  cate_print
-    SET  seq = '3'
-  WHERE  cate_print_seqno = '509'
- UPDATE  cate_print
-    SET  seq = '3'
-  WHERE  cate_print_seqno = '508'
- UPDATE  cate_print
-    SET  seq = '1'
-  WHERE  cate_print_seqno = '156'
- UPDATE  cate_print
-    SET  seq = '1'
-  WHERE  cate_print_seqno = '488'
- UPDATE  cate_print
-    SET  seq = '1'
-  WHERE  cate_print_seqno = '154'
- UPDATE  cate_print
-    SET  seq = '1'
-  WHERE  cate_print_seqno = '486'
- UPDATE  cate_print
-    SET  seq = '2'
-  WHERE  cate_print_seqno = '155'
- UPDATE  cate_print
-    SET  seq = '2'
-  WHERE  cate_print_seqno = '487'
- UPDATE  cate_print
-    SET  seq = '1'
-  WHERE  cate_print_seqno = '159'
- UPDATE  cate_print
-    SET  seq = '1'
-  WHERE  cate_print_seqno = '157'
- UPDATE  cate_print
-    SET  seq = '2'
-  WHERE  cate_print_seqno = '158'
- UPDATE  cate_print
-    SET  seq = '1'
-  WHERE  cate_print_seqno = '162'
- UPDATE  cate_print
-    SET  seq = '1'
-  WHERE  cate_print_seqno = '160'
- UPDATE  cate_print
-    SET  seq = '2'
-  WHERE  cate_print_seqno = '161'
- UPDATE  cate_print
-    SET  seq = '1'
-  WHERE  cate_print_seqno = '165'
- UPDATE  cate_print
-    SET  seq = '1'
-  WHERE  cate_print_seqno = '163'
- UPDATE  cate_print
-    SET  seq = '2'
-  WHERE  cate_print_seqno = '164'
- UPDATE  cate_print
-    SET  seq = '1'
-  WHERE  cate_print_seqno = '170'
- UPDATE  cate_print
-    SET  seq = '1'
-  WHERE  cate_print_seqno = '503'
- UPDATE  cate_print
-    SET  seq = '1'
-  WHERE  cate_print_seqno = '167'
- UPDATE  cate_print
-    SET  seq = '1'
-  WHERE  cate_print_seqno = '500'
- UPDATE  cate_print
-    SET  seq = '2'
-  WHERE  cate_print_seqno = '502'
- UPDATE  cate_print
-    SET  seq = '2'
-  WHERE  cate_print_seqno = '166'
- UPDATE  cate_print
-    SET  seq = '2'
-  WHERE  cate_print_seqno = '499'
- UPDATE  cate_print
-    SET  seq = '2'
-  WHERE  cate_print_seqno = '169'
- UPDATE  cate_print
-    SET  seq = '3'
-  WHERE  cate_print_seqno = '168'
- UPDATE  cate_print
-    SET  seq = '3'
-  WHERE  cate_print_seqno = '501'
- UPDATE  cate_print
-    SET  seq = '1'
-  WHERE  cate_print_seqno = '440'
- UPDATE  cate_print
-    SET  seq = '1'
-  WHERE  cate_print_seqno = '441'
- UPDATE  cate_print
-    SET  seq = '1'
-  WHERE  cate_print_seqno = '175'
- UPDATE  cate_print
-    SET  seq = '1'
-  WHERE  cate_print_seqno = '177'
- UPDATE  cate_print
-    SET  seq = '2'
-  WHERE  cate_print_seqno = '176'
- UPDATE  cate_print
-    SET  seq = '1'
-  WHERE  cate_print_seqno = '179'
- UPDATE  cate_print
-    SET  seq = '2'
-  WHERE  cate_print_seqno = '178'
- UPDATE  cate_print
-    SET  seq = '1'
-  WHERE  cate_print_seqno = '181'
- UPDATE  cate_print
-    SET  seq = '2'
-  WHERE  cate_print_seqno = '180'
- UPDATE  cate_print
-    SET  seq = '1'
-  WHERE  cate_print_seqno = '183'
- UPDATE  cate_print
-    SET  seq = '2'
-  WHERE  cate_print_seqno = '182'
- UPDATE  cate_print
-    SET  seq = '1'
-  WHERE  cate_print_seqno = '525'
- UPDATE  cate_print
-    SET  seq = '2'
-  WHERE  cate_print_seqno = '524'
- UPDATE  cate_print
-    SET  seq = '1'
-  WHERE  cate_print_seqno = '184'
- UPDATE  cate_print
-    SET  seq = '1'
-  WHERE  cate_print_seqno = '185'
- UPDATE  cate_print
-    SET  seq = '1'
-  WHERE  cate_print_seqno = '186'
- UPDATE  cate_print
-    SET  seq = '1'
-  WHERE  cate_print_seqno = '187'
- UPDATE  cate_print
-    SET  seq = '1'
-  WHERE  cate_print_seqno = '188'
- UPDATE  cate_print
-    SET  seq = '1'
-  WHERE  cate_print_seqno = '189'
- UPDATE  cate_print
-    SET  seq = '1'
-  WHERE  cate_print_seqno = '408'
- UPDATE  cate_print
-    SET  seq = '2'
-  WHERE  cate_print_seqno = '409'
- UPDATE  cate_print
-    SET  seq = '3'
-  WHERE  cate_print_seqno = '407'
- UPDATE  cate_print
-    SET  seq = '1'
-  WHERE  cate_print_seqno = '411'
- UPDATE  cate_print
-    SET  seq = '2'
-  WHERE  cate_print_seqno = '412'
- UPDATE  cate_print
-    SET  seq = '3'
-  WHERE  cate_print_seqno = '410'
- UPDATE  cate_print
-    SET  seq = '1'
-  WHERE  cate_print_seqno = '414'
- UPDATE  cate_print
-    SET  seq = '2'
-  WHERE  cate_print_seqno = '415'
- UPDATE  cate_print
-    SET  seq = '3'
-  WHERE  cate_print_seqno = '413'
- UPDATE  cate_print
-    SET  seq = '1'
-  WHERE  cate_print_seqno = '417'
- UPDATE  cate_print
-    SET  seq = '2'
-  WHERE  cate_print_seqno = '418'
- UPDATE  cate_print
-    SET  seq = '3'
-  WHERE  cate_print_seqno = '416'
- UPDATE  cate_print
-    SET  seq = '1'
-  WHERE  cate_print_seqno = '420'
- UPDATE  cate_print
-    SET  seq = '2'
-  WHERE  cate_print_seqno = '421'
- UPDATE  cate_print
-    SET  seq = '3'
-  WHERE  cate_print_seqno = '419'
- UPDATE  cate_print
-    SET  seq = '1'
-  WHERE  cate_print_seqno = '423'
- UPDATE  cate_print
-    SET  seq = '2'
-  WHERE  cate_print_seqno = '424'
- UPDATE  cate_print
-    SET  seq = '3'
-  WHERE  cate_print_seqno = '422'
- UPDATE  cate_print
-    SET  seq = '1'
-  WHERE  cate_print_seqno = '426'
- UPDATE  cate_print
-    SET  seq = '2'
-  WHERE  cate_print_seqno = '427'
- UPDATE  cate_print
-    SET  seq = '3'
-  WHERE  cate_print_seqno = '425'
- UPDATE  cate_print
-    SET  seq = '1'
-  WHERE  cate_print_seqno = '429'
- UPDATE  cate_print
-    SET  seq = '2'
-  WHERE  cate_print_seqno = '430'
- UPDATE  cate_print
-    SET  seq = '3'
-  WHERE  cate_print_seqno = '428'
- UPDATE  cate_print
-    SET  seq = '1'
-  WHERE  cate_print_seqno = '432'
- UPDATE  cate_print
-    SET  seq = '2'
-  WHERE  cate_print_seqno = '433'
- UPDATE  cate_print
-    SET  seq = '3'
-  WHERE  cate_print_seqno = '431'
- UPDATE  cate_print
-    SET  seq = '1'
-  WHERE  cate_print_seqno = '280'
- UPDATE  cate_print
-    SET  seq = '2'
-  WHERE  cate_print_seqno = '279'
- UPDATE  cate_print
-    SET  seq = '1'
-  WHERE  cate_print_seqno = '529'
- UPDATE  cate_print
-    SET  seq = '1'
-  WHERE  cate_print_seqno = '538'
- UPDATE  cate_print
-    SET  seq = '1'
-  WHERE  cate_print_seqno = '539'
- UPDATE  cate_print
-    SET  seq = '1'
-  WHERE  cate_print_seqno = '540'
- UPDATE  cate_print
-    SET  seq = '1'
-  WHERE  cate_print_seqno = '541'
- UPDATE  cate_print
-    SET  seq = '1'
-  WHERE  cate_print_seqno = '526'
- UPDATE  cate_print
-    SET  seq = '1'
-  WHERE  cate_print_seqno = '527'
- UPDATE  cate_print
-    SET  seq = '1'
-  WHERE  cate_print_seqno = '528'
- UPDATE  cate_print
-    SET  seq = '2'
-  WHERE  cate_print_seqno = '530'
- UPDATE  cate_print
-    SET  seq = '2'
-  WHERE  cate_print_seqno = '531'
- UPDATE  cate_print
-    SET  seq = '2'
-  WHERE  cate_print_seqno = '532'
- UPDATE  cate_print
-    SET  seq = '2'
-  WHERE  cate_print_seqno = '533'
- UPDATE  cate_print
-    SET  seq = '2'
-  WHERE  cate_print_seqno = '542'
- UPDATE  cate_print
-    SET  seq = '2'
-  WHERE  cate_print_seqno = '543'
- UPDATE  cate_print
-    SET  seq = '2'
-  WHERE  cate_print_seqno = '544'
- UPDATE  cate_print
-    SET  seq = '2'
-  WHERE  cate_print_seqno = '545'
- UPDATE  cate_print
-    SET  seq = '3'
-  WHERE  cate_print_seqno = '534'
- UPDATE  cate_print
-    SET  seq = '3'
-  WHERE  cate_print_seqno = '535'
- UPDATE  cate_print
-    SET  seq = '3'
-  WHERE  cate_print_seqno = '536'
- UPDATE  cate_print
-    SET  seq = '3'
-  WHERE  cate_print_seqno = '537'
- UPDATE  cate_print
-    SET  seq = '1'
-  WHERE  cate_print_seqno = '548'
- UPDATE  cate_print
-    SET  seq = '1'
-  WHERE  cate_print_seqno = '549'
- UPDATE  cate_print
-    SET  seq = '1'
-  WHERE  cate_print_seqno = '558'
- UPDATE  cate_print
-    SET  seq = '1'
-  WHERE  cate_print_seqno = '559'
- UPDATE  cate_print
-    SET  seq = '1'
-  WHERE  cate_print_seqno = '560'
- UPDATE  cate_print
-    SET  seq = '1'
-  WHERE  cate_print_seqno = '561'
- UPDATE  cate_print
-    SET  seq = '1'
-  WHERE  cate_print_seqno = '546'
- UPDATE  cate_print
-    SET  seq = '1'
-  WHERE  cate_print_seqno = '547'
- UPDATE  cate_print
-    SET  seq = '2'
-  WHERE  cate_print_seqno = '563'
- UPDATE  cate_print
-    SET  seq = '2'
-  WHERE  cate_print_seqno = '564'
- UPDATE  cate_print
-    SET  seq = '2'
-  WHERE  cate_print_seqno = '565'
- UPDATE  cate_print
-    SET  seq = '2'
-  WHERE  cate_print_seqno = '550'
- UPDATE  cate_print
-    SET  seq = '2'
-  WHERE  cate_print_seqno = '551'
- UPDATE  cate_print
-    SET  seq = '2'
-  WHERE  cate_print_seqno = '552'
- UPDATE  cate_print
-    SET  seq = '2'
-  WHERE  cate_print_seqno = '553'
- UPDATE  cate_print
-    SET  seq = '2'
-  WHERE  cate_print_seqno = '562'
- UPDATE  cate_print
-    SET  seq = '3'
-  WHERE  cate_print_seqno = '554'
- UPDATE  cate_print
-    SET  seq = '3'
-  WHERE  cate_print_seqno = '555'
- UPDATE  cate_print
-    SET  seq = '3'
-  WHERE  cate_print_seqno = '556'
- UPDATE  cate_print
-    SET  seq = '3'
-  WHERE  cate_print_seqno = '557'
+    [명함사이즈|투터치재단|90*50|90|50|92|52] => Array
+        (
+            [0] => 2
+        )
+
+    [명함사이즈|투터치재단|86*54|86|54|90|58] => Array
+        (
+            [0] => 4
+        )
+
+    [명함사이즈|투터치재단|85*55|85|55|87|57] => Array
+        (
+            [0] => 5
+        )
+
+    [명함사이즈|투터치재단|91*55|91|55|93|57] => Array
+        (
+            [0] => 6
+        )
+
+    [명함사이즈|투터치재단|89*51|89|51|91|53] => Array
+        (
+            [0] => 7
+        )
+
+    [명함사이즈|투터치재단|86*54|86|54|88|56] => Array
+        (
+            [0] => 8
+        )
+
+    [명함사이즈|투터치재단|90*55|90|55|92|57] => Array
+        (
+            [0] => 9
+        )
+
+    [명함사이즈|투터치재단|89*51|89|51|91|56] => Array
+        (
+            [0] => 15
+        )
+
+    [명함사이즈|투터치재단|140*90|140|90|142|92] => Array
+        (
+            [0] => 16
+        )
+
+    [명함사이즈|투터치재단|160*70|160|70|162|72] => Array
+        (
+            [0] => 17
+        )
+
+    [명함사이즈|투터치재단|140*70|140|70|142|72] => Array
+        (
+            [0] => 18
+        )
+
+    [명함사이즈|투터치재단|90*70|90|70|93|73] => Array
+        (
+            [0] => 19
+        )
+
+    [명함사이즈|투터치재단|90*80|90|80|93|83] => Array
+        (
+            [0] => 20
+        )
+
+    [명함사이즈|투터치재단|90*90|90|90|93|93] => Array
+        (
+            [0] => 21
+        )
+
+    [명함사이즈|투터치재단|90*100|90|100|93|103] => Array
+        (
+            [0] => 22
+        )
+
+    [명함사이즈|투터치재단|90*110|90|110|93|113] => Array
+        (
+            [0] => 23
+        )
+
+    [명함사이즈|투터치재단|90*120|90|120|93|123] => Array
+        (
+            [0] => 24
+        )
+
+    [명함사이즈|투터치재단|90*130|90|130|93|133] => Array
+        (
+            [0] => 25
+        )
+
+    [스티커사이즈|원터치재단|60*40|60|40|60|40] => Array
+        (
+            [0] => 26
+        )
+
+    [스티커사이즈|원터치재단|70*40|70|40|70|40] => Array
+        (
+            [0] => 27
+        )
+
+    [스티커사이즈|원터치재단|80*50|80|50|80|50] => Array
+        (
+            [0] => 28
+        )
+
+    [스티커사이즈|원터치재단|90*55|90|55|90|55] => Array
+        (
+            [0] => 29
+        )
+
+    [스티커사이즈|원터치재단|90*60|90|60|90|60] => Array
+        (
+            [0] => 30
+        )
+
+    [스티커사이즈|원터치재단|90*70|90|70|90|70] => Array
+        (
+            [0] => 31
+        )
+
+    [스티커사이즈|원터치재단|90*80|90|80|90|80] => Array
+        (
+            [0] => 32
+        )
+
+    [스티커사이즈|원터치재단|90*90|90|90|90|90] => Array
+        (
+            [0] => 33
+        )
+
+    [스티커사이즈|원터치재단|90*100|90|100|90|100] => Array
+        (
+            [0] => 34
+        )
+
+    [스티커사이즈|원터치재단|90*110|90|110|90|110] => Array
+        (
+            [0] => 35
+        )
+
+    [스티커사이즈|원터치재단|90*120|90|120|90|120] => Array
+        (
+            [0] => 36
+        )
+
+    [스티커사이즈|원터치재단|90*130|90|130|90|130] => Array
+        (
+            [0] => 37
+        )
+
+    [스티커사이즈|원터치재단|90*140|90|140|90|140] => Array
+        (
+            [0] => 38
+        )
+
+    [스티커사이즈|원터치재단|90*150|90|150|90|150] => Array
+        (
+            [0] => 39
+        )
+
+    [스티커사이즈|투터치재단|60*40|60|40|66|46] => Array
+        (
+            [0] => 40
+        )
+
+    [스티커사이즈|투터치재단|70*40|70|40|76|46] => Array
+        (
+            [0] => 41
+        )
+
+    [스티커사이즈|투터치재단|80*50|80|50|86|56] => Array
+        (
+            [0] => 42
+        )
+
+    [스티커사이즈|투터치재단|90*55|90|55|96|61] => Array
+        (
+            [0] => 43
+        )
+
+    [스티커사이즈|투터치재단|90*60|90|60|96|66] => Array
+        (
+            [0] => 44
+        )
+
+    [스티커사이즈|투터치재단|90*70|90|70|96|76] => Array
+        (
+            [0] => 45
+        )
+
+    [스티커사이즈|투터치재단|90*80|90|80|96|86] => Array
+        (
+            [0] => 46
+        )
+
+    [스티커사이즈|투터치재단|90*90|90|90|96|96] => Array
+        (
+            [0] => 47
+        )
+
+    [스티커사이즈|투터치재단|90*100|90|100|96|106] => Array
+        (
+            [0] => 48
+        )
+
+    [스티커사이즈|투터치재단|90*110|90|110|96|116] => Array
+        (
+            [0] => 49
+        )
+
+    [스티커사이즈|투터치재단|90*120|90|120|96|126] => Array
+        (
+            [0] => 50
+        )
+
+    [스티커사이즈|투터치재단|90*130|90|130|96|136] => Array
+        (
+            [0] => 51
+        )
+
+    [스티커사이즈|투터치재단|90*140|90|140|96|146] => Array
+        (
+            [0] => 52
+        )
+
+    [스티커사이즈|투터치재단|90*150|90|150|96|156] => Array
+        (
+            [0] => 53
+        )
+
+    [스티커사이즈|투터치재단|38*55|38|55|42|59] => Array
+        (
+            [0] => 82
+        )
+
+    [스티커사이즈|투터치재단|41*60|41|60|45|64] => Array
+        (
+            [0] => 83
+        )
+
+    [스티커사이즈|투터치재단|44*65|44|65|48|69] => Array
+        (
+            [0] => 84
+        )
+
+    [스티커사이즈|투터치재단|55*80|55|80|59|84] => Array
+        (
+            [0] => 85
+        )
+
+    [스티커사이즈|투터치재단|65*90|65|90|69|94] => Array
+        (
+            [0] => 86
+        )
+
+    [스티커사이즈|투터치재단|45*45|45|45|49|49] => Array
+        (
+            [0] => 87
+        )
+
+    [스티커사이즈|투터치재단|50*50|50|50|54|54] => Array
+        (
+            [0] => 88
+        )
+
+    [스티커사이즈|투터치재단|55*55|55|55|59|59] => Array
+        (
+            [0] => 89
+        )
+
+    [스티커사이즈|투터치재단|65*65|65|65|69|69] => Array
+        (
+            [0] => 90
+        )
+
+    [스티커사이즈|투터치재단|70*70|70|70|74|74] => Array
+        (
+            [0] => 91
+        )
+
+    [스티커사이즈|투터치재단|90*90|90|90|94|94] => Array
+        (
+            [0] => 92
+        )
+
+    [스티커사이즈|C-10|73*46|72|46|72|46] => Array
+        (
+            [0] => 93
+        )
+
+    [스티커사이즈|C-11|77*49|77|49|77|49] => Array
+        (
+            [0] => 94
+        )
+
+    [스티커사이즈|C-12|82*52|82|52|82|52] => Array
+        (
+            [0] => 95
+        )
+
+    [스티커사이즈|C-13|87*55|87|55|87|55] => Array
+        (
+            [0] => 96
+        )
+
+    [스티커사이즈|C-14|75*41|75|41|75|41] => Array
+        (
+            [0] => 97
+        )
+
+    [스티커사이즈|C-15|79*43|79|43|79|43] => Array
+        (
+            [0] => 98
+        )
+
+    [스티커사이즈|C-16|83*45|83|45|83|45] => Array
+        (
+            [0] => 99
+        )
+
+    [스티커사이즈|C-17|87*47|87|47|87|47] => Array
+        (
+            [0] => 100
+        )
+
+    [스티커사이즈|C-18|70*49|70|49|70|49] => Array
+        (
+            [0] => 101
+        )
+
+    [스티커사이즈|C-19|73*51|73|51|73|51] => Array
+        (
+            [0] => 102
+        )
+
+    [스티커사이즈|C-20|77*53|77|53|77|53] => Array
+        (
+            [0] => 103
+        )
+
+    [스티커사이즈|C-21|79*55|79|55|79|55] => Array
+        (
+            [0] => 104
+        )
+
+    [스티커사이즈|C-22|82*57|82|57|82|57] => Array
+        (
+            [0] => 105
+        )
+
+    [스티커사이즈|C-25|91*35|91|35|91|35] => Array
+        (
+            [0] => 106
+        )
+
+    [스티커사이즈|C-28|100*38|100|38|100|38] => Array
+        (
+            [0] => 107
+        )
+
+    [스티커사이즈|C-30|73*40|73|40|73|40] => Array
+        (
+            [0] => 108
+        )
+
+    [스티커사이즈|C-33|79*43|79|43|79|43] => Array
+        (
+            [0] => 109
+        )
+
+    [스티커사이즈|C-35|83*45|83|45|83|45] => Array
+        (
+            [0] => 110
+        )
+
+    [스티커사이즈|C-38|89*48|89|48|89|48] => Array
+        (
+            [0] => 111
+        )
+
+    [스티커사이즈|C-40|93*50|93|50|93|50] => Array
+        (
+            [0] => 112
+        )
+
+    [스티커사이즈|C-43|53*53|53|53|53|53] => Array
+        (
+            [0] => 113
+        )
+
+    [스티커사이즈|C-45|55*55|55|55|55|55] => Array
+        (
+            [0] => 114
+        )
+
+    [스티커사이즈|C-48|58*58|58|58|58|58] => Array
+        (
+            [0] => 115
+        )
+
+    [스티커사이즈|C-50|60*60|60|60|60|60] => Array
+        (
+            [0] => 116
+        )
+
+    [스티커사이즈|C-55|65*65|65|65|65|65] => Array
+        (
+            [0] => 117
+        )
+
+    [스티커사이즈|C-60|70*70|70|70|70|70] => Array
+        (
+            [0] => 118
+        )
+
+    [스티커사이즈|C-65|75*75|75|75|75|75] => Array
+        (
+            [0] => 119
+        )
+
+    [스티커사이즈|CD|127*127|127|127|127|127] => Array
+        (
+            [0] => 120
+        )
+
+    [스티커사이즈|HC-10|72*40|72|40|72|40] => Array
+        (
+            [0] => 121
+        )
+
+    [스티커사이즈|HC-11|77*43|77|43|77|43] => Array
+        (
+            [0] => 122
+        )
+
+    [스티커사이즈|HC-12|82*46|82|46|82|46] => Array
+        (
+            [0] => 123
+        )
+
+    [스티커사이즈|HC-13|87*49|87|49|87|49] => Array
+        (
+            [0] => 124
+        )
+
+    [스티커사이즈|HC-14|75*37|75|37|75|37] => Array
+        (
+            [0] => 125
+        )
+
+    [스티커사이즈|HC-15|79*39|79|39|79|39] => Array
+        (
+            [0] => 126
+        )
+
+    [스티커사이즈|HC-16|83*41|83|41|83|41] => Array
+        (
+            [0] => 127
+        )
+
+    [스티커사이즈|HC-17|87*43|87|43|87|43] => Array
+        (
+            [0] => 128
+        )
+
+    [스티커사이즈|HC-18|70*45|70|45|70|45] => Array
+        (
+            [0] => 129
+        )
+
+    [스티커사이즈|HC-19|73*47|73|47|73|47] => Array
+        (
+            [0] => 130
+        )
+
+    [스티커사이즈|HC-20|76*49|76|49|76|49] => Array
+        (
+            [0] => 131
+        )
+
+    [스티커사이즈|HC-21|79*51|79|51|79|51] => Array
+        (
+            [0] => 132
+        )
+
+    [스티커사이즈|HC-22|82*53|82|53|82|53] => Array
+        (
+            [0] => 133
+        )
+
+    [스티커사이즈|HC-25|91*33|91|33|91|33] => Array
+        (
+            [0] => 134
+        )
+
+    [스티커사이즈|HC-28|100*36|100|36|100|36] => Array
+        (
+            [0] => 135
+        )
+
+    [스티커사이즈|HC-30|73*38|73|38|73|38] => Array
+        (
+            [0] => 136
+        )
+
+    [스티커사이즈|HC-33|79*41|79|41|79|41] => Array
+        (
+            [0] => 137
+        )
+
+    [스티커사이즈|HC-35|83*43|83|43|83|43] => Array
+        (
+            [0] => 138
+        )
+
+    [스티커사이즈|HC-38|89*46|89|46|89|46] => Array
+        (
+            [0] => 139
+        )
+
+    [스티커사이즈|HC-40|93*48|93|48|93|48] => Array
+        (
+            [0] => 140
+        )
+
+    [스티커사이즈|HC-43|53*51|53|51|53|51] => Array
+        (
+            [0] => 141
+        )
+
+    [스티커사이즈|HC-45|55*53|55|53|55|53] => Array
+        (
+            [0] => 142
+        )
+
+    [스티커사이즈|HC-48|58*56|58|56|58|56] => Array
+        (
+            [0] => 143
+        )
+
+    [스티커사이즈|HC-50|60*58|60|58|60|58] => Array
+        (
+            [0] => 144
+        )
+
+    [스티커사이즈|HC-55|65*63|65|63|65|63] => Array
+        (
+            [0] => 145
+        )
+
+    [스티커사이즈|HC-60|70*68|70|68|70|68] => Array
+        (
+            [0] => 146
+        )
+
+    [스티커사이즈|HC-65|75*73|75|73|75|73] => Array
+        (
+            [0] => 147
+        )
+
+    [스티커사이즈|O-5020|60*53|60|53|60|53] => Array
+        (
+            [0] => 148
+        )
+
+    [스티커사이즈|O-5025|60*63|60|63|60|63] => Array
+        (
+            [0] => 149
+        )
+
+    [스티커사이즈|O-5030|60*73|60|73|60|73] => Array
+        (
+            [0] => 150
+        )
+
+    [스티커사이즈|O-5525|65*63|65|63|65|63] => Array
+        (
+            [0] => 151
+        )
+
+    [스티커사이즈|O-5530|65*73|65|73|65|73] => Array
+        (
+            [0] => 152
+        )
+
+    [스티커사이즈|O-6025|70*63|70|63|70|63] => Array
+        (
+            [0] => 153
+        )
+
+    [스티커사이즈|O-6030|70*73|70|73|70|73] => Array
+        (
+            [0] => 154
+        )
+
+    [스티커사이즈|S-10|72*46|72|46|72|46] => Array
+        (
+            [0] => 155
+        )
+
+    [스티커사이즈|S-11|77*49|77|49|77|49] => Array
+        (
+            [0] => 156
+        )
+
+    [스티커사이즈|S-12|82*52|82|52|82|52] => Array
+        (
+            [0] => 157
+        )
+
+    [스티커사이즈|S-13|87*55|87|55|87|55] => Array
+        (
+            [0] => 158
+        )
+
+    [스티커사이즈|S-14|75*41|75|41|75|41] => Array
+        (
+            [0] => 159
+        )
+
+    [스티커사이즈|S-15|79*43|79|43|79|43] => Array
+        (
+            [0] => 160
+        )
+
+    [스티커사이즈|S-16|83*45|83|45|83|45] => Array
+        (
+            [0] => 161
+        )
+
+    [스티커사이즈|S-17|87*47|87|47|87|47] => Array
+        (
+            [0] => 162
+        )
+
+    [스티커사이즈|S-18|70*49|70|49|70|49] => Array
+        (
+            [0] => 163
+        )
+
+    [스티커사이즈|S-19|73*51|73|51|73|51] => Array
+        (
+            [0] => 164
+        )
+
+    [스티커사이즈|S-20|77*53|77|53|77|53] => Array
+        (
+            [0] => 165
+        )
+
+    [스티커사이즈|S-21|79*55|79|55|79|55] => Array
+        (
+            [0] => 166
+        )
+
+    [스티커사이즈|S-22|82*57|82|57|82|57] => Array
+        (
+            [0] => 167
+        )
+
+    [스티커사이즈|S-25|91*35|91|35|91|35] => Array
+        (
+            [0] => 168
+        )
+
+    [스티커사이즈|S-28|100*38|100|38|100|38] => Array
+        (
+            [0] => 169
+        )
+
+    [스티커사이즈|S-30|73*40|73|40|73|40] => Array
+        (
+            [0] => 170
+        )
+
+    [스티커사이즈|S-33|79*43|79|43|79|43] => Array
+        (
+            [0] => 171
+        )
+
+    [스티커사이즈|S-35|83*45|83|45|83|45] => Array
+        (
+            [0] => 172
+        )
+
+    [스티커사이즈|S-38|89*48|89|48|89|48] => Array
+        (
+            [0] => 173
+        )
+
+    [스티커사이즈|S-40|93*50|93|50|93|50] => Array
+        (
+            [0] => 174
+        )
+
+    [스티커사이즈|S-43|53*53|53|53|53|53] => Array
+        (
+            [0] => 175
+        )
+
+    [스티커사이즈|S-45|55*55|55|55|55|55] => Array
+        (
+            [0] => 176
+        )
+
+    [스티커사이즈|S-48|58*58|58|58|58|58] => Array
+        (
+            [0] => 177
+        )
+
+    [스티커사이즈|S-50|60*60|60|60|60|60] => Array
+        (
+            [0] => 178
+        )
+
+    [스티커사이즈|S-55|65*65|65|65|65|65] => Array
+        (
+            [0] => 179
+        )
+
+    [스티커사이즈|S-60|70*70|70|70|70|70] => Array
+        (
+            [0] => 180
+        )
+
+    [스티커사이즈|S-65|75*75|75|75|75|75] => Array
+        (
+            [0] => 181
+        )
+
+    [스티커사이즈|R-5017|60*47|60|47|60|47] => Array
+        (
+            [0] => 182
+        )
+
+    [스티커사이즈|R-5020|60*53|60|53|60|53] => Array
+        (
+            [0] => 183
+        )
+
+    [스티커사이즈|R-5030|73*60|73|60|73|60] => Array
+        (
+            [0] => 184
+        )
+
+    [스티커사이즈|R-4220|52*53|52|53|52|53] => Array
+        (
+            [0] => 185
+        )
+
+    [스티커사이즈|R-4223|52*59|52|59|52|59] => Array
+        (
+            [0] => 186
+        )
+
+    [스티커사이즈|R-5515|65*43|65|43|65|43] => Array
+        (
+            [0] => 187
+        )
+
+    [스티커사이즈|R-5517|65*47|65|47|65|47] => Array
+        (
+            [0] => 188
+        )
+
+    [스티커사이즈|R-5520|65*53|65|53|65|53] => Array
+        (
+            [0] => 189
+        )
+
+    [스티커사이즈|R-5524|65*61|65|61|65|61] => Array
+        (
+            [0] => 190
+        )
+
+    [스티커사이즈|R-5533|65*79|65|79|65|79] => Array
+        (
+            [0] => 191
+        )
+
+    [스티커사이즈|R-3525|45*63|45|63|45|63] => Array
+        (
+            [0] => 192
+        )
+
+    [스티커사이즈|R-4030|50*73|50|73|50|73] => Array
+        (
+            [0] => 193
+        )
+
+    [스티커사이즈|HS-10|72*45|72|45|72|45] => Array
+        (
+            [0] => 194
+        )
+
+    [스티커사이즈|HS-11|77*49|77|49|77|49] => Array
+        (
+            [0] => 195
+        )
+
+    [스티커사이즈|HS-12|82*52|82|52|82|52] => Array
+        (
+            [0] => 196
+        )
+
+    [스티커사이즈|HS-13|87*55|87|55|87|55] => Array
+        (
+            [0] => 197
+        )
+
+    [스티커사이즈|HS-14|75*41|75|41|75|41] => Array
+        (
+            [0] => 198
+        )
+
+    [스티커사이즈|HS-15|79*43|79|43|79|43] => Array
+        (
+            [0] => 199
+        )
+
+    [스티커사이즈|HS-16|83*45|83|45|83|45] => Array
+        (
+            [0] => 200
+        )
+
+    [스티커사이즈|HS-17|87*47|87|47|87|47] => Array
+        (
+            [0] => 201
+        )
+
+    [스티커사이즈|HS-18|70*49|70|49|70|49] => Array
+        (
+            [0] => 202
+        )
+
+    [스티커사이즈|HS-19|73*51|73|51|73|51] => Array
+        (
+            [0] => 203
+        )
+
+    [스티커사이즈|HS-20|77*53|77|53|77|53] => Array
+        (
+            [0] => 204
+        )
+
+    [스티커사이즈|HS-21|79*55|79|55|79|55] => Array
+        (
+            [0] => 205
+        )
+
+    [스티커사이즈|HS-22|82*57|82|57|82|57] => Array
+        (
+            [0] => 206
+        )
+
+    [스티커사이즈|HS-25|91*35|91|35|91|35] => Array
+        (
+            [0] => 207
+        )
+
+    [스티커사이즈|HS-28|100*38|100|38|100|38] => Array
+        (
+            [0] => 208
+        )
+
+    [스티커사이즈|HS-30|73*40|73|40|73|40] => Array
+        (
+            [0] => 209
+        )
+
+    [스티커사이즈|HS-33|79*43|79|43|79|43] => Array
+        (
+            [0] => 210
+        )
+
+    [스티커사이즈|HS-35|83*45|83|45|83|45] => Array
+        (
+            [0] => 211
+        )
+
+    [스티커사이즈|HS-38|89*48|89|48|89|48] => Array
+        (
+            [0] => 212
+        )
+
+    [스티커사이즈|HS-40|93*50|93|50|93|50] => Array
+        (
+            [0] => 213
+        )
+
+    [스티커사이즈|HS-43|53*53|53|53|53|53] => Array
+        (
+            [0] => 214
+        )
+
+    [스티커사이즈|HS-45|55*55|55|55|55|55] => Array
+        (
+            [0] => 215
+        )
+
+    [스티커사이즈|HS-48|58*58|58|58|58|58] => Array
+        (
+            [0] => 216
+        )
+
+    [스티커사이즈|HS-50|60*60|60|60|60|60] => Array
+        (
+            [0] => 217
+        )
+
+    [스티커사이즈|HS-55|65*65|65|65|65|65] => Array
+        (
+            [0] => 218
+        )
+
+    [스티커사이즈|HS-60|70*70|70|70|70|70] => Array
+        (
+            [0] => 219
+        )
+
+    [스티커사이즈|HS-65|75*75|75|75|75|75] => Array
+        (
+            [0] => 220
+        )
+
+    [스티커사이즈|보험-5017|50*17|54|21|54|21] => Array
+        (
+            [0] => 221
+        )
+
+    [스티커사이즈|보험-5020|50*20|54|24|54|24] => Array
+        (
+            [0] => 222
+        )
+
+    [스티커사이즈|보험-5524|55*24|59|28|59|28] => Array
+        (
+            [0] => 223
+        )
+
+    [스티커사이즈|보험-5533|55*33|59|37|59|37] => Array
+        (
+            [0] => 224
+        )
+
+    [스티커사이즈|비디오1|77*45|77|45|87|103] => Array
+        (
+            [0] => 225
+        )
+
+    [스티커사이즈|비디오2|148*19|148|19|158|51] => Array
+        (
+            [0] => 226
+        )
+
+    [스티커사이즈|카세트|88*40|88|40|98|93] => Array
+        (
+            [0] => 227
+        )
+
+    [스티커사이즈|CD|117*117|117|117|127|127] => Array
+        (
+            [0] => 228
+        )
+
+    [스티커사이즈|자석오프너|65*65|65|65|69|69] => Array
+        (
+            [0] => 229
+        )
+
+    [스티커사이즈|유형1|유형1|0|0|0|0] => Array
+        (
+            [0] => 230
+        )
+
+    [스티커사이즈|유형2|유형2|0|0|0|0] => Array
+        (
+            [0] => 231
+        )
+
+    [스티커사이즈|유형3|유형3|0|0|0|0] => Array
+        (
+            [0] => 232
+        )
+
+    [스티커사이즈|유형4|유형4|0|0|0|0] => Array
+        (
+            [0] => 233
+        )
+
+    [전단사이즈|투터치재단|A1|597|849|600|852] => Array
+        (
+            [0] => 234
+        )
+
+    [전단사이즈|투터치재단|A2|423|597|426|600] => Array
+        (
+            [0] => 235
+        )
+
+    [전단사이즈|투터치재단|A3|297|423|300|426] => Array
+        (
+            [0] => 236
+        )
+
+    [전단사이즈|투터치재단|A4|210|297|213|300] => Array
+        (
+            [0] => 237
+        )
+
+    [전단사이즈|투터치재단|A5|147|210|150|213] => Array
+        (
+            [0] => 238
+        )
+
+    [전단사이즈|투터치재단|A6|103|147|106|150] => Array
+        (
+            [0] => 239
+        )
+
+    [전단사이즈|투터치재단|2절|517|737|520|740] => Array
+        (
+            [0] => 240
+        )
+
+    [전단사이즈|투터치재단|4절|367|517|370|520] => Array
+        (
+            [0] => 241
+        )
+
+    [전단사이즈|투터치재단|8절|257|367|260|370] => Array
+        (
+            [0] => 242
+        )
+
+    [전단사이즈|투터치재단|16절|182|257|185|260] => Array
+        (
+            [0] => 243
+        )
+
+    [전단사이즈|투터치재단|32절|127|182|130|185] => Array
+        (
+            [0] => 244
+        )
+
+    [전단사이즈|투터치재단|64절|89|127|92|130] => Array
+        (
+            [0] => 245
+        )
+
+    [광고홍보물사이즈|투터치재단|A3|297|423|300|426] => Array
+        (
+            [0] => 246
+        )
+
+    [광고홍보물사이즈|투터치재단|A4|210|297|213|303] => Array
+        (
+            [0] => 247
+        )
+
+    [광고홍보물사이즈|투터치재단|A5|147|210|213|150] => Array
+        (
+            [0] => 248
+        )
+
+    [광고홍보물사이즈|투터치재단|8절|257|367|260|370] => Array
+        (
+            [0] => 249
+        )
+
+    [광고홍보물사이즈|투터치재단|16절|182|257|185|260] => Array
+        (
+            [0] => 250
+        )
+
+    [광고홍보물사이즈|투터치재단|32절|127|182|130|185] => Array
+        (
+            [0] => 251
+        )
+
+    [광고홍보물사이즈|투터치재단|A1|597|849|600|852] => Array
+        (
+            [0] => 252
+        )
+
+    [광고홍보물사이즈|투터치재단|A2|423|597|426|600] => Array
+        (
+            [0] => 253
+        )
+
+    [광고홍보물사이즈|투터치재단|2절|517|737|520|740] => Array
+        (
+            [0] => 254
+        )
+
+    [광고홍보물사이즈|투터치재단|4절|367|517|370|520] => Array
+        (
+            [0] => 255
+        )
+
+    [광고홍보물사이즈|메뉴판투터치재단|8절|256|366|258|368] => Array
+        (
+            [0] => 256
+        )
+
+    [광고홍보물사이즈|메뉴판투터치재단|16절|182|256|184|258] => Array
+        (
+            [0] => 257
+        )
+
+    [광고홍보물사이즈|메뉴판투터치재단|32절|127|182|129|184] => Array
+        (
+            [0] => 258
+        )
+
+    [광고홍보물사이즈|메뉴판투터치재단|48절|84|182|86|184] => Array
+        (
+            [0] => 259
+        )
+
+    [광고홍보물사이즈|메뉴판투터치재단|64절|90|127|92|129] => Array
+        (
+            [0] => 260
+        )
+
+    [광고홍보물사이즈|메뉴판투터치재단|장16절|127|366|129|368] => Array
+        (
+            [0] => 261
+        )
+
+    [광고홍보물사이즈|메뉴판투터치재단|장32절|90|256|92|258] => Array
+        (
+            [0] => 262
+        )
+
+    [광고홍보물사이즈|홀더1번|HD-001[225×310×65]|476|381|476|381] => Array
+        (
+            [0] => 263
+        )
+
+    [광고홍보물사이즈|홀더2번|HD-002[225×310×65]|496|381|496|381] => Array
+        (
+            [0] => 264
+        )
+
+    [광고홍보물사이즈|홀더3번|HD-003[225×310×100]|476|416|476|416] => Array
+        (
+            [0] => 265
+        )
+
+    [광고홍보물사이즈|홀더4번|HD-004[225×310×100]|496|416|496|416] => Array
+        (
+            [0] => 266
+        )
+
+    [광고홍보물사이즈|홀더5번|HD-005[228×290×70]|482|366|482|366] => Array
+        (
+            [0] => 267
+        )
+
+    [광고홍보물사이즈|홀더6번|HD-006[215×300×60]|451|366|451|366] => Array
+        (
+            [0] => 268
+        )
+
+    [광고홍보물사이즈|홀더7번|HD-007[225×310×80]|525|396|525|396] => Array
+        (
+            [0] => 269
+        )
+
+    [광고홍보물사이즈|홀더8번|HD-008[225×310×115]|471|431|471|431] => Array
+        (
+            [0] => 270
+        )
+
+    [광고홍보물사이즈|홀더9번|HD-009[225×310×92]|507|411|507|411] => Array
+        (
+            [0] => 271
+        )
+
+    [광고홍보물사이즈|홀더10번|HD-010[220×303×75]|465|388|465|388] => Array
+        (
+            [0] => 272
+        )
+
+    [광고홍보물사이즈|OT-501 발 4개[52.5×60]|A4|210|297|213|300] => Array
+        (
+            [0] => 273
+        )
+
+    [광고홍보물사이즈|OT-502 발 4개[52.5×70]|A4|210|297|213|300] => Array
+        (
+            [0] => 274
+        )
+
+    [광고홍보물사이즈|OT-503 발 4개[52.5×80]|A4|210|297|213|300] => Array
+        (
+            [0] => 275
+        )
+
+    [광고홍보물사이즈|OT-504 발 5개[42×60]|A4|210|297|213|300] => Array
+        (
+            [0] => 276
+        )
+
+    [광고홍보물사이즈|OT-505 발 5개[42×70]|A4|210|297|213|300] => Array
+        (
+            [0] => 277
+        )
+
+    [광고홍보물사이즈|OT-506 발 5개[42×80]|A4|210|297|213|300] => Array
+        (
+            [0] => 278
+        )
+
+    [광고홍보물사이즈|OT-507 발 6개[35×60]|A4|210|297|213|300] => Array
+        (
+            [0] => 279
+        )
+
+    [광고홍보물사이즈|OT-508 발 6개[35×70]|A4|210|297|213|300] => Array
+        (
+            [0] => 280
+        )
+
+    [광고홍보물사이즈|OT-509 발 6개[35×80]|A4|210|297|213|300] => Array
+        (
+            [0] => 281
+        )
+
+    [광고홍보물사이즈|OT-510 발 7개[30×60]|A4|210|297|213|300] => Array
+        (
+            [0] => 282
+        )
+
+    [광고홍보물사이즈|OT-511 발 7개[30×70]|A4|210|297|213|300] => Array
+        (
+            [0] => 283
+        )
+
+    [광고홍보물사이즈|OT-512 발 7개[30×80]|A4|210|297|213|300] => Array
+        (
+            [0] => 284
+        )
+
+    [광고홍보물사이즈|OT-001 발 4개[45.5×60]|16절|182|257|185|260] => Array
+        (
+            [0] => 285
+        )
+
+    [광고홍보물사이즈|OT-002 발 4개[45.5×70]|16절|182|257|185|260] => Array
+        (
+            [0] => 286
+        )
+
+    [광고홍보물사이즈|OT-003 발 4개[45.5×80]|16절|182|257|185|260] => Array
+        (
+            [0] => 287
+        )
+
+    [광고홍보물사이즈|OT-004 발 5개[36×60]|16절|182|257|185|260] => Array
+        (
+            [0] => 288
+        )
+
+    [광고홍보물사이즈|OT-005 발 5개[36×70]|16절|182|257|185|260] => Array
+        (
+            [0] => 289
+        )
+
+    [광고홍보물사이즈|OT-006 발 5개[36×80]|16절|182|257|185|260] => Array
+        (
+            [0] => 290
+        )
+
+    [광고홍보물사이즈|OT-007 발 6개[30×60]|16절|182|257|185|260] => Array
+        (
+            [0] => 291
+        )
+
+    [광고홍보물사이즈|OT-008 발 6개[30×70]|16절|182|257|185|260] => Array
+        (
+            [0] => 292
+        )
+
+    [광고홍보물사이즈|OT-009 발 6개[30×80]|16절|182|257|185|260] => Array
+        (
+            [0] => 293
+        )
+
+    [광고홍보물사이즈|OT-010 발 7개[26×60]|16절|182|257|185|260] => Array
+        (
+            [0] => 294
+        )
+
+    [광고홍보물사이즈|OT-011 발 7개[26×70]|16절|182|257|185|260] => Array
+        (
+            [0] => 295
+        )
+
+    [광고홍보물사이즈|OT-012 발 7개[26×80]|16절|182|257|185|260] => Array
+        (
+            [0] => 296
+        )
+
+    [광고홍보물사이즈|DH-001 [102×296]|(G1) 장A5|102|296|106|300] => Array
+        (
+            [0] => 297
+        )
+
+    [광고홍보물사이즈|DH-002 [90×260]|(G2) 장32절|90|260|94|264] => Array
+        (
+            [0] => 298
+        )
+
+    [광고홍보물사이즈|DH-003 [90×260]|(G3) 장32절|90|260|94|264] => Array
+        (
+            [0] => 299
+        )
+
+    [광고홍보물사이즈|메모지투터치재단|80*80|80|80|82|82] => Array
+        (
+            [0] => 300
+        )
+
+    [광고홍보물사이즈|메모지투터치재단|80*100|80|100|82|102] => Array
+        (
+            [0] => 301
+        )
+
+    [광고홍보물사이즈|메모지투터치재단|90*90|90|90|92|92] => Array
+        (
+            [0] => 302
+        )
+
+    [광고홍보물사이즈|메모지투터치재단|90*100|90|100|92|102] => Array
+        (
+            [0] => 303
+        )
+
+    [광고홍보물사이즈|메모지투터치재단|90*130|90|130|92|132] => Array
+        (
+            [0] => 304
+        )
+
+    [광고홍보물사이즈|메모지투터치재단|100*100|100|100|102|102] => Array
+        (
+            [0] => 305
+        )
+
+    [광고홍보물사이즈|메모지투터치재단|100*120|100|120|102|122] => Array
+        (
+            [0] => 306
+        )
+
+    [광고홍보물사이즈|메모지투터치재단|100*130|100|130|102|132] => Array
+        (
+            [0] => 307
+        )
+
+    [광고홍보물사이즈|메모지투터치재단|100*140|100|140|102|142] => Array
+        (
+            [0] => 308
+        )
+
+    [광고홍보물사이즈|메모지투터치재단|A4|210|297|212|299] => Array
+        (
+            [0] => 309
+        )
+
+    [광고홍보물사이즈|메모지투터치재단|16절|183|258|185|260] => Array
+        (
+            [0] => 310
+        )
+
+    [봉투사이즈|다대봉투형|330*245(5절)|330|245|394|506] => Array
+        (
+            [0] => 311
+        )
+
+    [봉투사이즈|다대봉투형|305*215(6절)|305|215|381|465] => Array
+        (
+            [0] => 312
+        )
+
+    [봉투사이즈|다대봉투형|260*189(9절)|260|189|322|408] => Array
+        (
+            [0] => 313
+        )
+
+    [봉투사이즈|다대봉투형|220*105(A4다대)|220|105|270|238] => Array
+        (
+            [0] => 314
+        )
+
+    [봉투사이즈|다대봉투형|235*120(이삿짐)|235|120|270|258] => Array
+        (
+            [0] => 315
+        )
+
+    [봉투사이즈|다대봉투형|220*105(A4창문)|220|105|270|238] => Array
+        (
+            [0] => 316
+        )
+
+    [봉투사이즈|자켓봉투형|220*105(A4자켓)|220|105|270|238] => Array
+        (
+            [0] => 317
+        )
+
+    [봉투사이즈|자켓봉투형|175*85(티켓)|175|85|270|238] => Array
+        (
+            [0] => 318
+        )
+
+    [봉투사이즈|다대봉투형|385*290(4절)|385|290|385|290] => Array
+        (
+            [0] => 319
+        )
+
+    [봉투사이즈|다대봉투형|330*245(5절)|330|245|330|245] => Array
+        (
+            [0] => 320
+        )
+
+    [봉투사이즈|다대봉투형|305*215(6절)|305|215|305|215] => Array
+        (
+            [0] => 321
+        )
+
+    [봉투사이즈|다대봉투형|260*190(9절)|260|190|260|190] => Array
+        (
+            [0] => 322
+        )
+
+    [봉투사이즈|다대봉투형|300*140(10절)|300|140|300|140] => Array
+        (
+            [0] => 323
+        )
+
+    [봉투사이즈|다대봉투형|260*140(12절)|260|140|260|140] => Array
+        (
+            [0] => 324
+        )
+
+    [봉투사이즈|소봉투|205*100(신규격)|205|100|205|100] => Array
+        (
+            [0] => 325
+        )
+
+    [봉투사이즈|소봉투|205*100(이중규격)|205|100|205|100] => Array
+        (
+            [0] => 326
+        )
+
+    [봉투사이즈|소봉투|205*100(색모조규격)|205|100|205|100] => Array
+        (
+            [0] => 327
+        )
+
+    [봉투사이즈|소봉투|235*100(신항공규격)|235|105|235|105] => Array
+        (
+            [0] => 328
+        )
+
+    [봉투사이즈|다대소봉투|220*105(A4 다대소봉투)|220|105|220|105] => Array
+        (
+            [0] => 329
+        )
+
+    [봉투사이즈|자켓소봉투|220*105(A4 자켓소봉투)|220|105|220|105] => Array
+        (
+            [0] => 330
+        )
+
+    [봉투사이즈|카드봉투|195*135|195|135|195|135] => Array
+        (
+            [0] => 331
+        )
+
+    [봉투사이즈|카드봉투|180*130|180|130|180|130] => Array
+        (
+            [0] => 332
+        )
+
+    [봉투사이즈|카드봉투|180*120|180|120|180|120] => Array
+        (
+            [0] => 333
+        )
+
+    [봉투사이즈|카드봉투|185*105|185|105|185|105] => Array
+        (
+            [0] => 334
+        )
+
+    [봉투사이즈|카드봉투|165*115|165|115|165|115] => Array
+        (
+            [0] => 335
+        )
+
+    [봉투사이즈|월급봉투|200*110(월급형)|200|110|200|110] => Array
+        (
+            [0] => 336
+        )
+
+    [봉투사이즈|수강료봉투|200*110(수강료형)|200|110|200|110] => Array
+        (
+            [0] => 337
+        )
+
+    [봉투사이즈|티켓형 소봉투|175*85(티켓형)|175|85|270|238] => Array
+        (
+            [0] => 338
+        )
+
+    [봉투사이즈|장교A봉투|235*105(장교A)|235|105|235|105] => Array
+        (
+            [0] => 339
+        )
+
+    [봉투사이즈|장교C봉투|185*95(장교C)|185|95|185|95] => Array
+        (
+            [0] => 340
+        )
+
+    [봉투사이즈|창봉투|220*105|220|105|270|238] => Array
+        (
+            [0] => 341
+        )
+
+    [마스터인쇄사이즈|원터치재단|A3|297|420|287|410] => Array
+        (
+            [0] => 342
+        )
+
+    [마스터인쇄사이즈|원터치재단|A4|210|297|200|287] => Array
+        (
+            [0] => 343
+        )
+
+    [마스터인쇄사이즈|원터치재단|A4 1/3|99|210|89|200] => Array
+        (
+            [0] => 344
+        )
+
+    [마스터인쇄사이즈|원터치재단|A5|148|210|138|200] => Array
+        (
+            [0] => 345
+        )
+
+    [마스터인쇄사이즈|원터치재단|A6|105|148|95|138] => Array
+        (
+            [0] => 346
+        )
+
+    [마스터인쇄사이즈|원터치재단|8절|260|380|250|370] => Array
+        (
+            [0] => 347
+        )
+
+    [마스터인쇄사이즈|원터치재단|16절|190|260|180|250] => Array
+        (
+            [0] => 348
+        )
+
+    [마스터인쇄사이즈|원터치재단|32절|130|190|120|180] => Array
+        (
+            [0] => 349
+        )
+
+    [마스터인쇄사이즈|원터치재단|48절|85|190|75|180] => Array
+        (
+            [0] => 350
+        )
+
+    [마스터인쇄사이즈|원터치재단|64절|95|130|85|120] => Array
+        (
+            [0] => 351
+        )
+
+    [기타인쇄사이즈|M1호 17(27)|M1호 17(27) * 37 * 4.5|170|370|170|370] => Array
+        (
+            [0] => 352
+        )
+
+    [기타인쇄사이즈|M2호 20(29)|M2호 20(29) * 38 * 4.5|200|380|200|380] => Array
+        (
+            [0] => 353
+        )
+
+    [기타인쇄사이즈|M3호 23(33)|M3호 23(33) * 39 * 5|230|390|230|390] => Array
+        (
+            [0] => 354
+        )
+
+    [기타인쇄사이즈|M4호 26(36)|M4호 26(36) * 45 * 5|260|450|260|450] => Array
+        (
+            [0] => 355
+        )
+
+    [기타인쇄사이즈|M5호 29(40)|M5호 29(40) * 48 * 5.5|290|480|290|480] => Array
+        (
+            [0] => 356
+        )
+
+    [기타인쇄사이즈|M6호 32(45)|M6호 32(45) * 53 * 6.5|320|530|320|530] => Array
+        (
+            [0] => 357
+        )
+
+    [기타인쇄사이즈|M7호 37(50)|M7호 37(50) * 57 * 6.5|370|570|370|570] => Array
+        (
+            [0] => 358
+        )
+
+    [기타인쇄사이즈|M8호 46(60)|M8호 46(60) * 67 * 7|460|670|460|670] => Array
+        (
+            [0] => 359
+        )
+
+    [기타인쇄사이즈|사각1호|사각1호|200|300|200|300] => Array
+        (
+            [0] => 360
+        )
+
+    [기타인쇄사이즈|사각2호|사각2호|250|350|250|350] => Array
+        (
+            [0] => 361
+        )
+
+    [기타인쇄사이즈|사각3호|사각3호|300|400|300|400] => Array
+        (
+            [0] => 362
+        )
+
+    [기타인쇄사이즈|사각4호|사각4호|350|450|350|450] => Array
+        (
+            [0] => 363
+        )
+
+    [기타인쇄사이즈|사각5호|사각5호|400|500|400|500] => Array
+        (
+            [0] => 364
+        )
+
+    [기타인쇄사이즈|사각6호|사각6호|450|550|450|550] => Array
+        (
+            [0] => 365
+        )
+
+    [디지털명함사이즈|투터치재단|90*50|90|50|92|52] => Array
+        (
+            [0] => 366
+        )
+
+    [광고홍보물사이즈|리플렛투터치재단|2단 리플렛|420|297|423|300] => Array
+        (
+            [0] => 367
+        )
+
+    [광고홍보물사이즈|리플렛투터치재단|3단 리플렛|619|297|622|300] => Array
+        (
+            [0] => 368
+        )
+
+    [광고홍보물사이즈|리플렛투터치재단|대문접지리플렛|840|297|843|300] => Array
+        (
+            [0] => 369
+        )
+
+    [광고홍보물사이즈|OT-601 [A3 1개판형] 발 6개[50×65]|A3|297|423|300|426] => Array
+        (
+            [0] => 370
+        )
+
+    [광고홍보물사이즈|OT-602 [A3 1개판형] 발 7개[42×80]|A3|297|423|300|426] => Array
+        (
+            [0] => 371
+        )
+
+    [광고홍보물사이즈|OT 513 [A3 2개판형] 발 7개[30×80]|A4|210|297|213|300] => Array
+        (
+            [0] => 372
+        )
+
+    [광고홍보물사이즈|OT 514 [A2 4개판형] 발 7개[30×80]|A4|210|297|213|300] => Array
+        (
+            [0] => 373
+        )
+
+    [광고홍보물사이즈|OT-201 [4절 1개판형] 발 8개[46×70]|4절|365|517|368|520] => Array
+        (
+            [0] => 374
+        )
+
+    [광고홍보물사이즈|OT-202 [4절 1개판형] 발 10개[37×65]|4절|365|517|368|520] => Array
+        (
+            [0] => 375
+        )
+
+    [광고홍보물사이즈|OT-203 [4절 1개판형] 발 15개[25×85]|4절|365|517|368|520] => Array
+        (
+            [0] => 376
+        )
+
+    [광고홍보물사이즈|OT-101 [8절 1개판형] 발 4개[65×80]|8절|257|367|260|370] => Array
+        (
+            [0] => 377
+        )
+
+    [광고홍보물사이즈|OT-102 [8절 1개판형] 발 5개[50.5×85]|8절|257|367|260|370] => Array
+        (
+            [0] => 378
+        )
+
+    [광고홍보물사이즈|OT-103 [4절 2개판형] 발 5개[52×80]|8절|257|367|260|370] => Array
+        (
+            [0] => 379
+        )
+
+    [광고홍보물사이즈|OT-104 [4절 2개판형] 발 5개[51×90]|8절|257|367|260|370] => Array
+        (
+            [0] => 380
+        )
+
+    [광고홍보물사이즈|OT-105 [2절 4개판형] 발 6개[42×65]|8절|257|367|260|370] => Array
+        (
+            [0] => 381
+        )
+
+    [광고홍보물사이즈|OT-106 [8절 1개판형] 발 6개[41.5×65]|8절|257|367|260|370] => Array
+        (
+            [0] => 382
+        )
+
+    [광고홍보물사이즈|OT-107 [2절 4개판형] 발 6개[43×65]|8절|257|367|260|370] => Array
+        (
+            [0] => 383
+        )
+
+    [광고홍보물사이즈|OT-108 [4절 2개판형] 발 6개[43×80]|8절|257|367|260|370] => Array
+        (
+            [0] => 384
+        )
+
+    [광고홍보물사이즈|OT-109 [2절 4개판형] 발 7개[37×80]|8절|257|367|260|370] => Array
+        (
+            [0] => 385
+        )
+
+    [광고홍보물사이즈|OT-110 [8절 1개판형] 발 8개[32×70]|8절|257|367|260|370] => Array
+        (
+            [0] => 386
+        )
+
+    [광고홍보물사이즈|OT-111 [4절 2개판형] 발 8개[32×90]|8절|257|367|260|370] => Array
+        (
+            [0] => 387
+        )
+
+    [광고홍보물사이즈|OT-112 [4절 2개판형] 발 10개[26×50]|8절|257|367|260|370] => Array
+        (
+            [0] => 388
+        )
+
+    [광고홍보물사이즈|OT-013 [4절 4개판형] 발 5개[36×70]|16절|182|257|185|260] => Array
+        (
+            [0] => 389
+        )
+
+    [광고홍보물사이즈|OT-014 [4절 4개판형] 발 5개[37×75]|16절|182|257|185|260] => Array
+        (
+            [0] => 390
+        )
+
+    [광고홍보물사이즈|OT-015 [8절 2개판형] 발 6개[29×70]|16절|182|257|185|260] => Array
+        (
+            [0] => 391
+        )
+
+    [광고홍보물사이즈|OT-016 [4절 4개판형] 발 8개[23×70]|16절|182|257|185|260] => Array
+        (
+            [0] => 392
+        )
+
+)

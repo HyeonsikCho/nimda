@@ -4,5 +4,21 @@
     <content url="file://$MODULE_DIR$" />
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library">
+      <library name="PHARS">
+        <CLASSES>
+          <root url="phar://$MODULE_DIR$/apm/php-7.1.5/ext/openssl/tests/bug65538.phar/" />
+          <root url="phar://$MODULE_DIR$/apm/php-7.1.5/ext/phar/tests/bug69324.phar/" />
+          <root url="phar://$MODULE_DIR$/apm/php-7.1.5/ext/phar/tests/bug69441.phar/" />
+          <root url="phar://$MODULE_DIR$/apm/php-7.1.5/ext/phar/tests/bug69453.tar.phar/" />
+        </CLASSES>
+        <SOURCES>
+          <root url="phar://$MODULE_DIR$/apm/php-7.1.5/ext/openssl/tests/bug65538.phar/" />
+          <root url="phar://$MODULE_DIR$/apm/php-7.1.5/ext/phar/tests/bug69324.phar/" />
+          <root url="phar://$MODULE_DIR$/apm/php-7.1.5/ext/phar/tests/bug69441.phar/" />
+          <root url="phar://$MODULE_DIR$/apm/php-7.1.5/ext/phar/tests/bug69453.tar.phar/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
   </component>
 </module>

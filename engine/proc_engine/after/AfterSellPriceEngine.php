@@ -26,7 +26,7 @@ $excelUtil->initExcelFileReadInfo($excel_path, 10, 4, 1);
 
 $insert_ret = null;
 
-//$conn->debug = 1;
+$conn->debug = 1;
 
 $insert_ret = $excelUtil->insertSellPriceInfo($conn, $priceDAO);
 

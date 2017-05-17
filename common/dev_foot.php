@@ -22,7 +22,7 @@ $template->reg("top" , $top);
 //왼쪽 메뉴 로딩시 선택
 $template->reg("active" , $left);
 
-//왼쪽 메뉴 글씨 on 
+//왼쪽 메뉴 글씨 on
 $template->reg("on" , $left_sub);
 
 //탑메뉴 로딩시 선택
@@ -35,12 +35,12 @@ $sess["name"] = $fb->session("name");
 $sess["login_date"] = $fb->session("login_date");
 
 //왼쪽 메뉴 생성
-$template->reg("left", $leftSetting->getLeftMenuSetting($sess, 
-                       LEFT_MENU_ARR[$top], 
-                       $top, 
+$template->reg("left", $leftSetting->getLeftMenuSetting($sess,
+                       LEFT_MENU_ARR[$top],
+                       $top,
                        LEFT_MENU_CLASS_ARR));
 
 //design_dir 경로
-$template->reg("design_dir" , "/design_template"); 
-$template->htmlPrint($_SERVER["PHP_SELF"]); 
+$template->reg("design_dir" , "/design_template");
+$template->htmlPrint($_SERVER["PHP_SELF"]);
 ?>

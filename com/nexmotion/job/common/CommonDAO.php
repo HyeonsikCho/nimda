@@ -768,6 +768,7 @@ class CommonDAO {
      * @return 변환 된 인자
      */
     function parameterEscape($conn, $param) {
+        $param = @htmlspecialchars($param, ENT_QUOTES, "UTF-8", false);
         $ret = $conn->qstr($param, get_magic_quotes_gpc());
         return $ret;
     }
@@ -994,8 +995,7 @@ class CommonDAO {
      *
      * @return 검색결과
      */
-    function selectReciptDepar($conn, $param) {
-
+    function selectReceiptDepar($conn, $param) {
         //커넥션 체크
         if ($this->connectionCheck($conn) === false) {
             return false;
@@ -1004,12 +1004,18 @@ class CommonDAO {
         //인젝션 어택 방지
         $param = $this->parameterArrayEscape($conn, $param);
 
-        $query  = "\nSELECT depar_code";
-        $query .= "\n      ,depar_name";
-        $query .= "\n  FROM depar_admin";
-        $query .= "\n WHERE depar_level='2'";
-        $query .= "\n   AND cpn_admin_seqno = " . $param["cpn_admin_seqno"];
-        $query .= "\n   AND  depar_name in ('영업1팀', '영업2팀', '상업인쇄')";
+        $query  = "\n SELECT /* 접수팀 검색 공통쿼리  */";
+        $query .= "\n        depar_code";
+        $query .= "\n       ,depar_name";
+        $query .= "\n   FROM depar_admin";
+        $query .= "\n  WHERE high_depar_code = '003'";
+        $query .= "\n    AND expo_yn = 'Y'";
+        $query .= "\n    AND cpn_admin_seqno = " . $param["cpn_admin_seqno"];
+        // 나중에 자기 속한 영업팀만 볼 경우 감안해서 주석
+        // ca cm cs 별로 처리할건지 부서명으로 처리할건지 로직필요
+        //if ($this->blankParameterCheck($param ,"depar_code")) {
+        //    $query .= "\n    AND  A.depar_name = " . $param["depar_name"];
+        //}
 
         return $conn->Execute($query);
     }
@@ -1251,14 +1257,14 @@ class CommonDAO {
         return $rs->fields["pw"];
     }
 
-    /** 
+    /**
      * @brief 배열값을 IN 조건 등에 들어갈 수 있도록 문자열로 변경
      *
      * @param $conn  = DB Connection
      * @param $param = 배열값
      *
      * @return 변환 된 배열
-     */ 
+     */
     function arr2paramStr($conn, $param) {
         if (empty($param) === true || count($param) === 0) {
             return '';
@@ -1271,7 +1277,7 @@ class CommonDAO {
                 continue;
             }
 
-            $ret .= $this->parameterEscape($conn, $val) . ','; 
+            $ret .= $this->parameterEscape($conn, $val) . ',';
         }
 
         return substr($ret, 0, -1);
@@ -1286,7 +1292,7 @@ class CommonDAO {
      */
     function selectStateAdmin($conn, $dvs = "") {
         if ($this->connectionCheck($conn) === false) {
-            return false; 
+            return false;
         }
         $query  = "\n   SELECT  A.state_code";
         $query .= "\n          ,A.erp_state_name";
@@ -1312,7 +1318,7 @@ class CommonDAO {
      */
     function selectStateAdminDvs($conn) {
         if ($this->connectionCheck($conn) === false) {
-            return false; 
+            return false;
         }
 
         $query  = "\n   SELECT  DISTINCT A.dvs";
@@ -1335,7 +1341,7 @@ class CommonDAO {
      */
     function selectFoundRows($conn) {
         if ($this->connectionCheck($conn) === false) {
-            return false; 
+            return false;
         }
 
         $query = "SELECT FOUND_ROWS() AS count";

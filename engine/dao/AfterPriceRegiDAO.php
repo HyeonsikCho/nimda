@@ -165,7 +165,7 @@ class AfterPriceRegiDAO extends CommonDAO {
 
         $query  = "\n SELECT  A.mpcode";
         $query .= "\n   FROM  cate_after AS A";
-        $query .= "\n         prdt_after AS B";
+        $query .= "\n        ,prdt_after AS B";
         $query .= "\n  WHERE  A.prdt_after_seqno = B.prdt_after_seqno";
         $query .= "\n    AND  A.cate_sortcode = %s";
         $query .= "\n    AND  A.basic_yn   = %s";
@@ -173,10 +173,7 @@ class AfterPriceRegiDAO extends CommonDAO {
         $query .= "\n    AND  B.depth1     = %s";
         $query .= "\n    AND  B.depth2     = %s";
         $query .= "\n    AND  B.depth3     = %s";
-        $query .= "\n    AND  B.size       = %s";
-        //$query .= "\n    AND  B.affil      = %s";
-        //$query .= "\n    AND  B.subpaper   = %s";
-        //$query .= "\n    AND  B.crtr_unit  = %s";
+        $query .= "\n    AND  A.size       = %s";
 
         $query  = sprintf($query, $param["cate_sortcode"]
                                 , $param["basic_yn"]
@@ -185,9 +182,6 @@ class AfterPriceRegiDAO extends CommonDAO {
                                 , $param["depth2"]
                                 , $param["depth3"]
                                 , $param["size"]);
-                                //, $param["affil"]
-                                //, $param["subpaper"]);
-                                //, $param["crtr_unit"]);
         
         return $conn->Execute($query);
     }

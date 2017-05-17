@@ -1,10 +1,9 @@
 #! /usr/local/bin/php -f
 <?
 /**
- * @file update_after_affil.php
+ * @file delete_dup_prdt_paper.php
  *
- * @brief 카테고리 규격에 있는 계열로 후공정에 계열을 수정한다
- * 한 카테고리에 계열이 하나만 있는 경우에는 없음으로 처리한다
+ * @brief 중복된 상품종이 삭제
  */
 include_once(dirname(__FILE__) . '/ConnectionPool.php');
 include_once(dirname(__FILE__) . '/CommonDAO.php');
@@ -12,7 +11,7 @@ include_once(dirname(__FILE__) . '/CommonDAO.php');
 $connectionPool = new ConnectionPool();
 $conn = $connectionPool->getPooledConnection();
 
-//  prdt_paper_seqno | name      | dvs    | color  | sort            | affil | basisweight | size     | search_check                | mpcode | basisweight_unit | crtr_unit
+//  prdt_paper_seqno | name | dvs | color | sort | affil | basisweight | size | search_check | mpcode | basisweight_unit | crtr_unit
 $query  = "\n SELECT a.*";
 $query .= "\n FROM prdt_paper as a";
 $query .= "\n LEFT OUTER JOIN prdt_paper_price as b";

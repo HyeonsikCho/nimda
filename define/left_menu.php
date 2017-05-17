@@ -48,7 +48,11 @@ const LEFT_MENU_ARR =  array(
             "order_mng" => array(
                 "order_common_mng"   => "주문통합관리",
                 "order_process_view" => "공정확인리스트(주문별)",
-                "order_hand_regi"    => "주문수기등록"),
+                "order_hand_regi"    => "주문수기등록",
+                //!@#!@#!@#!@#!@#!@#!@#
+                "dev_page" => "개발중",
+                "dev_page2" => "주문관리CSS수정",
+                "order_mng"    => "주문관리"),
             // 견적관리
             "esti_mng" => array(
                 "esti_list"         => "견적리스트"),

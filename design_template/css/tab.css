@@ -14,16 +14,12 @@
 .nav-tabs > li > a {padding-right: 12px;padding-left: 12px;margin-right: 2px;line-height: 14px;}
 .nav-tabs {border-bottom: 1px solid #ddd;}
 .nav-tabs > li {margin-bottom: -2px;}
-.nav-tabs > li > a {padding-top: 8px;padding-bottom: 8px;line-height: 20px;border: 1px solid transparent;
-  -webkit-border-radius: 4px 4px 0 0;
-     -moz-border-radius: 4px 4px 0 0;
-          border-radius: 4px 4px 0 0;
-}
+.nav-tabs > li > a {padding-top: 8px;padding-bottom: 8px;line-height: 20px;border: 1px solid transparent;}
 .nav-tabs > li > a:hover,
 .nav-tabs > li > a:focus {border-color: #eeeeee #eeeeee #dddddd;}
 .nav-tabs > .active > a,
 .nav-tabs > .active > a:hover,
-.nav-tabs > .active > a:focus {color: #0096ff;cursor: default;background-color: #ffffff;border: 1px solid #ddd;border-bottom-color: transparent;}
+.nav-tabs > .active > a:focus {color: black;cursor: default;background-color: #ffffff;border: 1px solid #ddd;border-bottom-color: transparent;border-top:3px solid orange}
 
 .tabbable {*zoom: 1;}
 .tabbable:before,
